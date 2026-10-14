@@ -1,0 +1,9 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');const c={window:{}};for(const file of ['data.js','model.js'])vm.runInNewContext(fs.readFileSync(__dirname+'/'+file,'utf8'),c);const d=c.window.GUIDE,m=c.window.GuideModel;
+const expected={Humanoids:['Autognome','Changeling','Dragonborn','Earth Genasi','Elf','Human','Orc','Shifter','Warforged','Water Genasi'],Beasts:['Centaur','Dragonborn','Harengon','Locathah'],Magical:['Autognome','Deep Gnome','Duskling','Elf','Fairy','Firbolg','Plasmoid','Sea Elf','Vedalken','Water Genasi'],Goblinoids:['Goblin','Kobold','Orc']};
+assert.equal(d.blocks.length,73);assert.equal(m.browse(d,'type','').length,22);assert.equal(new Set(d.blocks.map(b=>b.id)).size,73);
+for(const [type,names] of Object.entries(expected))assert.deepEqual(Array.from(m.browse(d,'type',type),b=>b.name).sort(),names.slice().sort());
+for(const b of d.blocks){assert(d.views[1].options.includes(b.size));assert(d.commonality.includes(b.commonality));assert(fs.existsSync(__dirname+'/'+b.image));assert(m.search(d.blocks,b.name).some(x=>x.id===b.id));assert(b.sourceUrl.startsWith('https://www.dndbeyond.com/species/'));}
+assert.equal(new Set(d.views[1].options.flatMap(o=>Array.from(m.browse(d,'size',o),b=>b.id))).size,73);
+const names=q=>Array.from(m.search(d.blocks,q),b=>b.name);
+assert(names('robot').includes('Warforged'));assert(names('underwater').includes('Water Genasi'));assert(names('small magical').includes('Autognome'));assert(names('tiny magic').includes('Fairy'));assert.equal(names('dragnborn')[0],'Dragonborn');assert(names('earth-genasi').includes('Earth Genasi'));assert.equal(names('zzzzqqqq').length,0);assert.equal(names('').length,73);assert.equal(names('<script>').length,0);
+console.log('PASS: 73 unique blocks, exact revised Type assignments, complete size coverage, local image files, keyword/synonym/multiple-term/typo search, empty and unmatched queries.');

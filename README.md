@@ -25,3 +25,22 @@ Completed test sessions are stored in this browser's local storage and are never
 ## GitHub Pages
 
 The site uses only relative static assets and can be served directly from the repository root through GitHub Pages.
+
+
+## Collaborative website (v1)
+
+- Website: https://ty-oustrich.github.io/dnd-tree-test/species-guide/
+- Website source: `species-guide/`
+- The repository root preserves the original tree-test wireframe.
+
+### Work together
+
+Clone this repository and edit `species-guide/`. TayCat21 has been invited as a collaborator with write access; the invitation must be accepted before pushing.
+
+For larger changes, create a branch, push it, and open a pull request so the other teammate can review. Small agreed changes can go directly to `main`. GitHub Pages publishes `main` automatically; allow a minute or two after pushing.
+
+Edit `species-guide/data.js` for species records, category membership, keywords, and image sources. Edit `species-guide/app.js` for the shared card template and navigation; `styles.css` controls appearance and `model.js` implements local search.
+
+Run `node species-guide/verify.cjs` to check hierarchy, all 73 blocks, images, and search. For a local preview, run `python3 -m http.server 4173` from the repository root, then visit http://localhost:4173/species-guide/.
+
+The separate ChatGPT Sites URL is a published snapshot. GitHub edits automatically update the GitHub Pages URL above; they do not update the ChatGPT Sites snapshot.
