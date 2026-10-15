@@ -43,6 +43,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "aarakocra",
       "keywords": [],
+      "related": [
+        "kenku",
+        "tabaxi",
+        "owlin"
+      ],
       "summary": "Aarakocra is listed under Beasts, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/aarakocra.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/805/340/340/637880558238234188.png",
@@ -63,6 +68,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "aasimar",
       "keywords": [],
+      "related": [
+        "tiefling",
+        "changeling",
+        "kalashtar"
+      ],
       "summary": "Aasimar is listed under Humanoids and Magical, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/aasimar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/408/340/340/638607447895916115.png",
@@ -84,6 +94,11 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "air-genasi",
       "keywords": [],
+      "related": [
+        "genasi",
+        "earth-genasi",
+        "fire-genasi"
+      ],
       "summary": "Air Genasi is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/air-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/811/340/340/637880558247164967.png",
@@ -104,6 +119,11 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "astral-elf",
       "keywords": [],
+      "related": [
+        "elf",
+        "eladrin",
+        "githyanki"
+      ],
       "summary": "Astral Elf is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is uncommon.",
       "image": "assets/astral-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/974/340/340/637961801034929138.png",
@@ -127,6 +147,10 @@ window.GUIDE = {
         "construct",
         "mechanical"
       ],
+      "related": [
+        "warforged",
+        "gnome"
+      ],
       "summary": "Autognome is listed under Humanoids, inferred from the card-sort placement of Warforged. Its size is small and its commonality label is uncommon.",
       "image": "assets/autognome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/977/340/340/637961801041012943.png",
@@ -146,6 +170,9 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "boggart",
       "keywords": [],
+      "related": [
+        "goblin"
+      ],
       "summary": "Boggart is listed under Goblinoids, inferred from the card-sort placement of Goblin. Its size is small and its commonality label is rare.",
       "image": "assets/boggart.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/832/340/340/638989936711639715.png",
@@ -164,6 +191,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "bugbear",
       "keywords": [],
+      "related": [
+        "goblin",
+        "hobgoblin",
+        "minotaur"
+      ],
       "summary": "Bugbear is listed under Beasts, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/bugbear.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/814/340/340/637880558251875529.png",
@@ -183,6 +215,10 @@ window.GUIDE = {
       "id": "centaur",
       "keywords": [
         "horse"
+      ],
+      "related": [
+        "satyr",
+        "minotaur"
       ],
       "summary": "Centaur is listed under Beasts, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/centaur.png",
@@ -208,6 +244,11 @@ window.GUIDE = {
         "change appearance",
         "copy appearance"
       ],
+      "related": [
+        "lorwyn-changeling",
+        "aasimar",
+        "tiefling"
+      ],
       "summary": "Changeling is listed under Humanoids and Magical, based on the card sort. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
@@ -227,6 +268,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "deep-gnome",
       "keywords": [],
+      "related": [
+        "gnome",
+        "duergar"
+      ],
       "summary": "Deep Gnome is listed under Humanoids, inferred from the card-sort placement of Gnome. Its size is small and its commonality label is uncommon.",
       "image": "assets/deep-gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/823/340/340/637880558268426976.png",
@@ -248,6 +293,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "dhampir",
       "keywords": [],
+      "related": [
+        "hexblood",
+        "reborn"
+      ],
       "summary": "Dhampir is listed under Humanoids and Magical, inferred from the card-sort placement of Tiefling. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/dhampir.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56970/975/340/340/639160147726316096.png",
@@ -268,6 +317,10 @@ window.GUIDE = {
       "keywords": [
         "dragon",
         "draconic"
+      ],
+      "related": [
+        "lizardfolk",
+        "kobold"
       ],
       "summary": "Dragonborn is listed under Beasts, based on the card sort. Its size is medium and its commonality label is popular.",
       "image": "assets/dragonborn.png",
@@ -291,6 +344,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "duergar",
       "keywords": [],
+      "related": [
+        "dwarf",
+        "deep-gnome"
+      ],
       "summary": "Duergar is listed under Humanoids and Magical, inferred from the card-sort placement of Dwarf. Its size is small, medium, or large and its commonality label is uncommon.",
       "image": "assets/duergar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/826/340/340/637880558273447145.png",
@@ -310,6 +367,10 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "duskling",
       "keywords": [],
+      "related": [
+        "fairy",
+        "faerie"
+      ],
       "summary": "Duskling is listed under Magical, inferred from the card-sort placement of Fairy. Its size is medium and its commonality label is rare.",
       "image": "assets/duskling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/58709/735/340/340/639240585368232920.png",
@@ -329,6 +390,11 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "dwarf",
       "keywords": [],
+      "related": [
+        "duergar",
+        "gnome",
+        "halfling"
+      ],
       "summary": "Dwarf is listed under Humanoids and Magical, based on the card sort. Its size is medium and its commonality label is popular.",
       "image": "assets/dwarf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/451/340/340/638607448980217343.png",
@@ -350,6 +416,11 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "earth-genasi",
       "keywords": [],
+      "related": [
+        "genasi",
+        "water-genasi",
+        "air-genasi"
+      ],
       "summary": "Earth Genasi is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/earth-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/829/340/340/637880558277457736.png",
@@ -370,6 +441,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "eladrin",
       "keywords": [],
+      "related": [
+        "elf",
+        "shadar-kai"
+      ],
       "summary": "Eladrin is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is uncommon.",
       "image": "assets/eladrin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/833/340/340/637880558284138326.png",
@@ -389,6 +464,11 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "elf",
       "keywords": [],
+      "related": [
+        "half-elf",
+        "eladrin",
+        "sea-elf"
+      ],
       "summary": "Elf is listed under Humanoids and Magical, based on the card sort. Its size is medium and its commonality label is popular.",
       "image": "assets/elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/469/340/340/638607449397487719.png",
@@ -408,6 +488,9 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "faerie",
       "keywords": [],
+      "related": [
+        "fairy"
+      ],
       "summary": "Faerie is listed under Magical, inferred from the card-sort placement of Fairy. Its size is small and its commonality label is rare.",
       "image": "assets/faerie.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/836/340/340/638989936715071699.png",
@@ -429,6 +512,10 @@ window.GUIDE = {
         "wings",
         "fey"
       ],
+      "related": [
+        "faerie",
+        "satyr"
+      ],
       "summary": "Fairy is listed under Magical, based on the card sort. Its size is small and its commonality label is uncommon.",
       "image": "assets/fairy.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20472/300/340/340/637677434210847572.png",
@@ -447,6 +534,9 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "firbolg",
       "keywords": [],
+      "related": [
+        "goliath"
+      ],
       "summary": "Firbolg is listed under Humanoids, based on the card sort. Its size is medium and its commonality label is uncommon.",
       "image": "assets/firbolg.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/836/340/340/637880558289018892.png",
@@ -468,6 +558,11 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "fire-genasi",
       "keywords": [],
+      "related": [
+        "genasi",
+        "flamekin",
+        "water-genasi"
+      ],
       "summary": "Fire Genasi is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/fire-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/839/340/340/637880558293339379.png",
@@ -489,6 +584,11 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "flamekin",
       "keywords": [],
+      "related": [
+        "fire-genasi",
+        "genasi",
+        "rimekin"
+      ],
       "summary": "Flamekin is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is rare.",
       "image": "assets/flamekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/839/340/340/638989936718818681.png",
@@ -508,6 +608,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "genasi",
       "keywords": [],
+      "related": [
+        "triton",
+        "fire-genasi",
+        "water-genasi"
+      ],
       "summary": "Genasi is listed under Humanoids and Magical, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/258/340/340/636771217169966981.png",
@@ -527,6 +632,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "giff",
       "keywords": [],
+      "related": [
+        "hadozee",
+        "loxodon"
+      ],
       "summary": "Giff is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is medium and its commonality label is uncommon.",
       "image": "assets/giff.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/980/340/340/637961801046316799.png",
@@ -547,6 +656,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "githyanki",
       "keywords": [],
+      "related": [
+        "githzerai",
+        "astral-elf"
+      ],
       "summary": "Githyanki is listed under Humanoids and Magical, inferred from the card-sort placement of Tiefling. Its size is medium and its commonality label is uncommon.",
       "image": "assets/githyanki.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/842/340/340/637880558298319720.png",
@@ -567,6 +680,9 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "githzerai",
       "keywords": [],
+      "related": [
+        "githyanki"
+      ],
       "summary": "Githzerai is listed under Humanoids and Magical, inferred from the card-sort placement of Tiefling. Its size is medium and its commonality label is uncommon.",
       "image": "assets/githzerai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/845/340/340/637880558303930097.png",
@@ -585,6 +701,11 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "gnome",
       "keywords": [],
+      "related": [
+        "deep-gnome",
+        "autognome",
+        "halfling"
+      ],
       "summary": "Gnome is listed under Humanoids, based on the card sort. Its size is small and its commonality label is popular.",
       "image": "assets/gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/482/340/340/638607449736508079.png",
@@ -603,6 +724,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "goblin",
       "keywords": [],
+      "related": [
+        "hobgoblin",
+        "bugbear",
+        "boggart"
+      ],
       "summary": "Goblin is listed under Goblinoids, based on the card sort. Its size is small and its commonality label is common.",
       "image": "assets/goblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/848/340/340/637880558308320616.png",
@@ -622,6 +748,9 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "goliath",
       "keywords": [],
+      "related": [
+        "firbolg"
+      ],
       "summary": "Goliath is listed under Humanoids, based on the card sort. Its size is medium or large and its commonality label is common.",
       "image": "assets/goliath.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
@@ -641,6 +770,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "grung",
       "keywords": [],
+      "related": [
+        "lizardfolk",
+        "locathah"
+      ],
       "summary": "Grung is listed under Beasts, inferred from the card-sort placement of Lizardfolk. Its size is small and its commonality label is uncommon.",
       "image": "assets/grung.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/8476/811/340/340/637153723192850723.png",
@@ -661,6 +794,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "hadozee",
       "keywords": [],
+      "related": [
+        "giff",
+        "thri-kreen"
+      ],
       "summary": "Hadozee is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/hadozee.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30164/439/340/340/638036921763577674.png",
@@ -681,6 +818,11 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "half-elf",
       "keywords": [],
+      "related": [
+        "elf",
+        "human",
+        "khoravar"
+      ],
       "summary": "Half-Elf is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is popular.",
       "image": "assets/half-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/241/340/340/636771215841402193.png",
@@ -702,6 +844,10 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "half-orc",
       "keywords": [],
+      "related": [
+        "orc",
+        "human"
+      ],
       "summary": "Half-Orc is listed under Humanoids, Magical, and Goblinoids, inferred from the card-sort placement of Orc. Its size is medium and its commonality label is common.",
       "image": "assets/half-orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/245/340/340/636771216332458941.png",
@@ -720,6 +866,11 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "halfling",
       "keywords": [],
+      "related": [
+        "kender",
+        "kithkin",
+        "gnome"
+      ],
       "summary": "Halfling is listed under Humanoids, based on the card sort. Its size is small and its commonality label is popular.",
       "image": "assets/halfling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/520/340/340/638607450551607741.png",
@@ -742,6 +893,10 @@ window.GUIDE = {
         "rabbit",
         "hare"
       ],
+      "related": [
+        "lizardfolk",
+        "tortle"
+      ],
       "summary": "Harengon is listed under Beasts, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/harengon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20479/333/340/340/637677702147583039.png",
@@ -763,6 +918,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "hexblood",
       "keywords": [],
+      "related": [
+        "dhampir",
+        "reborn"
+      ],
       "summary": "Hexblood is listed under Humanoids and Magical, inferred from the card-sort placement of Tiefling. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/hexblood.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/802/340/340/639156777330481834.png",
@@ -781,6 +940,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "hobgoblin",
       "keywords": [],
+      "related": [
+        "goblin",
+        "bugbear",
+        "orc"
+      ],
       "summary": "Hobgoblin is listed under Goblinoids, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/hobgoblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/854/340/340/637880558317251137.png",
@@ -800,6 +964,10 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "human",
       "keywords": [],
+      "related": [
+        "half-elf",
+        "half-orc"
+      ],
       "summary": "Human is listed under Humanoids, based on the card sort. Its size is small or medium and its commonality label is popular.",
       "image": "assets/human.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/545/340/340/638607451217645102.png",
@@ -820,6 +988,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "kalashtar",
       "keywords": [],
+      "related": [
+        "aasimar",
+        "githzerai"
+      ],
       "summary": "Kalashtar is listed under Humanoids and Magical, inferred from the card-sort placement of Aasimar. Its size is medium and its commonality label is uncommon.",
       "image": "assets/kalashtar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/768/340/340/638996059008181029.png",
@@ -839,6 +1011,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "kender",
       "keywords": [],
+      "related": [
+        "halfling",
+        "kithkin"
+      ],
       "summary": "Kender is listed under Humanoids, inferred from the card-sort placement of Halfling. Its size is small and its commonality label is uncommon.",
       "image": "assets/kender.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30414/576/340/340/638046466639880074.png",
@@ -858,6 +1034,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "kenku",
       "keywords": [],
+      "related": [
+        "tabaxi",
+        "aarakocra",
+        "owlin"
+      ],
       "summary": "Kenku is listed under Beasts, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/kenku.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/857/340/340/637880558322752046.png",
@@ -879,6 +1060,11 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "khoravar",
       "keywords": [],
+      "related": [
+        "half-elf",
+        "elf",
+        "human"
+      ],
       "summary": "Khoravar is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is small or medium and its commonality label is rare.",
       "image": "assets/khoravar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/772/340/340/638996059011924152.png",
@@ -898,6 +1084,10 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "kithkin",
       "keywords": [],
+      "related": [
+        "halfling",
+        "kender"
+      ],
       "summary": "Kithkin is listed under Humanoids, inferred from the card-sort placement of Halfling. Its size is small and its commonality label is rare.",
       "image": "assets/kithkin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/842/340/340/638989936722559821.png",
@@ -919,6 +1109,11 @@ window.GUIDE = {
         "dragon",
         "draconic"
       ],
+      "related": [
+        "kenku",
+        "tabaxi",
+        "dragonborn"
+      ],
       "summary": "Kobold is listed under Beasts, based on the card sort. Its size is small and its commonality label is common.",
       "image": "assets/kobold.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/860/340/340/637880558325912164.png",
@@ -938,6 +1133,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "leonin",
       "keywords": [],
+      "related": [
+        "tabaxi",
+        "minotaur"
+      ],
       "summary": "Leonin is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is medium and its commonality label is uncommon.",
       "image": "assets/leonin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/10836/174/340/340/637266329893978901.png",
@@ -956,6 +1155,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "lizardfolk",
       "keywords": [],
+      "related": [
+        "harengon",
+        "tortle",
+        "yuan-ti"
+      ],
       "summary": "Lizardfolk is listed under Beasts, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/lizardfolk.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/863/340/340/637880558330492909.png",
@@ -979,6 +1183,10 @@ window.GUIDE = {
         "aquatic",
         "fish"
       ],
+      "related": [
+        "triton",
+        "sea-elf"
+      ],
       "summary": "Locathah is listed under Beasts, inferred from the card-sort placement of Lizardfolk. Its size is medium and its commonality label is uncommon.",
       "image": "assets/locathah.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/7245/523/340/340/637049342037310595.png",
@@ -1000,6 +1208,9 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lorwyn-changeling",
       "keywords": [],
+      "related": [
+        "changeling"
+      ],
       "summary": "Lorwyn Changeling is listed under Humanoids and Magical, inferred from the card-sort placement of Changeling. Its size is small or medium and its commonality label is rare.",
       "image": "assets/lorwyn-changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/845/340/340/638989936726771946.png",
@@ -1020,6 +1231,10 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lorwyn-shadowmoor-elf",
       "keywords": [],
+      "related": [
+        "elf",
+        "kithkin"
+      ],
       "summary": "Lorwyn-Shadowmoor Elf is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is rare.",
       "image": "assets/lorwyn-shadowmoor-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/848/340/340/638989936729893567.png",
@@ -1039,6 +1254,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "loxodon",
       "keywords": [],
+      "related": [
+        "giff",
+        "vedalken"
+      ],
       "summary": "Loxodon is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is medium and its commonality label is uncommon.",
       "image": "assets/loxodon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/668/340/340/636771268917722729.png",
@@ -1059,6 +1278,10 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lupin",
       "keywords": [],
+      "related": [
+        "shifter",
+        "tabaxi"
+      ],
       "summary": "Lupin is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is small or medium and its commonality label is rare.",
       "image": "assets/lupin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/806/340/340/639156777334849929.png",
@@ -1077,6 +1300,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "minotaur",
       "keywords": [],
+      "related": [
+        "centaur",
+        "satyr"
+      ],
       "summary": "Minotaur is listed under Beasts, based on the card sort. Its size is medium and its commonality label is uncommon.",
       "image": "assets/minotaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/866/340/340/637880558335993110.png",
@@ -1097,6 +1324,10 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "orc",
       "keywords": [],
+      "related": [
+        "half-orc",
+        "hobgoblin"
+      ],
       "summary": "Orc is listed under Humanoids, Magical, and Goblinoids, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/567/340/340/638607451596983406.png",
@@ -1117,6 +1348,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "owlin",
       "keywords": [],
+      "related": [
+        "aarakocra",
+        "kenku"
+      ],
       "summary": "Owlin is listed under Beasts, inferred from the card-sort placement of Kenku. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/owlin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/22134/796/340/340/637743371993964160.png",
@@ -1139,6 +1374,10 @@ window.GUIDE = {
         "ooze",
         "slime"
       ],
+      "related": [
+        "warforged",
+        "changeling"
+      ],
       "summary": "Plasmoid is listed under Magical, based on the card sort. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/plasmoid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/987/340/340/637961801059732713.png",
@@ -1160,6 +1399,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "reborn",
       "keywords": [],
+      "related": [
+        "dhampir",
+        "hexblood"
+      ],
       "summary": "Reborn is listed under Humanoids and Magical, inferred from the card-sort placement of Tiefling. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/reborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/810/340/340/639156777339378231.png",
@@ -1181,6 +1424,11 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "rimekin",
       "keywords": [],
+      "related": [
+        "flamekin",
+        "genasi",
+        "water-genasi"
+      ],
       "summary": "Rimekin is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is rare.",
       "image": "assets/rimekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/851/340/340/638989936733950032.png",
@@ -1199,6 +1447,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "satyr",
       "keywords": [],
+      "related": [
+        "centaur",
+        "minotaur"
+      ],
       "summary": "Satyr is listed under Beasts, based on the card sort. Its size is medium and its commonality label is uncommon.",
       "image": "assets/satyr.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/872/340/340/637880558345964024.png",
@@ -1223,6 +1475,11 @@ window.GUIDE = {
         "aquatic",
         "ocean"
       ],
+      "related": [
+        "elf",
+        "triton",
+        "locathah"
+      ],
       "summary": "Sea Elf is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is uncommon.",
       "image": "assets/sea-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/875/340/340/637880558350694580.png",
@@ -1243,6 +1500,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "shadar-kai",
       "keywords": [],
+      "related": [
+        "elf",
+        "eladrin"
+      ],
       "summary": "Shadar-kai is listed under Humanoids and Magical, inferred from the card-sort placement of Elf. Its size is medium and its commonality label is uncommon.",
       "image": "assets/shadar-kai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/878/340/340/637880558355344888.png",
@@ -1263,6 +1524,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "shifter",
       "keywords": [],
+      "related": [
+        "lupin",
+        "tabaxi"
+      ],
       "summary": "Shifter is listed under Beasts, inferred from the card-sort placement of Tabaxi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/shifter.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
@@ -1282,6 +1547,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "simic-hybrid",
       "keywords": [],
+      "related": [
+        "vedalken",
+        "loxodon"
+      ],
       "summary": "Simic Hybrid is listed under Beasts, inferred from the card-sort placement of Dragonborn. Its size is medium and its commonality label is uncommon.",
       "image": "assets/simic-hybrid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/674/340/340/636771269490577244.png",
@@ -1301,6 +1570,10 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "tabaxi",
       "keywords": [],
+      "related": [
+        "kenku",
+        "leonin"
+      ],
       "summary": "Tabaxi is listed under Beasts, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/tabaxi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/884/340/340/637880558365425808.png",
@@ -1321,6 +1594,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "thri-kreen",
       "keywords": [],
+      "related": [
+        "hadozee",
+        "giff"
+      ],
       "summary": "Thri-kreen is listed under Beasts, inferred from the card-sort placement of Lizardfolk. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/thri-kreen.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/990/340/340/637961801065660697.png",
@@ -1341,6 +1618,10 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "tiefling",
       "keywords": [],
+      "related": [
+        "aasimar",
+        "changeling"
+      ],
       "summary": "Tiefling is listed under Humanoids and Magical, based on the card sort. Its size is small or medium and its commonality label is popular.",
       "image": "assets/tiefling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
@@ -1360,6 +1641,10 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "tortle",
       "keywords": [],
+      "related": [
+        "harengon",
+        "lizardfolk"
+      ],
       "summary": "Tortle is listed under Beasts, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/tortle.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/887/340/340/637880558371096448.png",
@@ -1379,6 +1664,11 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "triton",
       "keywords": [],
+      "related": [
+        "genasi",
+        "water-genasi",
+        "locathah"
+      ],
       "summary": "Triton is listed under Humanoids and Magical, based on the card sort. Its size is medium and its commonality label is common.",
       "image": "assets/triton.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/890/340/340/637880558376086808.png",
@@ -1398,6 +1688,10 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "vedalken",
       "keywords": [],
+      "related": [
+        "human",
+        "simic-hybrid"
+      ],
       "summary": "Vedalken is listed under Humanoids, inferred from the card-sort placement of Human. Its size is medium and its commonality label is uncommon.",
       "image": "assets/vedalken.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/670/340/340/636771269220743250.png",
@@ -1418,6 +1712,9 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "verdan",
       "keywords": [],
+      "related": [
+        "goblin"
+      ],
       "summary": "Verdan is listed under Goblinoids, inferred from the card-sort placement of Goblin. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/verdan.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/6264/268/340/340/636957620228392831.png",
@@ -1440,6 +1737,10 @@ window.GUIDE = {
         "robot",
         "construct",
         "mechanical"
+      ],
+      "related": [
+        "autognome",
+        "plasmoid"
       ],
       "summary": "Warforged is listed under Humanoids, based on the card sort. Its size is small or medium and its commonality label is common.",
       "image": "assets/warforged.png",
@@ -1466,6 +1767,11 @@ window.GUIDE = {
         "aquatic",
         "water"
       ],
+      "related": [
+        "genasi",
+        "triton",
+        "fire-genasi"
+      ],
       "summary": "Water Genasi is listed under Humanoids and Magical, inferred from the card-sort placement of Genasi. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/water-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/893/340/340/637880558382857579.png",
@@ -1486,6 +1792,9 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "yuan-ti",
       "keywords": [],
+      "related": [
+        "lizardfolk"
+      ],
       "summary": "Yuan-ti is listed under Beasts, inferred from the card-sort placement of Lizardfolk. Its size is small or medium and its commonality label is uncommon.",
       "image": "assets/yuan-ti.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/896/340/340/637880558387597883.png",
