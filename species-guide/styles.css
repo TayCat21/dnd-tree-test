@@ -10,7 +10,6 @@
 .tag-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
 .tag-list .pill{margin:0}
 .pill-common{background:white;border:1px solid var(--line);color:var(--ink)}
-.pill-keyword::before{content:"# ";opacity:.6}
 .block-detail .detail-section p.fine{margin:10px 0 0}
 .related-section h2{font-size:13px;color:var(--muted);font-weight:700;margin-bottom:8px}
 .related-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
@@ -36,3 +35,8 @@
 .size-nav,.sort-nav,.common-nav{margin-top:16px;padding-top:14px}
 .categories a{padding-top:10px;padding-bottom:10px}
 @media(max-width:700px){.sidebar{max-height:none;overflow:visible;padding-right:0}.size-nav,.sort-nav,.common-nav{margin-top:0;padding-top:0}}
+
+/* Back link on species pages */
+.crumb .back-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--base);padding:6px 10px 6px 0;text-decoration:none}
+.crumb .back-link:hover{text-decoration:underline}
+.crumb .back-link::before{content:"←"/"";font-size:18px;line-height:1;position:relative;top:-2px}
