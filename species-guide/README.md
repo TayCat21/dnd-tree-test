@@ -2,7 +2,7 @@
 
 A static, dependency-free information site. `index.html` loads `data.js`, `model.js`, `app.js`, and `styles.css`; images are in `assets/`.
 
-Type follows the tree-test report's exact 22 named placements. All 73 original blocks remain available through Size and global search. Users can sort species by A–Z or Commonality; the selected order persists when changing Type or Size filters. The Design notes page records the hierarchy, color scheme, and Gestalt rationale.
+Every species has at least one Type. The 30 species in the card sort (`typeBasis: "card-sort"`) take each Type that at least 2 of the 6 categorical sorts gave them; AJ's and Matt's ranked sorts are excluded. The other 43 were not sorted (`typeBasis: "inferred"`), so each takes the Types of its closest studied relative, named in `typeAnalog`. All 73 blocks are also available through Size and global search. `size` is a list that follows the official D&D rules: a species that lets the player choose Small or Medium is listed under both, and a species trait that changes size (Goliath's Large Form, Duergar's Enlarge/Reduce) lists every size it can reach. Users can filter by Commonality and sort species A–Z or by Commonality (most common or rarest first); the selected filters and order persist when changing Type or Size. The Design notes page records the hierarchy, color scheme, and Gestalt rationale.
 
 Images are publicly available D&D Beyond species artwork. Each record preserves its original source URL; cards display source links. Search runs locally, without AI or external services.
 
