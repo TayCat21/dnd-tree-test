@@ -44,3 +44,5 @@ Edit `species-guide/data.js` for species records, category membership, keywords,
 Run `node species-guide/verify.cjs` to check hierarchy, all 73 blocks, images, and search. For a local preview, run `python3 -m http.server 4173` from the repository root, then visit http://localhost:4173/species-guide/.
 
 The separate ChatGPT Sites URL is a published snapshot. GitHub edits automatically update the GitHub Pages URL above; they do not update the ChatGPT Sites snapshot.
+
+Species cards show original concise summaries based on the public D&D Beyond species listing, with links to the species source pages. These summaries are paraphrases, not verbatim official descriptions. Size, Type, and Commonality remain available to filtering, sorting, and search without appearing as metadata on the cards.

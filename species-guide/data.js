@@ -1,5 +1,6 @@
 window.GUIDE = {
   "title": "Species Field Guide",
+  "descriptionSource": "https://www.dndbeyond.com/species",
   "views": [
     {
       "id": "type",
@@ -38,7 +39,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "aarakocra",
       "keywords": [],
-      "summary": "Aarakocra is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Winged travelers whose roots lie in the Plane of Air.",
       "image": "assets/aarakocra.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/805/340/340/637880558238234188.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026377-aarakocra"
@@ -51,7 +52,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "aasimar",
       "keywords": [],
-      "summary": "Aasimar is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "People with a celestial essence carried in their souls.",
       "image": "assets/aasimar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/408/340/340/638607447895916115.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751434-aasimar"
@@ -64,7 +65,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "air-genasi",
       "keywords": [],
-      "summary": "Air Genasi is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elemental descendants with an inherited affinity for wind.",
       "image": "assets/air-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/811/340/340/637880558247164967.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026379-air-genasi"
@@ -77,7 +78,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "astral-elf",
       "keywords": [],
-      "summary": "Astral Elf is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elves changed by divine radiance during life in the Astral Plane.",
       "image": "assets/astral-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/974/340/340/637961801034929138.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121694-astral-elf"
@@ -97,7 +98,7 @@ window.GUIDE = {
         "construct",
         "mechanical"
       ],
-      "summary": "Autognome is listed under Humanoids and Magical in the revised species grouping. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Mechanical creations who sometimes leave their makers to live independently.",
       "image": "assets/autognome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/977/340/340/637961801041012943.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121695-autognome"
@@ -110,7 +111,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "boggart",
       "keywords": [],
-      "summary": "Boggart is available through the Size filter view. Its relative-size label is small and its commonality label is rare.",
+      "summary": "Short, stocky relatives of goblins native to Lorwyn-Shadowmoor.",
       "image": "assets/boggart.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/832/340/340/638989936711639715.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043668-boggart"
@@ -123,7 +124,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "bugbear",
       "keywords": [],
-      "summary": "Bugbear is available through the Size filter view. Its relative-size label is large and its commonality label is common.",
+      "summary": "Powerfully built ambushers whose fey gifts let them hide surprisingly well.",
       "image": "assets/bugbear.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/814/340/340/637880558251875529.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026380-bugbear"
@@ -140,7 +141,7 @@ window.GUIDE = {
       "keywords": [
         "horse"
       ],
-      "summary": "Centaur is listed under Beasts in the revised species grouping. Its relative-size label is large and its commonality label is common.",
+      "summary": "Galloping travelers with ancestral homes across the multiverse.",
       "image": "assets/centaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/817/340/340/637880558257685997.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026381-centaur"
@@ -159,7 +160,7 @@ window.GUIDE = {
         "change appearance",
         "copy appearance"
       ],
-      "summary": "Changeling is listed under Humanoids in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Shapeshifters who blend into communities by changing their appearance.",
       "image": "assets/changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048551-changeling"
@@ -174,7 +175,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "deep-gnome",
       "keywords": [],
-      "summary": "Deep Gnome is listed under Magical in the revised species grouping. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Underdark gnomes shaped by the magic of their subterranean home.",
       "image": "assets/deep-gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/823/340/340/637880558268426976.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026383-deep-gnome"
@@ -187,7 +188,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "dhampir",
       "keywords": [],
-      "summary": "Dhampir is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Living people with vampiric abilities and an unnatural hunger.",
       "image": "assets/dhampir.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56970/975/340/340/639160147726316096.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2038805-dhampir"
@@ -206,7 +207,7 @@ window.GUIDE = {
         "dragon",
         "draconic"
       ],
-      "summary": "Dragonborn is listed under Humanoids and Beasts in the revised species grouping. Its relative-size label is medium and its commonality label is popular.",
+      "summary": "Descendants of dragons with chromatic and metallic ancestry.",
       "image": "assets/dragonborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/435/340/340/638607448651696917.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn"
@@ -219,7 +220,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "duergar",
       "keywords": [],
-      "summary": "Duergar is available through the Size filter view. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Dwarven descendants altered by generations in the deep Underdark.",
       "image": "assets/duergar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/826/340/340/637880558273447145.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026384-duergar"
@@ -234,7 +235,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "duskling",
       "keywords": [],
-      "summary": "Duskling is listed under Magical in the revised species grouping. Its relative-size label is small and its commonality label is rare.",
+      "summary": "Feywild folk who channel their homeland’s magic through themselves.",
       "image": "assets/duskling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/58709/735/340/340/639240585368232920.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2209617-duskling"
@@ -247,7 +248,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "dwarf",
       "keywords": [],
-      "summary": "Dwarf is available through the Size filter view. Its relative-size label is small and its commonality label is popular.",
+      "summary": "A people brought forth from earth by an ancient forge deity.",
       "image": "assets/dwarf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/451/340/340/638607448980217343.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751436-dwarf"
@@ -262,7 +263,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "earth-genasi",
       "keywords": [],
-      "summary": "Earth Genasi is listed under Humanoids in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Descendants of earth genies who inherit strength and elemental control.",
       "image": "assets/earth-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/829/340/340/637880558277457736.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026385-earth-genasi"
@@ -275,7 +276,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "eladrin",
       "keywords": [],
-      "summary": "Eladrin is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elves native to the beautiful, dangerous magic of the Feywild.",
       "image": "assets/eladrin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/833/340/340/637880558284138326.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026386-eladrin"
@@ -291,7 +292,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "elf",
       "keywords": [],
-      "summary": "Elf is listed under Humanoids and Magical in the revised species grouping. Its relative-size label is medium and its commonality label is popular.",
+      "summary": "Curious explorers whose journeys have carried them across the planes.",
       "image": "assets/elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/469/340/340/638607449397487719.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751437-elf"
@@ -304,7 +305,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "faerie",
       "keywords": [],
-      "summary": "Faerie is available through the Size filter view. Its relative-size label is small and its commonality label is rare.",
+      "summary": "Naturally magical tricksters fond of practical jokes.",
       "image": "assets/faerie.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/836/340/340/638989936715071699.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043669-faerie"
@@ -322,7 +323,7 @@ window.GUIDE = {
         "wings",
         "fey"
       ],
-      "summary": "Fairy is listed under Magical in the revised species grouping. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Winged fey with elflike forms and distinctive individual features.",
       "image": "assets/fairy.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20472/300/340/340/637677434210847572.png",
       "sourceUrl": "https://www.dndbeyond.com/species/814913-fairy"
@@ -337,7 +338,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "firbolg",
       "keywords": [],
-      "summary": "Firbolg is listed under Magical in the revised species grouping. Its relative-size label is large and its commonality label is uncommon.",
+      "summary": "Giant kin whose spirits are intertwined with ancient forest magic.",
       "image": "assets/firbolg.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/836/340/340/637880558289018892.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026387-firbolg"
@@ -350,7 +351,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "fire-genasi",
       "keywords": [],
-      "summary": "Fire Genasi is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Efreet descendants who embody fire’s brilliance and destructive potential.",
       "image": "assets/fire-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/839/340/340/637880558293339379.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026388-fire-genasi"
@@ -363,7 +364,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "flamekin",
       "keywords": [],
-      "summary": "Flamekin is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "A people with a deep affinity for nature.",
       "image": "assets/flamekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/839/340/340/638989936718818681.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043670-flamekin"
@@ -376,7 +377,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "genasi",
       "keywords": [],
-      "summary": "Genasi is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "People whose ancestry carries the power of the four elemental planes.",
       "image": "assets/genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/258/340/340/636771217169966981.png",
       "sourceUrl": "https://www.dndbeyond.com/species/23-genasi"
@@ -389,7 +390,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "giff",
       "keywords": [],
-      "summary": "Giff is available through the Size filter view. Its relative-size label is large and its commonality label is uncommon.",
+      "summary": "An imposing people whose striking appearance draws attention.",
       "image": "assets/giff.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/980/340/340/637961801046316799.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121696-giff"
@@ -402,7 +403,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "githyanki",
       "keywords": [],
-      "summary": "Githyanki is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Astral dwellers who combine bodily strength with cultivated psychic abilities.",
       "image": "assets/githyanki.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/842/340/340/637880558298319720.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026389-githyanki"
@@ -415,7 +416,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "githzerai",
       "keywords": [],
-      "summary": "Githzerai is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Mental disciplines developed in Limbo grant protective and mind-reading powers.",
       "image": "assets/githzerai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/845/340/340/637880558303930097.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026390-githzerai"
@@ -428,7 +429,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "gnome",
       "keywords": [],
-      "summary": "Gnome is available through the Size filter view. Its relative-size label is small and its commonality label is popular.",
+      "summary": "Magical creations of deities associated with ingenuity, illusion, and underground life.",
       "image": "assets/gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/482/340/340/638607449736508079.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751438-gnome"
@@ -443,7 +444,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "goblin",
       "keywords": [],
-      "summary": "Goblin is listed under Goblinoids in the revised species grouping. Its relative-size label is small and its commonality label is common.",
+      "summary": "Independent adventurers seeking lives beyond the schemes of supernatural powers.",
       "image": "assets/goblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/848/340/340/637880558308320616.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026391-goblin"
@@ -456,7 +457,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "goliath",
       "keywords": [],
-      "summary": "Goliath is available through the Size filter view. Its relative-size label is large and its commonality label is common.",
+      "summary": "Giant descendants driven to surpass the achievements of their forebears.",
       "image": "assets/goliath.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751439-goliath"
@@ -469,7 +470,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "grung",
       "keywords": [],
-      "summary": "Grung is available through the Size filter view. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "A people distinguished by their own innate abilities.",
       "image": "assets/grung.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/8476/811/340/340/637153723192850723.png",
       "sourceUrl": "https://www.dndbeyond.com/species/302384-grung"
@@ -482,7 +483,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "hadozee",
       "keywords": [],
-      "summary": "Hadozee is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "World-hopping explorers eager to escape the predators of their native world.",
       "image": "assets/hadozee.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30164/439/340/340/638036921763577674.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121697-hadozee"
@@ -495,7 +496,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "half-elf",
       "keywords": [],
-      "summary": "Half-Elf is available through the Size filter view. Its relative-size label is medium and its commonality label is popular.",
+      "summary": "People whose heritage brings together elven and human qualities.",
       "image": "assets/half-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/241/340/340/636771215841402193.png",
       "sourceUrl": "https://www.dndbeyond.com/species/20-half-elf"
@@ -508,7 +509,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "half-orc",
       "keywords": [],
-      "summary": "Half-Orc is available through the Size filter view. Its relative-size label is large and its commonality label is common.",
+      "summary": "Leaders and adventurers who earn renown through remarkable deeds.",
       "image": "assets/half-orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/245/340/340/636771216332458941.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2-half-orc"
@@ -521,7 +522,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "halfling",
       "keywords": [],
-      "summary": "Halfling is available through the Size filter view. Its relative-size label is small and its commonality label is popular.",
+      "summary": "Courageous wanderers drawn toward adventure and discovery.",
       "image": "assets/halfling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/520/340/340/638607450551607741.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751440-halfling"
@@ -539,7 +540,7 @@ window.GUIDE = {
         "rabbit",
         "hare"
       ],
-      "summary": "Harengon is listed under Beasts in the revised species grouping. Its relative-size label is small and its commonality label is common.",
+      "summary": "Adventurers whose inherited fey fortune helps them escape trouble.",
       "image": "assets/harengon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20479/333/340/340/637677702147583039.png",
       "sourceUrl": "https://www.dndbeyond.com/species/814914-harengon"
@@ -552,7 +553,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "hexblood",
       "keywords": [],
-      "summary": "Hexblood is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "People transformed by supernatural forces or witchcraft into bearers of fey magic.",
       "image": "assets/hexblood.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/802/340/340/639156777330481834.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161358-hexblood"
@@ -565,7 +566,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "hobgoblin",
       "keywords": [],
-      "summary": "Hobgoblin is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Goblin kin with ancestral ties to the Feywild’s ancient courts.",
       "image": "assets/hobgoblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/854/340/340/637880558317251137.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin"
@@ -580,7 +581,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "human",
       "keywords": [],
-      "summary": "Human is listed under Humanoids in the revised species grouping. Its relative-size label is medium and its commonality label is popular.",
+      "summary": "A widespread people with countless backgrounds across the multiverse.",
       "image": "assets/human.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/545/340/340/638607451217645102.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751441-human"
@@ -593,7 +594,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "kalashtar",
       "keywords": [],
-      "summary": "Kalashtar is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Humans joined with rebellious dream spirits known as quori.",
       "image": "assets/kalashtar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/768/340/340/638996059008181029.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048552-kalashtar"
@@ -606,7 +607,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "kender",
       "keywords": [],
-      "summary": "Kender is available through the Size filter view. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Adventurers propelled by an extraordinary urge to investigate the unknown.",
       "image": "assets/kender.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30414/576/340/340/638046466639880074.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1214237-kender"
@@ -619,7 +620,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "kenku",
       "keywords": [],
-      "summary": "Kenku is available through the Size filter view. Its relative-size label is small and its commonality label is common.",
+      "summary": "Raven-colored folk encountered in both the Shadowfell and Material Plane.",
       "image": "assets/kenku.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/857/340/340/637880558322752046.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026394-kenku"
@@ -632,7 +633,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "khoravar",
       "keywords": [],
-      "summary": "Khoravar is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "Khorvaire communities with mixed elven and human ancestry and distinct traditions.",
       "image": "assets/khoravar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/772/340/340/638996059011924152.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048553-khoravar"
@@ -645,7 +646,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "kithkin",
       "keywords": [],
-      "summary": "Kithkin is available through the Size filter view. Its relative-size label is small and its commonality label is rare.",
+      "summary": "Closely bonded communities connected through a shared awareness of emotions.",
       "image": "assets/kithkin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/842/340/340/638989936722559821.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043671-kithkin"
@@ -663,7 +664,7 @@ window.GUIDE = {
         "dragon",
         "draconic"
       ],
-      "summary": "Kobold is listed under Goblinoids in the revised species grouping. Its relative-size label is small and its commonality label is common.",
+      "summary": "Little dragon kin whose scales and voices reveal their ancestry.",
       "image": "assets/kobold.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/860/340/340/637880558325912164.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026395-kobold"
@@ -676,7 +677,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "leonin",
       "keywords": [],
-      "summary": "Leonin is available through the Size filter view. Its relative-size label is large and its commonality label is uncommon.",
+      "summary": "Lionlike nomads who find much of what they need within their homeland.",
       "image": "assets/leonin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/10836/174/340/340/637266329893978901.png",
       "sourceUrl": "https://www.dndbeyond.com/species/410992-leonin"
@@ -689,7 +690,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "lizardfolk",
       "keywords": [],
-      "summary": "Lizardfolk is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Resourceful survivors with natural defenses and a supernatural bond with nature.",
       "image": "assets/lizardfolk.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/863/340/340/637880558330492909.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk"
@@ -708,7 +709,7 @@ window.GUIDE = {
         "aquatic",
         "fish"
       ],
-      "summary": "Locathah is listed under Beasts in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Proud aquatic folk with a history of surviving oppression and conflict.",
       "image": "assets/locathah.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/7245/523/340/340/637049342037310595.png",
       "sourceUrl": "https://www.dndbeyond.com/species/229754-locathah"
@@ -721,7 +722,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lorwyn-changeling",
       "keywords": [],
-      "summary": "Lorwyn Changeling is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "Personable shapeshifters who approximate both animal and plant forms.",
       "image": "assets/lorwyn-changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/845/340/340/638989936726771946.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043672-lorwyn-changeling"
@@ -734,7 +735,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lorwyn-shadowmoor-elf",
       "keywords": [],
-      "summary": "Lorwyn-Shadowmoor Elf is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "Elves devoted to safeguarding beauty according to their own exacting ideals.",
       "image": "assets/lorwyn-shadowmoor-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/848/340/340/638989936729893567.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043673-lorwyn-shadowmoor-elf"
@@ -747,7 +748,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "loxodon",
       "keywords": [],
-      "summary": "Loxodon is available through the Size filter view. Its relative-size label is large and its commonality label is uncommon.",
+      "summary": "Elephantlike people known for strength, composure, and good judgment.",
       "image": "assets/loxodon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/668/340/340/636771268917722729.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67607-loxodon"
@@ -760,7 +761,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "lupin",
       "keywords": [],
-      "summary": "Lupin is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "People changed by werewolf encounters without becoming fully afflicted by lycanthropy.",
       "image": "assets/lupin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/806/340/340/639156777334849929.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161359-lupin"
@@ -773,7 +774,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "minotaur",
       "keywords": [],
-      "summary": "Minotaur is available through the Size filter view. Its relative-size label is large and its commonality label is uncommon.",
+      "summary": "Bull-headed people with a magical instinct for finding their way.",
       "image": "assets/minotaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/866/340/340/637880558335993110.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026397-minotaur"
@@ -789,7 +790,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "orc",
       "keywords": [],
-      "summary": "Orc is listed under Humanoids and Goblinoids in the revised species grouping. Its relative-size label is large and its commonality label is common.",
+      "summary": "Gifted wanderers equipped for journeys across land, underground, and at sea.",
       "image": "assets/orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/567/340/340/638607451596983406.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751442-orc"
@@ -802,7 +803,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "owlin",
       "keywords": [],
-      "summary": "Owlin is available through the Size filter view. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Feathered folk whose quiet movements help them approach unnoticed.",
       "image": "assets/owlin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/22134/796/340/340/637743371993964160.png",
       "sourceUrl": "https://www.dndbeyond.com/species/883673-owlin"
@@ -820,7 +821,7 @@ window.GUIDE = {
         "ooze",
         "slime"
       ],
-      "summary": "Plasmoid is listed under Magical in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Shapeless beings who often imitate the outlines of nearby people.",
       "image": "assets/plasmoid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/987/340/340/637961801059732713.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121698-plasmoid"
@@ -833,7 +834,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "reborn",
       "keywords": [],
-      "summary": "Reborn is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "People who remain alive despite having experienced death.",
       "image": "assets/reborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/810/340/340/639156777339378231.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161360-reborn"
@@ -846,7 +847,7 @@ window.GUIDE = {
       "commonality": "Rare",
       "id": "rimekin",
       "keywords": [],
-      "summary": "Rimekin is available through the Size filter view. Its relative-size label is medium and its commonality label is rare.",
+      "summary": "Former flamekin who favor detached reasoning over impulsive reactions.",
       "image": "assets/rimekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/851/340/340/638989936733950032.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043674-rimekin"
@@ -859,7 +860,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "satyr",
       "keywords": [],
-      "summary": "Satyr is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Feywild natives energized by celebration and shared delight.",
       "image": "assets/satyr.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/872/340/340/637880558345964024.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026399-satyr"
@@ -878,7 +879,7 @@ window.GUIDE = {
         "aquatic",
         "ocean"
       ],
-      "summary": "Sea Elf is listed under Magical in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elves whose longstanding fascination with the sea shaped their lives.",
       "image": "assets/sea-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/875/340/340/637880558350694580.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026400-sea-elf"
@@ -891,7 +892,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "shadar-kai",
       "keywords": [],
-      "summary": "Shadar-kai is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elves altered by the Shadowfell into beings suspended between living and dead.",
       "image": "assets/shadar-kai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/878/340/340/637880558355344888.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026401-shadar-kai"
@@ -906,7 +907,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "shifter",
       "keywords": [],
-      "summary": "Shifter is listed under Humanoids in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Descendants of people affected by varying degrees of lycanthropy.",
       "image": "assets/shifter.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048554-shifter"
@@ -919,7 +920,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "simic-hybrid",
       "keywords": [],
-      "summary": "Simic Hybrid is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "People magically enhanced by the Simic Combine with animal characteristics.",
       "image": "assets/simic-hybrid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/674/340/340/636771269490577244.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67585-simic-hybrid"
@@ -932,7 +933,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "tabaxi",
       "keywords": [],
-      "summary": "Tabaxi is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Cat Lord creations who combine feline and humanlike qualities in varied forms.",
       "image": "assets/tabaxi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/884/340/340/637880558365425808.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026403-tabaxi"
@@ -945,7 +946,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "thri-kreen",
       "keywords": [],
-      "summary": "Thri-kreen is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "People who communicate thoughts and emotions through mandible and antenna movements.",
       "image": "assets/thri-kreen.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/990/340/340/637961801065660697.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121699-thri-kreen"
@@ -958,7 +959,7 @@ window.GUIDE = {
       "commonality": "Popular",
       "id": "tiefling",
       "keywords": [],
-      "summary": "Tiefling is available through the Size filter view. Its relative-size label is medium and its commonality label is popular.",
+      "summary": "People connected to the Lower Planes through birthplace or fiendish ancestry.",
       "image": "assets/tiefling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751443-tiefling"
@@ -971,7 +972,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "tortle",
       "keywords": [],
-      "summary": "Tortle is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Travelers who carry the reassurance of a home wherever they journey.",
       "image": "assets/tortle.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/887/340/340/637880558371096448.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026404-tortle"
@@ -984,7 +985,7 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "triton",
       "keywords": [],
-      "summary": "Triton is available through the Size filter view. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Ocean guardians whose care now reaches from the seabed to the surface.",
       "image": "assets/triton.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/890/340/340/637880558376086808.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026405-triton"
@@ -999,7 +1000,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "vedalken",
       "keywords": [],
-      "summary": "Vedalken is listed under Magical in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Blue-complexioned folk committed to the pursuit of perfecting their work.",
       "image": "assets/vedalken.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/670/340/340/636771269220743250.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67582-vedalken"
@@ -1012,7 +1013,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "verdan",
       "keywords": [],
-      "summary": "Verdan is available through the Size filter view. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "People born of chaos who are learning to navigate an unfamiliar world.",
       "image": "assets/verdan.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/6264/268/340/340/636957620228392831.png",
       "sourceUrl": "https://www.dndbeyond.com/species/169862-verdan"
@@ -1031,7 +1032,7 @@ window.GUIDE = {
         "construct",
         "mechanical"
       ],
-      "summary": "Warforged is listed under Humanoids in the revised species grouping. Its relative-size label is medium and its commonality label is common.",
+      "summary": "Artificial people originally created to serve as weapons in war.",
       "image": "assets/warforged.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/778/340/340/638996059022064405.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048555-warforged"
@@ -1051,7 +1052,7 @@ window.GUIDE = {
         "aquatic",
         "water"
       ],
-      "summary": "Water Genasi is listed under Humanoids and Magical in the revised species grouping. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Elemental descendants naturally adapted to underwater life and the ocean’s power.",
       "image": "assets/water-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/893/340/340/637880558382857579.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026406-water-genasi"
@@ -1064,7 +1065,7 @@ window.GUIDE = {
       "commonality": "Uncommon",
       "id": "yuan-ti",
       "keywords": [],
-      "summary": "Yuan-ti is available through the Size filter view. Its relative-size label is medium and its commonality label is uncommon.",
+      "summary": "Serpent-descended people whose transformative rituals grant magical and poison defenses.",
       "image": "assets/yuan-ti.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/896/340/340/637880558387597883.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026407-yuan-ti"
