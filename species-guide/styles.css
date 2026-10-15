@@ -30,3 +30,9 @@
 .pill-common:hover{border-color:var(--base)}
 @media(max-width:700px){.common-nav{margin:0;padding:0;border:0;grid-column:1}.sort-nav{grid-column:2;grid-row:2/span 2}}
 @media(max-width:360px){.sort-nav{grid-column:1;grid-row:auto}}
+
+/* Sticky sidebar: scroll it on its own when it is taller than the window */
+.sidebar{max-height:calc(100vh - 40px);overflow-y:auto;scrollbar-width:thin;padding-right:6px}
+.size-nav,.sort-nav,.common-nav{margin-top:16px;padding-top:14px}
+.categories a{padding-top:10px;padding-bottom:10px}
+@media(max-width:700px){.sidebar{max-height:none;overflow:visible;padding-right:0}.size-nav,.sort-nav,.common-nav{margin-top:0;padding-top:0}}
