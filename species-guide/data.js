@@ -105,8 +105,8 @@ window.GUIDE = {
         "Humanoids"
       ],
       "typeBasis": "inferred",
-      "typeAnalog": "Gnome",
-      "size": "Small",
+      "typeAnalog": "Warforged",
+      "size": "Medium",
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "autognome",
@@ -115,7 +115,7 @@ window.GUIDE = {
         "construct",
         "mechanical"
       ],
-      "summary": "Autognome is listed under Humanoids, inferred from the card-sort placement of Gnome. Its relative-size label is small and its commonality label is uncommon.",
+      "summary": "Autognome is listed under Humanoids, inferred from the card-sort placement of Warforged. Its relative-size label is medium and its commonality label is uncommon.",
       "image": "assets/autognome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/977/340/340/637961801041012943.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121695-autognome"
