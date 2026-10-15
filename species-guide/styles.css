@@ -9,7 +9,7 @@
 .detail-section h2{font-size:17px;margin:0 0 12px}
 .tag-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
 .tag-list .pill{margin:0}
-.pill-static{background:white;border:1px solid var(--line);color:var(--ink)}
+.pill-common{background:white;border:1px solid var(--line);color:var(--ink)}
 .pill-keyword::before{content:"# ";opacity:.6}
 .block-detail .detail-section p.fine{margin:10px 0 0}
 .related-section h2{font-size:13px;color:var(--muted);font-weight:700;margin-bottom:8px}
@@ -23,3 +23,10 @@
 .block-detail .detail-link{margin:14px 0 0;font-size:14px}
 .detail-link a{color:var(--base)}
 .related-section{padding-bottom:0}
+
+/* Commonality filter and two-way sort */
+.common-nav{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.sort-options{display:grid;gap:7px}
+.pill-common:hover{border-color:var(--base)}
+@media(max-width:700px){.common-nav{margin:0;padding:0;border:0;grid-column:1}.sort-nav{grid-column:2;grid-row:2/span 2}}
+@media(max-width:360px){.sort-nav{grid-column:1;grid-row:auto}}
