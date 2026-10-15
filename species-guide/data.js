@@ -207,7 +207,7 @@ window.GUIDE = {
         "dragon",
         "draconic"
       ],
-      "summary": "Descendants of dragons with chromatic and metallic ancestry.",
+      "summary": "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons.",
       "image": "assets/dragonborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/435/340/340/638607448651696917.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn"
