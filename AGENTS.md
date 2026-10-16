@@ -1,0 +1,1 @@
+After every change to the species-guide UI, read and apply [deploy-species-guide](skills/deploy-species-guide/SKILL.md) before reporting completion. This includes HTML, CSS, JavaScript, content, and image changes. The user has authorized committing, pushing, and deploying these changes. Read-only work does not trigger deployment.
