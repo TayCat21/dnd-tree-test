@@ -73,3 +73,8 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
 @media(max-width:1050px){.results-heading{grid-template-columns:1fr;gap:12px}}
 @media(max-width:700px){.sidebar{grid-template-columns:1fr 1fr}.common-nav{grid-column:2}.results-tools{flex-wrap:wrap}.sort-tools{margin-left:auto}.sort-control .sort-button{padding:12px}.results-heading .clear-link{font-size:11px}}
 @media(max-width:450px){#collection-search{flex-basis:100%}.sort-tools{margin-left:0}.sidebar{grid-template-columns:1fr}.common-nav{grid-column:1}}
+
+/* Full-width labels mark group boundaries only in Commonality order. */
+.commonality-heading{grid-column:1/-1;display:flex;align-items:center;gap:12px;margin:18px 0 0;font-size:12px;font-weight:700;color:var(--shade);line-height:1.4}
+.commonality-heading:first-child{margin-top:0}
+.commonality-heading::after{content:"";flex:1;border-top:1px solid var(--base)}
