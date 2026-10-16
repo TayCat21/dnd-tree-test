@@ -18,6 +18,7 @@ window.GUIDE = {
       "label": "Size filter",
       "field": "size",
       "options": [
+        "Tiny",
         "Small",
         "Medium",
         "Large"
@@ -504,7 +505,9 @@ window.GUIDE = {
       ],
       "typeBasis": "card-sort",
       "size": [
-        "Small"
+        "Tiny",
+        "Small",
+        "Medium"
       ],
       "source": "card-sort",
       "commonality": "Uncommon",
