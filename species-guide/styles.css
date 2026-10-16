@@ -59,15 +59,17 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
 
 /* Search and a divided sorting control share the results toolbar. */
 .results-heading{display:grid;grid-template-columns:minmax(120px,1fr) minmax(0,3fr);gap:20px}
-.results-tools{margin-left:0;width:100%;gap:12px}
+.results-tools{margin-left:0;width:100%;gap:12px;align-items:flex-end}
 #collection-search{flex:1;min-width:0;width:auto}
-.sort-control{display:flex;flex-shrink:0;border:1px solid var(--base);border-radius:var(--control-radius);background:var(--white)}
-.sort-control .sort-button{width:auto;border:0;border-radius:0;margin:0;padding:16px 13px;white-space:nowrap;font-weight:700}
+.sort-tools{flex-shrink:0;width:224px;max-width:100%}
+.sort-label{font-size:11px;font-weight:700;margin:0 0 6px}
+.sort-control{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid var(--base);border-radius:var(--control-radius);background:var(--white)}
+.sort-control .sort-button{width:100%;text-align:center;border:0;border-radius:0;margin:0;padding:16px 13px;white-space:nowrap;font-weight:700}
 .sort-control .sort-button:first-child{border-radius:3px 0 0 3px}
 .sort-control .sort-button:last-child{border-left:1px solid var(--base);border-radius:0 3px 3px 0}
 .sort-control .sort-button[aria-pressed=true]{background:var(--base);color:var(--white)}
 .sort-control .sort-button:focus-visible{position:relative;z-index:1}
 .results-heading .clear-link{display:inline-block;margin-top:8px;padding:5px 8px}
 @media(max-width:1050px){.results-heading{grid-template-columns:1fr;gap:12px}}
-@media(max-width:700px){.sidebar{grid-template-columns:1fr 1fr}.common-nav{grid-column:2}.results-tools{flex-wrap:wrap}.sort-control{margin-left:auto}.sort-control .sort-button{padding:12px}.results-heading .clear-link{font-size:11px}}
-@media(max-width:450px){#collection-search{flex-basis:100%}.sort-control{margin-left:0}.sidebar{grid-template-columns:1fr}.common-nav{grid-column:1}}
+@media(max-width:700px){.sidebar{grid-template-columns:1fr 1fr}.common-nav{grid-column:2}.results-tools{flex-wrap:wrap}.sort-tools{margin-left:auto}.sort-control .sort-button{padding:12px}.results-heading .clear-link{font-size:11px}}
+@media(max-width:450px){#collection-search{flex-basis:100%}.sort-tools{margin-left:0}.sidebar{grid-template-columns:1fr}.common-nav{grid-column:1}}
