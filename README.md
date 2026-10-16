@@ -39,7 +39,7 @@ Clone this repository and edit `species-guide/`. TayCat21 has been invited as a 
 
 For larger changes, create a branch, push it, and open a pull request so the other teammate can review. Small agreed changes can go directly to `main`. GitHub Pages publishes `main` automatically; allow a minute or two after pushing.
 
-Edit `species-guide/data.js` for species records, category membership, keywords, and image sources. Edit `species-guide/app.js` for the shared card template and navigation; `styles.css` controls appearance and `model.js` implements local search.
+Edit `species-guide/data.js` for species records, category membership, keywords, related species (`related`, 1–3 ids shown on each species page), and image sources. Edit `species-guide/app.js` for the shared card template and navigation; `styles.css` controls appearance and `model.js` implements local search.
 
 Run `node species-guide/verify.cjs` to check hierarchy, all 73 blocks, images, and search. For a local preview, run `python3 -m http.server 4173` from the repository root, then visit http://localhost:4173/species-guide/.
 
