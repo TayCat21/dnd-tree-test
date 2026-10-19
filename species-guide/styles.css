@@ -88,3 +88,6 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
   .results > .grid{grid-column:2;grid-row:2;align-self:start}
   .results > .empty{grid-column:2;grid-row:3}
 }
+@media(min-width:701px){
+  .collection:has(.commonality-heading) .sidebar{margin-top:calc(12px * 1.4 + 15px)}
+}
