@@ -57,11 +57,11 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
 .crumb .back-link:hover{text-decoration:underline}
 .crumb .back-link::before{content:"←"/"";font-size:18px;line-height:1;position:relative;top:-2px}
 
-/* Search stays in the results toolbar; sorting leads the sidebar filters. */
+/* Search stays in the results toolbar; sorting follows the sidebar filters. */
 .results-heading{display:grid;grid-template-columns:minmax(120px,1fr) minmax(0,3fr);gap:20px}
 .results-tools{margin-left:0;width:100%;gap:12px;align-items:flex-end}
 #collection-search{flex:1;min-width:0;width:auto}
-.sort-tools{width:100%;margin-bottom:20px}
+.sort-tools{width:100%;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
 .sort-control{display:grid;grid-template-columns:minmax(0,1fr) auto;border:1px solid var(--base);border-radius:var(--control-radius);background:var(--white)}
 .sort-control .sort-button{width:100%;text-align:center;border:0;border-radius:0;margin:0;padding:12px 8px;white-space:nowrap;font-weight:700}
 .sort-control .sort-button:first-child{border-radius:3px 0 0 3px}
@@ -70,7 +70,7 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
 .sort-control .sort-button:focus-visible{position:relative;z-index:1}
 .results-heading .clear-link{display:inline-block;margin-top:8px;padding:5px 8px}
 @media(max-width:1050px){.results-heading{grid-template-columns:1fr;gap:12px}}
-@media(max-width:700px){.sidebar{grid-template-columns:1fr 1fr}.common-nav{grid-column:2}.results-tools{flex-wrap:wrap}.sort-tools{grid-column:1/-1;margin-bottom:0}.sort-control .sort-button{padding:12px}.results-heading .clear-link{font-size:11px}}
+@media(max-width:700px){.sidebar{grid-template-columns:1fr 1fr}.common-nav{grid-column:2}.results-tools{flex-wrap:wrap}.sort-tools{grid-column:1/-1;margin:0;padding:0;border:0}.sort-control .sort-button{padding:12px}.results-heading .clear-link{font-size:11px}}
 @media(max-width:450px){#collection-search{flex-basis:100%}.sidebar{grid-template-columns:1fr}.common-nav{grid-column:1}}
 
 /* Align desktop filters with the cards below the results toolbar. */
