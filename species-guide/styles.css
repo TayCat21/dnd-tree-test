@@ -97,4 +97,5 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 @media(max-width:700px){.categories .filter-option{flex:1 1 140px}.filter-choice{min-height:44px}.filter-remove{width:30px;height:30px}}
 
 /* Keep card size and commonality together below the description. */
-.block-meta{flex-wrap:wrap;justify-content:flex-start;gap:6px 14px;margin-bottom:14px}
+.block-meta{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;margin-bottom:14px}
+.block-meta span:last-child{text-align:right}
