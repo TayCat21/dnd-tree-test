@@ -12,7 +12,7 @@ button,.sort-button,.categories a,.size-pills a,.pill,.view-switch a,.clear-link
 #collection-search{width:360px;max-width:100%}
 #search{display:flex;gap:0;width:100%;margin:0;order:initial;padding:4px;background:var(--white);border:1px solid var(--line);border-radius:var(--control-radius)}
 #search input{flex:1;width:0;border:0;border-radius:var(--control-radius);background:var(--white)}
-#search button{flex-shrink:0;background:var(--gold)}
+#search button{flex-shrink:0;background:var(--gold);color:var(--white)}
 .clear-link{padding:10px 12px;border:1px solid var(--line);background:white;white-space:nowrap}
 main > #search{max-width:360px;margin:24px 0 0 auto}
 @media(max-width:700px){.results-tools{width:100%;gap:10px}#collection-search{flex:1;min-width:0;width:auto}.results-heading{gap:12px}#search input{padding:10px;min-width:0}#search button{padding:10px 13px}.clear-link{font-size:11px}}
