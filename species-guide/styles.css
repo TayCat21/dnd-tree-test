@@ -82,3 +82,14 @@ main > #search{max-width:470px;margin:24px 0 0 auto}
   .results > .grid{grid-column:2;grid-row:2;align-self:start}
   .results > .empty{grid-column:2;grid-row:3}
 }
+
+/* Independent multi-select choices with a boxed white removal control. */
+.filter-option{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:var(--control-radius);background:var(--white);min-width:0}
+.filter-option:hover{border-color:var(--base)}
+.filter-option.selected{background:var(--base);border-color:var(--base);color:var(--white)}
+.filter-choice{display:flex;align-items:center;justify-content:space-between;gap:8px;flex:1;min-width:0;min-height:40px;padding:9px 11px;border:0;background:transparent;color:inherit;text-align:left;font-size:12px;cursor:pointer}
+.filter-choice[aria-pressed=true]{font-weight:700}
+.filter-count{font-size:11px;font-weight:400}
+.filter-remove{display:grid;place-items:center;flex:none;width:28px;height:28px;margin-right:6px;padding:0;border:1px solid var(--white);border-radius:0;background:transparent;color:var(--white);font-size:24px;line-height:1;cursor:pointer}
+.filter-remove:hover{background:var(--shade)}
+@media(max-width:700px){.categories .filter-option{flex:1 1 140px}.filter-choice{min-height:44px}.filter-remove{width:30px;height:30px}}
