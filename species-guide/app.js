@@ -14,7 +14,9 @@ function searchColorControls(){
  const update=()=>{
   const {h,s,v}=searchButtonHsv, c=v*s/100, x=c*(1-Math.abs((h/60)%2-1)), m=v-c;
   const rgb=h<60?[c,x,0]:h<120?[x,c,0]:h<180?[0,c,x]:h<240?[0,x,c]:h<300?[x,0,c]:[c,0,x];
-  document.documentElement.style.setProperty('--search-button-color',`rgb(${rgb.map(n=>Math.round((n+m)*255)).join(', ')})`);
+  const color=`rgb(${rgb.map(n=>Math.round((n+m)*255)).join(', ')})`;
+  document.documentElement.style.setProperty('--search-button-color',color);
+  searchForm.querySelector('button').style.backgroundColor=color;
  };
  controls.addEventListener('input',e=>{
   const input=e.target.closest('[data-hsv]');if(!input)return;
