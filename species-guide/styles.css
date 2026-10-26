@@ -112,5 +112,8 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .related-meta{margin-top:3px}
 @media(max-width:450px){.detail-toolbar{gap:12px}.detail-toolbar #search{width:60%}.detail-toolbar #search input{padding:10px 7px}.detail-toolbar #search button{padding:10px 8px}.related-card{width:100px}.related-card img{width:72px;height:72px}}
 
-/* Short, readable capability summary above the species tags. */
-.block-detail .species-capabilities{font-size:14px;line-height:1.65;margin:4px 0 20px;color:var(--ink)}
+/* Species traits stay above the divider separating the navigation tags. */
+.species-traits{margin:20px 0 4px}
+.species-traits h2{font-size:17px;margin:0 0 10px}
+.species-traits ul{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0;padding:0 0 0 18px;font-size:14px;line-height:1.6}
+.species-traits li{padding-right:8px}
