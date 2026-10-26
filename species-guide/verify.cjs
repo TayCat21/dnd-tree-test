@@ -31,3 +31,6 @@ for(const name of ['Dwarf','Elf','Tiefling','Owlin'])assert(names('darkvision').
 for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert(/^https:\/\/www\.dndbeyond\.com\/species\/\d+-[a-z0-9-]+$/.test(b.infoUrl),b.name+' direct species link');}
 assert(d.views[0].options.includes('Beasts/Animals'));
 console.log('PASS: renamed category, construct/flying/darkvision search, official traits and direct species detail links.');
+
+for(const b of d.blocks){assert(b.capabilities&&b.capabilities.split(' ').length>=20,b.name+' capabilities');if(b.traits.includes('Darkvision'))assert(/darkvision/i.test(b.capabilities),b.name+' darkvision');if(b.traits.includes('Flight')||b.traits.includes('Draconic Flight'))assert(/fly|flight/i.test(b.capabilities),b.name+' flight');}
+console.log('PASS: all 73 species have capability summaries, including their darkvision and flight traits.');

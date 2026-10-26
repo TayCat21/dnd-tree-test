@@ -111,3 +111,6 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .related-name{width:100%;line-height:1.4}
 .related-meta{margin-top:3px}
 @media(max-width:450px){.detail-toolbar{gap:12px}.detail-toolbar #search{width:60%}.detail-toolbar #search input{padding:10px 7px}.detail-toolbar #search button{padding:10px 8px}.related-card{width:100px}.related-card img{width:72px;height:72px}}
+
+/* Short, readable capability summary above the species tags. */
+.block-detail .species-capabilities{font-size:14px;line-height:1.65;margin:4px 0 20px;color:var(--ink)}

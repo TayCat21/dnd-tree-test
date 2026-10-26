@@ -52,7 +52,8 @@ window.GUIDE = {
         "flying",
         "flight",
         "fly",
-        "wings"
+        "wings",
+        "Wind Caller"
       ],
       "related": [
         "kenku",
@@ -65,11 +66,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026377-aarakocra",
       "infoUrl": "https://www.dndbeyond.com/species/1026377-aarakocra",
       "traits": [
-        "+2 Dexterity",
-        "+1 Wisdom",
         "Flight",
-        "Talons"
-      ]
+        "Talons",
+        "Wind Caller"
+      ],
+      "capabilities": "They can fly on feathered wings, crossing gaps and reaching places others cannot. Their talons serve as natural weapons, and Wind Caller gives them access to wind magic."
     },
     {
       "name": "Aasimar",
@@ -94,7 +95,8 @@ window.GUIDE = {
         "flying",
         "flight",
         "fly",
-        "wings"
+        "wings",
+        "Celestial Revelation"
       ],
       "related": [
         "tiefling",
@@ -107,12 +109,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751434-aasimar",
       "infoUrl": "https://www.dndbeyond.com/species/1751434-aasimar",
       "traits": [
-        "+2 Charisma",
-        "Darkvision",
         "Celestial Resistance",
+        "Darkvision",
         "Healing Hands",
-        "Light Bearer"
-      ]
+        "Light Bearer",
+        "Celestial Revelation"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can heal with a touch and create magical light. Celestial resistance helps protect them from harm, while Celestial Revelation unlocks a supernatural transformation."
     },
     {
       "name": "Air Genasi",
@@ -150,7 +153,8 @@ window.GUIDE = {
         "Unending Breath",
         "Lightning Resistance",
         "Mingle with the Wind"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can hold their breath indefinitely and resist lightning damage. Their air magic lets them manipulate the wind and, as they grow stronger, move through the air."
     },
     {
       "name": "Astral Elf",
@@ -193,7 +197,8 @@ window.GUIDE = {
         "Keen Senses",
         "Starlight Step",
         "Astral Trance"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can teleport short distances with Starlight Step and use Astral Fire magic. Fey ancestry helps resist charm, while their trance supports adaptable skills and awareness."
     },
     {
       "name": "Autognome",
@@ -219,8 +224,7 @@ window.GUIDE = {
         "Healing Machine",
         "Mechanical Nature",
         "Sentry’s Rest",
-        "Specialized Design",
-        "constructs"
+        "Specialized Design"
       ],
       "related": [
         "warforged",
@@ -239,7 +243,8 @@ window.GUIDE = {
         "Mechanical Nature",
         "Sentry’s Rest",
         "Specialized Design"
-      ]
+      ],
+      "capabilities": "Their mechanical body has built-in armor and does not need ordinary food, drink, or breathing. They can boost important rolls and remain aware during Sentry’s Rest."
     },
     {
       "name": "Boggart",
@@ -275,7 +280,8 @@ window.GUIDE = {
         "Fey Ancestry",
         "Fury of the Small",
         "Nimble Escape"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can slip away or hide with Nimble Escape and use Fury of the Small against larger foes. Their fey ancestry also helps protect them from charm."
     },
     {
       "name": "Bugbear",
@@ -296,7 +302,8 @@ window.GUIDE = {
         "Long-Limbed",
         "Powerful Build",
         "Sneaky",
-        "Surprise Attack"
+        "Surprise Attack",
+        "Fey Ancestry"
       ],
       "related": [
         "goblin",
@@ -309,14 +316,14 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026380-bugbear",
       "infoUrl": "https://www.dndbeyond.com/species/1026380-bugbear",
       "traits": [
-        "+2 Strength",
-        "+1 Dexterity",
         "Darkvision",
+        "Fey Ancestry",
         "Long-Limbed",
         "Powerful Build",
         "Sneaky",
         "Surprise Attack"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Their long limbs extend their melee reach, and Powerful Build helps them carry heavy loads. They excel at sneaking and can deal extra damage with Surprise Attack."
     },
     {
       "name": "Centaur",
@@ -338,7 +345,8 @@ window.GUIDE = {
         "Charge",
         "Hooves",
         "Equine Build",
-        "Survivor"
+        "Survivor",
+        "Natural Affinity"
       ],
       "related": [
         "satyr",
@@ -350,14 +358,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026381-centaur",
       "infoUrl": "https://www.dndbeyond.com/species/1026381-centaur",
       "traits": [
-        "+2 Strength",
-        "+1 Wisdom",
         "Fey",
         "Charge",
-        "Hooves",
         "Equine Build",
-        "Survivor"
-      ]
+        "Hooves",
+        "Natural Affinity"
+      ],
+      "capabilities": "They can charge into combat and strike with their hooves. Their equine build makes them strong carriers, while Natural Affinity supports skills connected to the natural world."
     },
     {
       "name": "Changeling",
@@ -380,7 +387,9 @@ window.GUIDE = {
         "+2 Charisma",
         "+1 to One Other Ability Score",
         "Shapechanger",
-        "Changeling Instincts"
+        "Changeling Instincts",
+        "Fey",
+        "Shape-Shifter"
       ],
       "related": [
         "lorwyn-changeling",
@@ -393,11 +402,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2048551-changeling",
       "infoUrl": "https://www.dndbeyond.com/species/2048551-changeling",
       "traits": [
-        "+2 Charisma",
-        "+1 to One Other Ability Score",
-        "Shapechanger",
-        "Changeling Instincts"
-      ]
+        "Fey",
+        "Changeling Instincts",
+        "Shape-Shifter"
+      ],
+      "capabilities": "They can change their appearance to resemble other people, making disguises and infiltration easier. Changeling Instincts also support social skills such as deception, persuasion, and reading others."
     },
     {
       "name": "Deep Gnome",
@@ -434,7 +443,8 @@ window.GUIDE = {
         "Gift of the Svirfneblin",
         "Gnomish Magic Resistance",
         "Svirfneblin Camouflage"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can use innate magic to conceal themselves and gain protection against spells. Svirfneblin Camouflage helps them hide, making them well suited to stealth and exploration."
     },
     {
       "name": "Dhampir",
@@ -456,7 +466,8 @@ window.GUIDE = {
         "Darkvision",
         "Deathless Nature",
         "Spider Climb",
-        "Vampiric Bite"
+        "Vampiric Bite",
+        "Trace of Undeath"
       ],
       "related": [
         "hexblood",
@@ -468,12 +479,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2038805-dhampir",
       "infoUrl": "https://www.dndbeyond.com/species/2038805-dhampir",
       "traits": [
-        "Ancestral Legacy",
         "Darkvision",
-        "Deathless Nature",
         "Spider Climb",
+        "Trace of Undeath",
         "Vampiric Bite"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can climb walls with Spider Climb and attack with a vampiric bite. Their undead nature grants unusual resilience, helping them survive situations that threaten ordinary living creatures."
     },
     {
       "name": "Dragonborn",
@@ -501,7 +512,10 @@ window.GUIDE = {
         "flying",
         "flight",
         "fly",
-        "wings"
+        "wings",
+        "Dragon Ancestry",
+        "Damage Resistance",
+        "Draconic Flight"
       ],
       "related": [
         "lizardfolk",
@@ -513,15 +527,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn",
       "infoUrl": "https://www.dndbeyond.com/species/1751435-dragonborn",
       "traits": [
+        "Dragon Ancestry",
         "Breath Weapon",
-        "Damage Resistance (same as Breath Weapon)",
-        "Menacing Roar",
+        "Damage Resistance",
         "Darkvision",
-        "Natural Movement",
-        "Powerful Build",
-        "Firm Influence",
-        "Moved by Faith"
-      ]
+        "Draconic Flight"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can unleash a damaging breath weapon and resist damage tied to their draconic ancestry. As they gain experience, Draconic Flight lets them temporarily take to the air."
     },
     {
       "name": "Duergar",
@@ -561,7 +573,8 @@ window.GUIDE = {
         "Duergar Magic",
         "Dwarven Resilience",
         "Psionic Fortitude"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can use Duergar Magic to enlarge themselves or turn invisible. Dwarven Resilience and Psionic Fortitude help them withstand poison and resist certain effects on the mind."
     },
     {
       "name": "Duskling",
@@ -596,7 +609,8 @@ window.GUIDE = {
         "Darkvision",
         "Enhanced Jump",
         "Inner Magic"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can make enhanced jumps to cross obstacles and reach higher ground. Their fey nature and Inner Magic give them supernatural tools alongside their natural mobility."
     },
     {
       "name": "Dwarf",
@@ -626,7 +640,10 @@ window.GUIDE = {
         "Axes of the Dwarves",
         "Endurance of the Dwarves",
         "Make Light of Burdens",
-        "Tool Proficiencies"
+        "Tool Proficiencies",
+        "Dwarven Resilience",
+        "Dwarven Toughness",
+        "Stonecunning"
       ],
       "related": [
         "duergar",
@@ -639,12 +656,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751436-dwarf",
       "infoUrl": "https://www.dndbeyond.com/species/1751436-dwarf",
       "traits": [
-        "Constitution +2",
-        "Axes of the Dwarves",
-        "Endurance of the Dwarves",
-        "Make Light of Burdens",
-        "Tool Proficiencies"
-      ]
+        "Darkvision",
+        "Dwarven Resilience",
+        "Dwarven Toughness",
+        "Stonecunning"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They resist poison and have extra durability through Dwarven Toughness. Stonecunning helps them sense their surroundings through stone, making them effective explorers underground."
     },
     {
       "name": "Earth Genasi",
@@ -680,7 +697,8 @@ window.GUIDE = {
         "Darkvision",
         "Earth Walk",
         "Merge with Stone"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can move across difficult ground with Earth Walk and draw on protective earth magic. Merge with Stone also gives them magic that helps them travel unnoticed."
     },
     {
       "name": "Eladrin",
@@ -720,7 +738,8 @@ window.GUIDE = {
         "Fey Step",
         "Keen Senses",
         "Trance"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can teleport with Fey Step, with additional effects influenced by their season. Their keen senses, fey ancestry, and meditative trance support awareness and resistance to charm."
     },
     {
       "name": "Elf",
@@ -746,7 +765,11 @@ window.GUIDE = {
         "Elvish Dreams",
         "Elven-skill",
         "Immortal Folk",
-        "Keen Eyes of the Elves"
+        "Keen Eyes of the Elves",
+        "Elven Lineage",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Trance"
       ],
       "related": [
         "half-elf",
@@ -759,12 +782,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751437-elf",
       "infoUrl": "https://www.dndbeyond.com/species/1751437-elf",
       "traits": [
-        "+2 Wisdom",
-        "Elvish Dreams",
-        "Elven-skill",
-        "Immortal Folk",
-        "Keen Eyes of the Elves"
-      ]
+        "Darkvision",
+        "Elven Lineage",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Trance"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Their elven lineage grants innate magic, while keen senses help them notice danger. Fey ancestry helps resist charm, and Trance replaces ordinary sleep with a shorter meditation."
     },
     {
       "name": "Faerie",
@@ -800,7 +824,8 @@ window.GUIDE = {
         "Fey",
         "Faerie Magic",
         "Flight"
-      ]
+      ],
+      "capabilities": "They can fly, giving them access to high places and routes over obstacles. Faerie Magic adds innate spellcasting, letting them bring fey tricks and magical support to adventures."
     },
     {
       "name": "Fairy",
@@ -839,7 +864,8 @@ window.GUIDE = {
         "Fey",
         "Fairy Magic",
         "Flight"
-      ]
+      ],
+      "capabilities": "They can fly on their own wings and use innate Fairy Magic. Their spells can reveal creatures and change size, adding useful options for exploration, support, and avoiding obstacles."
     },
     {
       "name": "Firbolg",
@@ -870,13 +896,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026387-firbolg",
       "infoUrl": "https://www.dndbeyond.com/species/1026387-firbolg",
       "traits": [
-        "+2 Wisdom",
-        "+1 Strength",
         "Firbolg Magic",
         "Hidden Step",
         "Powerful Build",
         "Speech of Beast and Leaf"
-      ]
+      ],
+      "capabilities": "They can briefly turn invisible with Hidden Step and use innate disguise and detection magic. Powerful Build supports heavy lifting, and they can communicate with beasts and plants."
     },
     {
       "name": "Fire Genasi",
@@ -912,7 +937,8 @@ window.GUIDE = {
         "Darkvision",
         "Fire Resistance",
         "Reach to the Blaze"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They resist fire damage and can draw on innate flame magic. Reach to the Blaze gives them fire-themed spells for producing light and dealing damage."
     },
     {
       "name": "Flamekin",
@@ -948,7 +974,8 @@ window.GUIDE = {
         "Darkvision",
         "Fire Resistance",
         "Reach to the Blaze"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They resist fire damage and use innate fire magic through Reach to the Blaze. Their flame-based abilities provide magical light and offensive options during an adventure."
     },
     {
       "name": "Genasi",
@@ -986,7 +1013,8 @@ window.GUIDE = {
         "Earth",
         "Fire",
         "Water Subraces"
-      ]
+      ],
+      "capabilities": "Their abilities depend on their elemental ancestry: air, earth, fire, or water. These lineages offer different combinations of innate magic, environmental adaptations, movement abilities, and damage resistance."
     },
     {
       "name": "Giff",
@@ -1019,7 +1047,8 @@ window.GUIDE = {
         "Astral Spark",
         "Firearms Mastery",
         "Hippo Build"
-      ]
+      ],
+      "capabilities": "They are skilled with firearms and can channel Astral Spark into their attacks. Their powerful Hippo Build helps with feats of strength and moving heavy loads."
     },
     {
       "name": "Githyanki",
@@ -1053,7 +1082,8 @@ window.GUIDE = {
         "Astral Knowledge",
         "Githyanki Psionics",
         "Psychic Resilience"
-      ]
+      ],
+      "capabilities": "They use psionic magic for tasks such as moving objects and enhancing mobility. Astral Knowledge provides adaptable training, while Psychic Resilience helps protect them from psychic damage."
     },
     {
       "name": "Githzerai",
@@ -1086,7 +1116,8 @@ window.GUIDE = {
         "Githzerai Psionics",
         "Mental Discipline",
         "Psychic Resilience"
-      ]
+      ],
+      "capabilities": "They use psionic magic for defense and manipulating objects at a distance. Mental Discipline helps resist charm and fear, while Psychic Resilience protects against psychic damage."
     },
     {
       "name": "Gnome",
@@ -1108,7 +1139,9 @@ window.GUIDE = {
         "Fade Away",
         "Magical Savvy",
         "Masterful Aptitude",
-        "Nature’s Voice"
+        "Nature’s Voice",
+        "Gnomish Cunning",
+        "Gnomish Lineage"
       ],
       "related": [
         "deep-gnome",
@@ -1121,15 +1154,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751438-gnome",
       "infoUrl": "https://www.dndbeyond.com/species/1751438-gnome",
       "traits": [
-        "Magical Fortification",
-        "Quick Slip",
-        "Artifice Expertise",
         "Darkvision",
-        "Fade Away",
-        "Magical Savvy",
-        "Masterful Aptitude",
-        "Nature’s Voice"
-      ]
+        "Gnomish Cunning",
+        "Gnomish Lineage"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Gnomish Cunning helps them resist magic that targets the mind. Their chosen gnomish lineage adds innate magical talents, offering different tools for creativity, exploration, and problem-solving."
     },
     {
       "name": "Goblin",
@@ -1148,7 +1177,9 @@ window.GUIDE = {
         "+1 Constitution",
         "Darkvision",
         "Fury of the Small",
-        "Nimble Escape"
+        "Nimble Escape",
+        "Goblinoid",
+        "Fey Ancestry"
       ],
       "related": [
         "hobgoblin",
@@ -1161,12 +1192,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026391-goblin",
       "infoUrl": "https://www.dndbeyond.com/species/1026391-goblin",
       "traits": [
-        "+2 Dexterity",
-        "+1 Constitution",
+        "Goblinoid",
         "Darkvision",
+        "Fey Ancestry",
         "Fury of the Small",
         "Nimble Escape"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can quickly hide or disengage with Nimble Escape. Fury of the Small helps them hit larger opponents harder, while fey ancestry offers protection against charm."
     },
     {
       "name": "Goliath",
@@ -1187,7 +1219,9 @@ window.GUIDE = {
         "Natural Athlete",
         "Stone's Endurance",
         "Powerful Build",
-        "Mountain Born"
+        "Mountain Born",
+        "Giant Ancestry",
+        "Large Form"
       ],
       "related": [
         "firbolg"
@@ -1198,13 +1232,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751439-goliath",
       "infoUrl": "https://www.dndbeyond.com/species/1751439-goliath",
       "traits": [
-        "+2 Strength",
-        "+1 Constitution",
-        "Natural Athlete",
-        "Stone's Endurance",
-        "Powerful Build",
-        "Mountain Born"
-      ]
+        "Giant Ancestry",
+        "Large Form",
+        "Powerful Build"
+      ],
+      "capabilities": "They can temporarily grow larger with Large Form and carry heavy loads with Powerful Build. Their giant ancestry adds a special supernatural ability shaped by their giant heritage."
     },
     {
       "name": "Grung",
@@ -1247,7 +1279,8 @@ window.GUIDE = {
         "Poisonous Skin",
         "Standing Leap",
         "Water Dependency."
-      ]
+      ],
+      "capabilities": "They can breathe air and water, leap great distances, and use poisonous skin against threats. They are immune to poison but depend on regular immersion in water."
     },
     {
       "name": "Hadozee",
@@ -1281,7 +1314,8 @@ window.GUIDE = {
         "Dexterous Feet",
         "Glide",
         "Hadozee Dodge"
-      ]
+      ],
+      "capabilities": "They can glide through the air rather than fly under their own power. Dexterous feet help them handle objects, and Hadozee Dodge lets them reduce incoming damage."
     },
     {
       "name": "Half-Elf",
@@ -1320,7 +1354,8 @@ window.GUIDE = {
         "Darkvision",
         "Fey Ancestry",
         "Skill Versatility"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Fey ancestry helps them resist charm and magical sleep. Skill Versatility adds flexible training, making them adaptable adventurers who can contribute to many different tasks."
     },
     {
       "name": "Half-Orc",
@@ -1361,7 +1396,8 @@ window.GUIDE = {
         "Menacing",
         "Relentless Endurance",
         "Savage Attacks"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can survive a normally decisive blow through Relentless Endurance and deliver stronger critical hits with Savage Attacks. Their imposing presence also supports intimidation."
     },
     {
       "name": "Halfling",
@@ -1385,7 +1421,10 @@ window.GUIDE = {
         "Artisanal Focus (Brewer’s Supplies",
         "Cook’s Utensils",
         "or Potter’s Tools)",
-        "Embrace the Past"
+        "Embrace the Past",
+        "Halfling Nimbleness",
+        "Luck",
+        "Naturally Stealthy"
       ],
       "related": [
         "kender",
@@ -1399,16 +1438,11 @@ window.GUIDE = {
       "infoUrl": "https://www.dndbeyond.com/species/1751440-halfling",
       "traits": [
         "Brave",
-        "Creature Cover",
-        "Lucky",
-        "Helping Hand",
-        "Pass Through",
-        "Power Nap",
-        "Artisanal Focus (Brewer’s Supplies",
-        "Cook’s Utensils",
-        "or Potter’s Tools)",
-        "Embrace the Past"
-      ]
+        "Halfling Nimbleness",
+        "Luck",
+        "Naturally Stealthy"
+      ],
+      "capabilities": "Luck helps them recover from especially poor rolls, and Brave helps them resist fear. Their small size lets them move through larger creatures’ spaces and hide behind them."
     },
     {
       "name": "Harengon",
@@ -1445,7 +1479,8 @@ window.GUIDE = {
         "Leporine Senses",
         "Lucky Footwork",
         "Rabbit Hop"
-      ]
+      ],
+      "capabilities": "They react quickly to danger, notice threats with sharp senses, and use Lucky Footwork to avoid harm. Rabbit Hop lets them spring away from trouble without inviting opportunity attacks."
     },
     {
       "name": "Hexblood",
@@ -1467,7 +1502,9 @@ window.GUIDE = {
         "Ancestral Legacy",
         "Darkvision",
         "Eerie Token",
-        "Hex Magic"
+        "Hex Magic",
+        "Distant Message",
+        "Remote Viewing"
       ],
       "related": [
         "dhampir",
@@ -1480,11 +1517,12 @@ window.GUIDE = {
       "infoUrl": "https://www.dndbeyond.com/species/2161358-hexblood",
       "traits": [
         "Fey",
-        "Ancestral Legacy",
         "Darkvision",
         "Eerie Token",
-        "Hex Magic"
-      ]
+        "Distant Message",
+        "Remote Viewing"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can create an Eerie Token to maintain a supernatural connection with someone carrying it. Distant Message and Remote Viewing let them communicate and observe through that connection."
     },
     {
       "name": "Hobgoblin",
@@ -1503,7 +1541,11 @@ window.GUIDE = {
         "+1 Intelligence",
         "Darkvision",
         "Martial Training",
-        "Saving Face"
+        "Saving Face",
+        "Goblinoid",
+        "Fey Ancestry",
+        "Fey Gift",
+        "Fortune from the Many"
       ],
       "related": [
         "goblin",
@@ -1516,12 +1558,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin",
       "infoUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin",
       "traits": [
-        "+2 Constitution",
-        "+1 Intelligence",
+        "Goblinoid",
         "Darkvision",
-        "Martial Training",
-        "Saving Face"
-      ]
+        "Fey Ancestry",
+        "Fey Gift",
+        "Fortune from the Many"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can support allies through Fey Gift and draw on nearby companions with Fortune from the Many. Their fey ancestry also helps them resist charm."
     },
     {
       "name": "Human",
@@ -1544,7 +1587,10 @@ window.GUIDE = {
         "Intrinsic Orientation",
         "Artisanal Focus",
         "Keen Survivor",
-        "Skill Prowess"
+        "Skill Prowess",
+        "Resourceful",
+        "Skillful",
+        "Versatile"
       ],
       "related": [
         "half-elf",
@@ -1556,15 +1602,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751441-human",
       "infoUrl": "https://www.dndbeyond.com/species/1751441-human",
       "traits": [
-        "Awesome Critical",
-        "First Strike",
-        "Weapon Aptitude",
-        "Helping Hand",
-        "Intrinsic Orientation",
-        "Artisanal Focus",
-        "Keen Survivor",
-        "Skill Prowess"
-      ]
+        "Resourceful",
+        "Skillful",
+        "Versatile"
+      ],
+      "capabilities": "They gain flexible training and an extra origin feat through Skillful and Versatile. Resourceful provides Heroic Inspiration after a long rest, helping them tackle important challenges."
     },
     {
       "name": "Kalashtar",
@@ -1586,7 +1628,9 @@ window.GUIDE = {
         "Dual Mind",
         "Mental Discipline",
         "Mind Link",
-        "Severed from Dreams"
+        "Severed from Dreams",
+        "Aberration",
+        "Mindlink"
       ],
       "related": [
         "aasimar",
@@ -1598,13 +1642,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2048552-kalashtar",
       "infoUrl": "https://www.dndbeyond.com/species/2048552-kalashtar",
       "traits": [
-        "+2 Wisdom",
-        "+1 Charisma",
+        "Aberration",
         "Dual Mind",
         "Mental Discipline",
-        "Mind Link",
+        "Mindlink",
         "Severed from Dreams"
-      ]
+      ],
+      "capabilities": "They can communicate mentally through Mindlink and draw on a disciplined, resilient mind. Dual Mind and Mental Discipline help protect their thoughts, while their sleep is separated from ordinary dreams."
     },
     {
       "name": "Kender",
@@ -1637,7 +1681,8 @@ window.GUIDE = {
         "Fearless",
         "Kender Aptitude",
         "Taunt"
-      ]
+      ],
+      "capabilities": "They resist fear and can taunt opponents to distract them from other targets. Kender Aptitude adds useful training, supporting their curiosity and resourcefulness during exploration."
     },
     {
       "name": "Kenku",
@@ -1657,7 +1702,9 @@ window.GUIDE = {
         "+1 Wisdom",
         "Expert Forgery",
         "Kenku Training",
-        "Mimicry"
+        "Mimicry",
+        "Expert Duplication",
+        "Kenku Recall"
       ],
       "related": [
         "tabaxi",
@@ -1670,12 +1717,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026394-kenku",
       "infoUrl": "https://www.dndbeyond.com/species/1026394-kenku",
       "traits": [
-        "+2 Dexterity",
-        "+1 Wisdom",
-        "Expert Forgery",
-        "Kenku Training",
+        "Expert Duplication",
+        "Kenku Recall",
         "Mimicry"
-      ]
+      ],
+      "capabilities": "They can mimic sounds and voices and reproduce writing or other crafts with Expert Duplication. Kenku Recall supports skilled tasks, making them capable imitators and adaptable problem-solvers."
     },
     {
       "name": "Khoravar",
@@ -1715,7 +1761,8 @@ window.GUIDE = {
         "Fey Gift",
         "Lethargy Resilience",
         "Skill Versatility"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They combine versatile skills with supportive Fey Gift abilities. Fey Ancestry and Lethargy Resilience provide supernatural defenses, helping them resist effects that undermine their awareness and resolve."
     },
     {
       "name": "Kithkin",
@@ -1750,7 +1797,8 @@ window.GUIDE = {
         "Kithkin Nimbleness",
         "Luck",
         "Naturally Stealthy"
-      ]
+      ],
+      "capabilities": "They resist fear, benefit from luck, and can move through the spaces of larger creatures. Their naturally stealthy approach helps them hide and maneuver around bigger opponents."
     },
     {
       "name": "Kobold",
@@ -1773,7 +1821,9 @@ window.GUIDE = {
         "Cower",
         "and Beg",
         "Pack Tactics",
-        "Sunlight Sensitivity"
+        "Sunlight Sensitivity",
+        "Draconic Cry",
+        "Kobold Legacy"
       ],
       "related": [
         "kenku",
@@ -1786,14 +1836,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026395-kobold",
       "infoUrl": "https://www.dndbeyond.com/species/1026395-kobold",
       "traits": [
-        "+2 Dexterity",
         "Darkvision",
-        "Grovel",
-        "Cower",
-        "and Beg",
-        "Pack Tactics",
-        "Sunlight Sensitivity"
-      ]
+        "Draconic Cry",
+        "Kobold Legacy"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can unleash a Draconic Cry to help allies attack nearby enemies. Kobold Legacy adds a choice of special talents, giving them another useful trick for adventuring."
     },
     {
       "name": "Leonin",
@@ -1832,7 +1879,8 @@ window.GUIDE = {
         "Claws",
         "Hunter's Instincts",
         "Daunting Roar."
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can attack with claws and frighten nearby opponents with a Daunting Roar. Hunter’s Instincts provide practical training suited to tracking, survival, and noticing danger."
     },
     {
       "name": "Lizardfolk",
@@ -1854,7 +1902,8 @@ window.GUIDE = {
         "Hold Breath",
         "Hunter's Lore",
         "Natural Armor",
-        "Hungry Jaws"
+        "Hungry Jaws",
+        "Nature’s Intuition"
       ],
       "related": [
         "harengon",
@@ -1867,15 +1916,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk",
       "infoUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk",
       "traits": [
-        "+2 Constitution",
-        "+1 Wisdom",
         "Bite",
-        "Cunning Artisan",
         "Hold Breath",
-        "Hunter's Lore",
+        "Hungry Jaws",
         "Natural Armor",
-        "Hungry Jaws"
-      ]
+        "Nature’s Intuition"
+      ],
+      "capabilities": "Their scales provide natural armor, and their bite serves as a natural weapon. Hungry Jaws supports survival in combat, while holding their breath helps them explore underwater."
     },
     {
       "name": "Locathah",
@@ -1917,7 +1964,8 @@ window.GUIDE = {
         "Observant & Athletic",
         "Leviathan Will",
         "Limited Amphibiousness"
-      ]
+      ],
+      "capabilities": "They can swim and breathe underwater, with natural armor helping protect them. Leviathan Will offers mental resilience, but their limited amphibiousness means they need regular immersion in water."
     },
     {
       "name": "Lorwyn Changeling",
@@ -1953,7 +2001,8 @@ window.GUIDE = {
         "Darkvision",
         "Delightful Imitator",
         "Unpredictable Movement"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can reshape their appearance through Shape Self and copy others with Delightful Imitator. Unpredictable Movement adds another way to keep opponents guessing during an encounter."
     },
     {
       "name": "Lorwyn-Shadowmoor Elf",
@@ -1991,7 +2040,8 @@ window.GUIDE = {
         "Fey Ancestry",
         "Keen Senses",
         "Trance"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Their elven lineage provides innate magical abilities, and keen senses support awareness. Fey ancestry helps resist charm, while Trance lets them rest through meditation rather than ordinary sleep."
     },
     {
       "name": "Loxodon",
@@ -2032,7 +2082,8 @@ window.GUIDE = {
         "Natural Armor",
         "Trunk",
         "Keen Smell"
-      ]
+      ],
+      "capabilities": "They can use their trunk to handle objects and perform simple tasks. Natural armor, powerful carrying capacity, keen smell, and Loxodon Serenity support both survival and steady resolve."
     },
     {
       "name": "Lupin",
@@ -2068,7 +2119,8 @@ window.GUIDE = {
         "Feral Pounce",
         "Howl",
         "Werewolf Instincts"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They bring wolf-like instincts to exploration and combat. Feral Pounce and Howl provide distinctive options for confronting threats, while Werewolf Instincts sharpen their supernatural hunting nature."
     },
     {
       "name": "Minotaur",
@@ -2088,7 +2140,8 @@ window.GUIDE = {
         "Horns",
         "Goring Rush",
         "Hammering Horns",
-        "Imposing Presence"
+        "Imposing Presence",
+        "Labyrinthine Recall"
       ],
       "related": [
         "centaur",
@@ -2100,13 +2153,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026397-minotaur",
       "infoUrl": "https://www.dndbeyond.com/species/1026397-minotaur",
       "traits": [
-        "+2 Strength",
-        "+1 Constitution",
         "Horns",
         "Goring Rush",
         "Hammering Horns",
-        "Imposing Presence"
-      ]
+        "Labyrinthine Recall"
+      ],
+      "capabilities": "They can attack with their horns, rush into battle, and shove foes with Hammering Horns. Labyrinthine Recall helps them keep their bearings and navigate complex routes."
     },
     {
       "name": "Orc",
@@ -2128,7 +2180,9 @@ window.GUIDE = {
         "Darkvision",
         "Aggressive",
         "Primal Intuition",
-        "Powerful Build"
+        "Powerful Build",
+        "Adrenaline Rush",
+        "Relentless Endurance"
       ],
       "related": [
         "half-orc",
@@ -2140,13 +2194,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751442-orc",
       "infoUrl": "https://www.dndbeyond.com/species/1751442-orc",
       "traits": [
-        "+2 Strength",
-        "+1 Constitution",
+        "Adrenaline Rush",
         "Darkvision",
-        "Aggressive",
-        "Primal Intuition",
-        "Powerful Build"
-      ]
+        "Relentless Endurance"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can surge forward with Adrenaline Rush, gaining a burst of speed and resilience. Relentless Endurance lets them stay standing after a blow that would normally bring them down."
     },
     {
       "name": "Owlin",
@@ -2184,7 +2236,8 @@ window.GUIDE = {
         "Darkvision",
         "Flight",
         "Silent Feathers"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can fly on feathered wings and move quietly with Silent Feathers. Their combination of aerial movement and stealth makes them effective scouts above and around dangerous ground."
     },
     {
       "name": "Plasmoid",
@@ -2225,7 +2278,8 @@ window.GUIDE = {
         "Hold Breath",
         "Natural Resilience",
         "Shape Self"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can squeeze through narrow spaces and reshape their ooze-like body with Shape Self. They can hold their breath for extended periods and have natural resistance to certain hazards."
     },
     {
       "name": "Reborn",
@@ -2245,7 +2299,10 @@ window.GUIDE = {
       "keywords": [
         "Ancestral Legacy",
         "Deathless Nature",
-        "Knowledge from a Past Life"
+        "Knowledge from a Past Life",
+        "Escaped Death",
+        "Everlasting",
+        "Strange Endurance"
       ],
       "related": [
         "dhampir",
@@ -2257,10 +2314,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2161360-reborn",
       "infoUrl": "https://www.dndbeyond.com/species/2161360-reborn",
       "traits": [
-        "Ancestral Legacy",
-        "Deathless Nature",
-        "Knowledge from a Past Life"
-      ]
+        "Escaped Death",
+        "Everlasting",
+        "Knowledge from a Past Life",
+        "Strange Endurance"
+      ],
+      "capabilities": "They can draw on memories from a past life to help with difficult tasks. Escaped Death, Everlasting, and Strange Endurance reflect their unusual ability to persist beyond ordinary mortal limits."
     },
     {
       "name": "Rimekin",
@@ -2296,7 +2355,8 @@ window.GUIDE = {
         "Cold Fire Magic",
         "Cold Resistance",
         "Darkvision"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They resist cold damage and draw on Cold Fire Magic. Their innate magical abilities give them supernatural tools for adventuring in addition to their protection against freezing conditions."
     },
     {
       "name": "Satyr",
@@ -2317,7 +2377,8 @@ window.GUIDE = {
         "Ram",
         "Magic Resistance",
         "Mirthful Leaps",
-        "Reveler."
+        "Reveler.",
+        "Reveler"
       ],
       "related": [
         "centaur",
@@ -2329,14 +2390,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026399-satyr",
       "infoUrl": "https://www.dndbeyond.com/species/1026399-satyr",
       "traits": [
-        "+2 Charisma",
-        "+1 Dexterity",
         "Fey",
         "Ram",
         "Magic Resistance",
         "Mirthful Leaps",
-        "Reveler."
-      ]
+        "Reveler"
+      ],
+      "capabilities": "They can ram opponents with their horns and make impressive jumps with Mirthful Leaps. Magic Resistance protects them from spells, while Reveler supports performance and social skills."
     },
     {
       "name": "Sea Elf",
@@ -2382,7 +2442,8 @@ window.GUIDE = {
         "Friend of the Sea",
         "Keen Senses",
         "Trance"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can swim and breathe underwater, making them comfortable exploring beneath the surface. Friend of the Sea lets them communicate simple ideas to swimming beasts, and fey ancestry helps resist charm."
     },
     {
       "name": "Shadar-kai",
@@ -2424,7 +2485,8 @@ window.GUIDE = {
         "Keen Senses",
         "Necrotic Resistance",
         "Trance"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can teleport with Blessing of the Raven Queen and resist necrotic damage. Their keen senses, fey ancestry, and meditative trance offer additional awareness and supernatural protection."
     },
     {
       "name": "Shifter",
@@ -2442,7 +2504,8 @@ window.GUIDE = {
       "id": "shifter",
       "keywords": [
         "Darkvision",
-        "Shifting"
+        "Shifting",
+        "Bestial Instincts"
       ],
       "related": [
         "lupin",
@@ -2454,9 +2517,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2048554-shifter",
       "infoUrl": "https://www.dndbeyond.com/species/2048554-shifter",
       "traits": [
+        "Bestial Instincts",
         "Darkvision",
         "Shifting"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can temporarily take on a more bestial form with Shifting. The transformation grants extra resilience and abilities determined by their heritage, while Bestial Instincts support practical adventuring skills."
     },
     {
       "name": "Simic Hybrid",
@@ -2491,7 +2556,8 @@ window.GUIDE = {
         "+1 One Other Ability Score",
         "Darkvision",
         "Animal Enhancement"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They gain animal-like enhancements chosen as they develop. These can provide movement adaptations, natural defenses, or new ways to attack and interact with their surroundings."
     },
     {
       "name": "Tabaxi",
@@ -2512,7 +2578,9 @@ window.GUIDE = {
         "Darkvision",
         "Feline Agility",
         "Cat's Claws",
-        "Cat's Talent"
+        "Cat's Talent",
+        "Cat’s Claws",
+        "Cat’s Talents"
       ],
       "related": [
         "kenku",
@@ -2524,13 +2592,12 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026403-tabaxi",
       "infoUrl": "https://www.dndbeyond.com/species/1026403-tabaxi",
       "traits": [
-        "+2 Dexterity",
-        "+1 Charisma",
+        "Cat’s Claws",
+        "Cat’s Talents",
         "Darkvision",
-        "Feline Agility",
-        "Cat's Claws",
-        "Cat's Talent"
-      ]
+        "Feline Agility"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can climb with their claws and burst into rapid movement with Feline Agility. Cat’s Talents support stealth and perception, making them agile scouts and explorers."
     },
     {
       "name": "Thri-kreen",
@@ -2570,7 +2637,8 @@ window.GUIDE = {
         "Secondary Arms",
         "Sleepless",
         "Thri-kreen Telepathy"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can communicate telepathically, use secondary arms for smaller tasks, and camouflage their carapace. They do not need sleep, letting them remain alert while companions rest."
     },
     {
       "name": "Tiefling",
@@ -2591,7 +2659,9 @@ window.GUIDE = {
         "+1 Intelligence",
         "Darkvision",
         "Hellish Resistance",
-        "Infernal Legacy"
+        "Infernal Legacy",
+        "Fiendish Legacy",
+        "Otherworldly Presence"
       ],
       "related": [
         "aasimar",
@@ -2603,12 +2673,11 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1751443-tiefling",
       "infoUrl": "https://www.dndbeyond.com/species/1751443-tiefling",
       "traits": [
-        "+2 Charisma",
-        "+1 Intelligence",
         "Darkvision",
-        "Hellish Resistance",
-        "Infernal Legacy"
-      ]
+        "Fiendish Legacy",
+        "Otherworldly Presence"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. Their fiendish legacy grants innate spells and a damage resistance determined by their lineage. Otherworldly Presence adds a supernatural magical talent for everyday use."
     },
     {
       "name": "Tortle",
@@ -2630,7 +2699,8 @@ window.GUIDE = {
         "Hold Breath",
         "Natural Armor",
         "Shell Defense",
-        "Survival Instinct"
+        "Survival Instinct",
+        "Nature’s Intuition"
       ],
       "related": [
         "harengon",
@@ -2642,14 +2712,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026404-tortle",
       "infoUrl": "https://www.dndbeyond.com/species/1026404-tortle",
       "traits": [
-        "+2 Strength",
-        "+1 Wisdom",
         "Claws",
         "Hold Breath",
         "Natural Armor",
-        "Shell Defense",
-        "Survival Instinct"
-      ]
+        "Nature’s Intuition",
+        "Shell Defense"
+      ],
+      "capabilities": "Their shell provides natural armor, and Shell Defense lets them withdraw for greater protection. They can attack with claws, hold their breath, and draw on survival-focused instincts."
     },
     {
       "name": "Triton",
@@ -2671,7 +2740,9 @@ window.GUIDE = {
         "Amphibious",
         "Control Air and Water",
         "Emissary of the Sea",
-        "Guardians of the Depths"
+        "Guardians of the Depths",
+        "Darkvision",
+        "Guardian of the Depths"
       ],
       "related": [
         "genasi",
@@ -2684,14 +2755,13 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/1026405-triton",
       "infoUrl": "https://www.dndbeyond.com/species/1026405-triton",
       "traits": [
-        "+1 Strength",
-        "+1 Constitution",
-        "+1 Charisma",
         "Amphibious",
         "Control Air and Water",
+        "Darkvision",
         "Emissary of the Sea",
-        "Guardians of the Depths"
-      ]
+        "Guardian of the Depths"
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can swim, breathe underwater, and use innate magic to control air and water. Their sea-born abilities include communicating with aquatic creatures and resisting the cold of the depths."
     },
     {
       "name": "Vedalken",
@@ -2728,7 +2798,8 @@ window.GUIDE = {
         "Vedalken Dispassion",
         "Tireless Precision",
         "Partially Amphibious"
-      ]
+      ],
+      "capabilities": "They have strong defenses against effects that target the mind and can apply exceptional precision to trained tasks. Partial amphibiousness also lets them breathe underwater for a limited time."
     },
     {
       "name": "Verdan",
@@ -2767,7 +2838,8 @@ window.GUIDE = {
         "Limited Telepathy",
         "Persuasive",
         "Telepathic Insight"
-      ]
+      ],
+      "capabilities": "They can communicate simple ideas telepathically and draw on Telepathic Insight during social encounters. Black Blood Healing improves their recovery, while their persuasive nature supports interactions with others."
     },
     {
       "name": "Warforged",
@@ -2793,7 +2865,9 @@ window.GUIDE = {
         "Integrated Protection",
         "Specialized Design",
         "constructs",
-        "constructs"
+        "Construct",
+        "Construct Resilience",
+        "Tireless"
       ],
       "related": [
         "autognome",
@@ -2805,13 +2879,14 @@ window.GUIDE = {
       "sourceUrl": "https://www.dndbeyond.com/species/2048555-warforged",
       "infoUrl": "https://www.dndbeyond.com/species/2048555-warforged",
       "traits": [
-        "+2 Constitution",
-        "+1 to One Other Ability Score",
-        "Constructed Resilience",
-        "Sentry's Rest",
+        "Construct",
+        "Construct Resilience",
         "Integrated Protection",
-        "Specialized Design"
-      ]
+        "Sentry's Rest",
+        "Specialized Design",
+        "Tireless"
+      ],
+      "capabilities": "Their constructed body has integrated protection and resilience against common hazards. They do not need ordinary food, breathing, or sleep, and Sentry’s Rest lets them stay aware while resting."
     },
     {
       "name": "Water Genasi",
@@ -2852,7 +2927,8 @@ window.GUIDE = {
         "Amphibious",
         "Call to the Wave",
         "Darkvision"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They can swim, breathe underwater, and resist acid damage. Call to the Wave grants innate water magic, giving them useful tools for both aquatic exploration and other adventures."
     },
     {
       "name": "Yuan-ti",
@@ -2887,7 +2963,8 @@ window.GUIDE = {
         "Magic Resistance",
         "Poison Resilience",
         "Serpentine Spellcasting"
-      ]
+      ],
+      "capabilities": "Darkvision lets them see in darkness. They resist magical effects and have protection against poison. Serpentine Spellcasting gives them innate snake-themed magic, adding supernatural options for dealing with creatures and threats."
     }
   ],
   "hierarchy": {
