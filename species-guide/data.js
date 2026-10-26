@@ -8,7 +8,7 @@ window.GUIDE = {
       "field": "types",
       "options": [
         "Humanoids",
-        "Beasts",
+        "Beasts/Animals",
         "Magical",
         "Goblinoids"
       ]
@@ -35,7 +35,7 @@ window.GUIDE = {
     {
       "name": "Aarakocra",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -44,7 +44,16 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "aarakocra",
-      "keywords": [],
+      "keywords": [
+        "+2 Dexterity",
+        "+1 Wisdom",
+        "Flight",
+        "Talons",
+        "flying",
+        "flight",
+        "fly",
+        "wings"
+      ],
       "related": [
         "kenku",
         "tabaxi",
@@ -53,7 +62,14 @@ window.GUIDE = {
       "summary": "Winged travelers whose roots lie in the Plane of Air.",
       "image": "assets/aarakocra.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/805/340/340/637880558238234188.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026377-aarakocra"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026377-aarakocra",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Aarakocra%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "+1 Wisdom",
+        "Flight",
+        "Talons"
+      ]
     },
     {
       "name": "Aasimar",
@@ -69,7 +85,17 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "aasimar",
-      "keywords": [],
+      "keywords": [
+        "+2 Charisma",
+        "Darkvision",
+        "Celestial Resistance",
+        "Healing Hands",
+        "Light Bearer",
+        "flying",
+        "flight",
+        "fly",
+        "wings"
+      ],
       "related": [
         "tiefling",
         "changeling",
@@ -78,7 +104,15 @@ window.GUIDE = {
       "summary": "People with a celestial essence carried in their souls.",
       "image": "assets/aasimar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/408/340/340/638607447895916115.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751434-aasimar"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751434-aasimar",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Aasimar%20Traits",
+      "traits": [
+        "+2 Charisma",
+        "Darkvision",
+        "Celestial Resistance",
+        "Healing Hands",
+        "Light Bearer"
+      ]
     },
     {
       "name": "Air Genasi",
@@ -95,7 +129,12 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "air-genasi",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Unending Breath",
+        "Lightning Resistance",
+        "Mingle with the Wind"
+      ],
       "related": [
         "genasi",
         "earth-genasi",
@@ -104,7 +143,14 @@ window.GUIDE = {
       "summary": "Elemental descendants with an inherited affinity for wind.",
       "image": "assets/air-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/811/340/340/637880558247164967.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026379-air-genasi"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026379-air-genasi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Air%20Genasi%20Traits",
+      "traits": [
+        "Darkvision",
+        "Unending Breath",
+        "Lightning Resistance",
+        "Mingle with the Wind"
+      ]
     },
     {
       "name": "Astral Elf",
@@ -120,7 +166,15 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "astral-elf",
-      "keywords": [],
+      "keywords": [
+        "Elf",
+        "Astral Fire",
+        "Darkvision",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Starlight Step",
+        "Astral Trance"
+      ],
       "related": [
         "elf",
         "eladrin",
@@ -129,7 +183,17 @@ window.GUIDE = {
       "summary": "Elves changed by divine radiance during life in the Astral Plane.",
       "image": "assets/astral-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/974/340/340/637961801034929138.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121694-astral-elf"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121694-astral-elf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Astral%20Elf%20Traits",
+      "traits": [
+        "Elf",
+        "Astral Fire",
+        "Darkvision",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Starlight Step",
+        "Astral Trance"
+      ]
     },
     {
       "name": "Autognome",
@@ -147,7 +211,16 @@ window.GUIDE = {
       "keywords": [
         "robot",
         "construct",
-        "mechanical"
+        "mechanical",
+        "constructs",
+        "Construct",
+        "Armored Casing",
+        "Built for Success",
+        "Healing Machine",
+        "Mechanical Nature",
+        "Sentry’s Rest",
+        "Specialized Design",
+        "constructs"
       ],
       "related": [
         "warforged",
@@ -156,7 +229,17 @@ window.GUIDE = {
       "summary": "Mechanical creations who sometimes leave their makers to live independently.",
       "image": "assets/autognome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/977/340/340/637961801041012943.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121695-autognome"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121695-autognome",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Autognome%20Traits",
+      "traits": [
+        "Construct",
+        "Armored Casing",
+        "Built for Success",
+        "Healing Machine",
+        "Mechanical Nature",
+        "Sentry’s Rest",
+        "Specialized Design"
+      ]
     },
     {
       "name": "Boggart",
@@ -171,19 +254,33 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "boggart",
-      "keywords": [],
+      "keywords": [
+        "Goblinoid",
+        "Darkvision",
+        "Fey Ancestry",
+        "Fury of the Small",
+        "Nimble Escape"
+      ],
       "related": [
         "goblin"
       ],
       "summary": "Short, stocky relatives of goblins native to Lorwyn-Shadowmoor.",
       "image": "assets/boggart.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/832/340/340/638989936711639715.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043668-boggart"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043668-boggart",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Boggart%20Traits",
+      "traits": [
+        "Goblinoid",
+        "Darkvision",
+        "Fey Ancestry",
+        "Fury of the Small",
+        "Nimble Escape"
+      ]
     },
     {
       "name": "Bugbear",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -192,7 +289,15 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "bugbear",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Dexterity",
+        "Darkvision",
+        "Long-Limbed",
+        "Powerful Build",
+        "Sneaky",
+        "Surprise Attack"
+      ],
       "related": [
         "goblin",
         "hobgoblin",
@@ -201,12 +306,22 @@ window.GUIDE = {
       "summary": "Powerfully built ambushers whose fey gifts let them hide surprisingly well.",
       "image": "assets/bugbear.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/814/340/340/637880558251875529.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026380-bugbear"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026380-bugbear",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Bugbear%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Dexterity",
+        "Darkvision",
+        "Long-Limbed",
+        "Powerful Build",
+        "Sneaky",
+        "Surprise Attack"
+      ]
     },
     {
       "name": "Centaur",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -216,7 +331,14 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "centaur",
       "keywords": [
-        "horse"
+        "horse",
+        "+2 Strength",
+        "+1 Wisdom",
+        "Fey",
+        "Charge",
+        "Hooves",
+        "Equine Build",
+        "Survivor"
       ],
       "related": [
         "satyr",
@@ -225,7 +347,17 @@ window.GUIDE = {
       "summary": "Galloping travelers with ancestral homes across the multiverse.",
       "image": "assets/centaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/817/340/340/637880558257685997.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026381-centaur"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026381-centaur",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Centaur%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Wisdom",
+        "Fey",
+        "Charge",
+        "Hooves",
+        "Equine Build",
+        "Survivor"
+      ]
     },
     {
       "name": "Changeling",
@@ -244,7 +376,11 @@ window.GUIDE = {
       "keywords": [
         "shapeshifter",
         "change appearance",
-        "copy appearance"
+        "copy appearance",
+        "+2 Charisma",
+        "+1 to One Other Ability Score",
+        "Shapechanger",
+        "Changeling Instincts"
       ],
       "related": [
         "lorwyn-changeling",
@@ -254,7 +390,14 @@ window.GUIDE = {
       "summary": "Shapeshifters who blend into communities by changing their appearance.",
       "image": "assets/changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2048551-changeling"
+      "sourceUrl": "https://www.dndbeyond.com/species/2048551-changeling",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Changeling%20Traits",
+      "traits": [
+        "+2 Charisma",
+        "+1 to One Other Ability Score",
+        "Shapechanger",
+        "Changeling Instincts"
+      ]
     },
     {
       "name": "Deep Gnome",
@@ -269,7 +412,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "deep-gnome",
-      "keywords": [],
+      "keywords": [
+        "Gnome",
+        "Darkvision",
+        "Gift of the Svirfneblin",
+        "Gnomish Magic Resistance",
+        "Svirfneblin Camouflage"
+      ],
       "related": [
         "gnome",
         "duergar"
@@ -277,7 +426,15 @@ window.GUIDE = {
       "summary": "Underdark gnomes shaped by the magic of their subterranean home.",
       "image": "assets/deep-gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/823/340/340/637880558268426976.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026383-deep-gnome"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026383-deep-gnome",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Deep%20Gnome%20Traits",
+      "traits": [
+        "Gnome",
+        "Darkvision",
+        "Gift of the Svirfneblin",
+        "Gnomish Magic Resistance",
+        "Svirfneblin Camouflage"
+      ]
     },
     {
       "name": "Dhampir",
@@ -294,7 +451,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "dhampir",
-      "keywords": [],
+      "keywords": [
+        "Ancestral Legacy",
+        "Darkvision",
+        "Deathless Nature",
+        "Spider Climb",
+        "Vampiric Bite"
+      ],
       "related": [
         "hexblood",
         "reborn"
@@ -302,12 +465,20 @@ window.GUIDE = {
       "summary": "Living people with vampiric abilities and an unnatural hunger.",
       "image": "assets/dhampir.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56970/975/340/340/639160147726316096.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2038805-dhampir"
+      "sourceUrl": "https://www.dndbeyond.com/species/2038805-dhampir",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dhampir%20Traits",
+      "traits": [
+        "Ancestral Legacy",
+        "Darkvision",
+        "Deathless Nature",
+        "Spider Climb",
+        "Vampiric Bite"
+      ]
     },
     {
       "name": "Dragonborn",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -318,7 +489,19 @@ window.GUIDE = {
       "id": "dragonborn",
       "keywords": [
         "dragon",
-        "draconic"
+        "draconic",
+        "Breath Weapon",
+        "Damage Resistance (same as Breath Weapon)",
+        "Menacing Roar",
+        "Darkvision",
+        "Natural Movement",
+        "Powerful Build",
+        "Firm Influence",
+        "Moved by Faith",
+        "flying",
+        "flight",
+        "fly",
+        "wings"
       ],
       "related": [
         "lizardfolk",
@@ -327,7 +510,18 @@ window.GUIDE = {
       "summary": "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons.",
       "image": "assets/dragonborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/435/340/340/638607448651696917.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dragonborn%20Traits",
+      "traits": [
+        "Breath Weapon",
+        "Damage Resistance (same as Breath Weapon)",
+        "Menacing Roar",
+        "Darkvision",
+        "Natural Movement",
+        "Powerful Build",
+        "Firm Influence",
+        "Moved by Faith"
+      ]
     },
     {
       "name": "Duergar",
@@ -345,7 +539,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "duergar",
-      "keywords": [],
+      "keywords": [
+        "Dwarf",
+        "Darkvision",
+        "Duergar Magic",
+        "Dwarven Resilience",
+        "Psionic Fortitude"
+      ],
       "related": [
         "dwarf",
         "deep-gnome"
@@ -353,7 +553,15 @@ window.GUIDE = {
       "summary": "Dwarven descendants altered by generations in the deep Underdark.",
       "image": "assets/duergar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/826/340/340/637880558273447145.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026384-duergar"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026384-duergar",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Duergar%20Traits",
+      "traits": [
+        "Dwarf",
+        "Darkvision",
+        "Duergar Magic",
+        "Dwarven Resilience",
+        "Psionic Fortitude"
+      ]
     },
     {
       "name": "Duskling",
@@ -368,7 +576,12 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "duskling",
-      "keywords": [],
+      "keywords": [
+        "Fey",
+        "Darkvision",
+        "Enhanced Jump",
+        "Inner Magic"
+      ],
       "related": [
         "fairy",
         "faerie"
@@ -376,7 +589,14 @@ window.GUIDE = {
       "summary": "Feywild folk who channel their homeland’s magic through themselves.",
       "image": "assets/duskling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/58709/735/340/340/639240585368232920.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2209617-duskling"
+      "sourceUrl": "https://www.dndbeyond.com/species/2209617-duskling",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Duskling%20Traits",
+      "traits": [
+        "Fey",
+        "Darkvision",
+        "Enhanced Jump",
+        "Inner Magic"
+      ]
     },
     {
       "name": "Dwarf",
@@ -391,7 +611,23 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "dwarf",
-      "keywords": [],
+      "keywords": [
+        "Damage Resistance (Poison)",
+        "Toughness",
+        "Weapon Aptitude",
+        "Darkvision",
+        "Poison Resilience",
+        "Steady",
+        "Artisanal Focus (Brewer’s Supplies",
+        "Mason’s Tools",
+        "or Smith’s Tools)",
+        "Crafter’s Eye",
+        "Constitution +2",
+        "Axes of the Dwarves",
+        "Endurance of the Dwarves",
+        "Make Light of Burdens",
+        "Tool Proficiencies"
+      ],
       "related": [
         "duergar",
         "gnome",
@@ -400,7 +636,15 @@ window.GUIDE = {
       "summary": "A people brought forth from earth by an ancient forge deity.",
       "image": "assets/dwarf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/451/340/340/638607448980217343.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751436-dwarf"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751436-dwarf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dwarf%20Traits",
+      "traits": [
+        "Constitution +2",
+        "Axes of the Dwarves",
+        "Endurance of the Dwarves",
+        "Make Light of Burdens",
+        "Tool Proficiencies"
+      ]
     },
     {
       "name": "Earth Genasi",
@@ -417,7 +661,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "earth-genasi",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Earth Walk",
+        "Merge with Stone"
+      ],
       "related": [
         "genasi",
         "water-genasi",
@@ -426,7 +674,13 @@ window.GUIDE = {
       "summary": "Descendants of earth genies who inherit strength and elemental control.",
       "image": "assets/earth-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/829/340/340/637880558277457736.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026385-earth-genasi"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026385-earth-genasi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Earth%20Genasi%20Traits",
+      "traits": [
+        "Darkvision",
+        "Earth Walk",
+        "Merge with Stone"
+      ]
     },
     {
       "name": "Eladrin",
@@ -442,7 +696,14 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "eladrin",
-      "keywords": [],
+      "keywords": [
+        "Elf",
+        "Darkvision",
+        "Fey Ancestry",
+        "Fey Step",
+        "Keen Senses",
+        "Trance"
+      ],
       "related": [
         "elf",
         "shadar-kai"
@@ -450,7 +711,16 @@ window.GUIDE = {
       "summary": "Elves native to the beautiful, dangerous magic of the Feywild.",
       "image": "assets/eladrin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/833/340/340/637880558284138326.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026386-eladrin"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026386-eladrin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Eladrin%20Traits",
+      "traits": [
+        "Elf",
+        "Darkvision",
+        "Fey Ancestry",
+        "Fey Step",
+        "Keen Senses",
+        "Trance"
+      ]
     },
     {
       "name": "Elf",
@@ -465,7 +735,19 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "elf",
-      "keywords": [],
+      "keywords": [
+        "Awakened Mind",
+        "Focused Mind",
+        "Weapon Aptitude",
+        "Darkvision",
+        "Meditative Rest",
+        "Shroud of the Wild",
+        "+2 Wisdom",
+        "Elvish Dreams",
+        "Elven-skill",
+        "Immortal Folk",
+        "Keen Eyes of the Elves"
+      ],
       "related": [
         "half-elf",
         "eladrin",
@@ -474,7 +756,15 @@ window.GUIDE = {
       "summary": "Curious explorers whose journeys have carried them across the planes.",
       "image": "assets/elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/469/340/340/638607449397487719.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751437-elf"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751437-elf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Elf%20Traits",
+      "traits": [
+        "+2 Wisdom",
+        "Elvish Dreams",
+        "Elven-skill",
+        "Immortal Folk",
+        "Keen Eyes of the Elves"
+      ]
     },
     {
       "name": "Faerie",
@@ -489,14 +779,28 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "faerie",
-      "keywords": [],
+      "keywords": [
+        "Fey",
+        "Faerie Magic",
+        "Flight",
+        "flying",
+        "flight",
+        "fly",
+        "wings"
+      ],
       "related": [
         "fairy"
       ],
       "summary": "Naturally magical tricksters fond of practical jokes.",
       "image": "assets/faerie.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/836/340/340/638989936715071699.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043669-faerie"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043669-faerie",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Faerie%20Traits",
+      "traits": [
+        "Fey",
+        "Faerie Magic",
+        "Flight"
+      ]
     },
     {
       "name": "Fairy",
@@ -514,7 +818,13 @@ window.GUIDE = {
       "id": "fairy",
       "keywords": [
         "wings",
-        "fey"
+        "fey",
+        "Fey",
+        "Fairy Magic",
+        "Flight",
+        "flying",
+        "flight",
+        "fly"
       ],
       "related": [
         "faerie",
@@ -523,7 +833,13 @@ window.GUIDE = {
       "summary": "Winged fey with elflike forms and distinctive individual features.",
       "image": "assets/fairy.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20472/300/340/340/637677434210847572.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/814913-fairy"
+      "sourceUrl": "https://www.dndbeyond.com/species/814913-fairy",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Fairy%20Traits",
+      "traits": [
+        "Fey",
+        "Fairy Magic",
+        "Flight"
+      ]
     },
     {
       "name": "Firbolg",
@@ -537,14 +853,30 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Uncommon",
       "id": "firbolg",
-      "keywords": [],
+      "keywords": [
+        "+2 Wisdom",
+        "+1 Strength",
+        "Firbolg Magic",
+        "Hidden Step",
+        "Powerful Build",
+        "Speech of Beast and Leaf"
+      ],
       "related": [
         "goliath"
       ],
       "summary": "Giant kin whose spirits are intertwined with ancient forest magic.",
       "image": "assets/firbolg.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/836/340/340/637880558289018892.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026387-firbolg"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026387-firbolg",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Firbolg%20Traits",
+      "traits": [
+        "+2 Wisdom",
+        "+1 Strength",
+        "Firbolg Magic",
+        "Hidden Step",
+        "Powerful Build",
+        "Speech of Beast and Leaf"
+      ]
     },
     {
       "name": "Fire Genasi",
@@ -561,7 +893,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "fire-genasi",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Fire Resistance",
+        "Reach to the Blaze"
+      ],
       "related": [
         "genasi",
         "flamekin",
@@ -570,7 +906,13 @@ window.GUIDE = {
       "summary": "Efreet descendants who embody fire’s brilliance and destructive potential.",
       "image": "assets/fire-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/839/340/340/637880558293339379.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026388-fire-genasi"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026388-fire-genasi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Fire%20Genasi%20Traits",
+      "traits": [
+        "Darkvision",
+        "Fire Resistance",
+        "Reach to the Blaze"
+      ]
     },
     {
       "name": "Flamekin",
@@ -587,7 +929,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "flamekin",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Fire Resistance",
+        "Reach to the Blaze"
+      ],
       "related": [
         "fire-genasi",
         "genasi",
@@ -596,7 +942,13 @@ window.GUIDE = {
       "summary": "A people with a deep affinity for nature.",
       "image": "assets/flamekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/839/340/340/638989936718818681.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043670-flamekin"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043670-flamekin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Flamekin%20Traits",
+      "traits": [
+        "Darkvision",
+        "Fire Resistance",
+        "Reach to the Blaze"
+      ]
     },
     {
       "name": "Genasi",
@@ -611,7 +963,13 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "genasi",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "Air",
+        "Earth",
+        "Fire",
+        "Water Subraces"
+      ],
       "related": [
         "triton",
         "fire-genasi",
@@ -620,12 +978,20 @@ window.GUIDE = {
       "summary": "People whose ancestry carries the power of the four elemental planes.",
       "image": "assets/genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/258/340/340/636771217169966981.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/23-genasi"
+      "sourceUrl": "https://www.dndbeyond.com/species/23-genasi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Genasi%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "Air",
+        "Earth",
+        "Fire",
+        "Water Subraces"
+      ]
     },
     {
       "name": "Giff",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -635,7 +1001,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "giff",
-      "keywords": [],
+      "keywords": [
+        "Astral Spark",
+        "Firearms Mastery",
+        "Hippo Build"
+      ],
       "related": [
         "hadozee",
         "loxodon"
@@ -643,7 +1013,13 @@ window.GUIDE = {
       "summary": "An imposing people whose striking appearance draws attention.",
       "image": "assets/giff.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/980/340/340/637961801046316799.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121696-giff"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121696-giff",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Giff%20Traits",
+      "traits": [
+        "Astral Spark",
+        "Firearms Mastery",
+        "Hippo Build"
+      ]
     },
     {
       "name": "Githyanki",
@@ -659,7 +1035,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "githyanki",
-      "keywords": [],
+      "keywords": [
+        "Astral Knowledge",
+        "Githyanki Psionics",
+        "Psychic Resilience"
+      ],
       "related": [
         "githzerai",
         "astral-elf"
@@ -667,7 +1047,13 @@ window.GUIDE = {
       "summary": "Astral dwellers who combine bodily strength with cultivated psychic abilities.",
       "image": "assets/githyanki.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/842/340/340/637880558298319720.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026389-githyanki"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026389-githyanki",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Githyanki%20Traits",
+      "traits": [
+        "Astral Knowledge",
+        "Githyanki Psionics",
+        "Psychic Resilience"
+      ]
     },
     {
       "name": "Githzerai",
@@ -683,14 +1069,24 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "githzerai",
-      "keywords": [],
+      "keywords": [
+        "Githzerai Psionics",
+        "Mental Discipline",
+        "Psychic Resilience"
+      ],
       "related": [
         "githyanki"
       ],
       "summary": "Mental disciplines developed in Limbo grant protective and mind-reading powers.",
       "image": "assets/githzerai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/845/340/340/637880558303930097.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026390-githzerai"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026390-githzerai",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Githzerai%20Traits",
+      "traits": [
+        "Githzerai Psionics",
+        "Mental Discipline",
+        "Psychic Resilience"
+      ]
     },
     {
       "name": "Gnome",
@@ -704,7 +1100,16 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "gnome",
-      "keywords": [],
+      "keywords": [
+        "Magical Fortification",
+        "Quick Slip",
+        "Artifice Expertise",
+        "Darkvision",
+        "Fade Away",
+        "Magical Savvy",
+        "Masterful Aptitude",
+        "Nature’s Voice"
+      ],
       "related": [
         "deep-gnome",
         "autognome",
@@ -713,7 +1118,18 @@ window.GUIDE = {
       "summary": "Magical creations of deities associated with ingenuity, illusion, and underground life.",
       "image": "assets/gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/482/340/340/638607449736508079.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751438-gnome"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751438-gnome",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Gnome%20Traits",
+      "traits": [
+        "Magical Fortification",
+        "Quick Slip",
+        "Artifice Expertise",
+        "Darkvision",
+        "Fade Away",
+        "Magical Savvy",
+        "Masterful Aptitude",
+        "Nature’s Voice"
+      ]
     },
     {
       "name": "Goblin",
@@ -727,7 +1143,13 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "goblin",
-      "keywords": [],
+      "keywords": [
+        "+2 Dexterity",
+        "+1 Constitution",
+        "Darkvision",
+        "Fury of the Small",
+        "Nimble Escape"
+      ],
       "related": [
         "hobgoblin",
         "bugbear",
@@ -736,7 +1158,15 @@ window.GUIDE = {
       "summary": "Independent adventurers seeking lives beyond the schemes of supernatural powers.",
       "image": "assets/goblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/848/340/340/637880558308320616.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026391-goblin"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026391-goblin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Goblin%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "+1 Constitution",
+        "Darkvision",
+        "Fury of the Small",
+        "Nimble Escape"
+      ]
     },
     {
       "name": "Goliath",
@@ -751,19 +1181,35 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "goliath",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Natural Athlete",
+        "Stone's Endurance",
+        "Powerful Build",
+        "Mountain Born"
+      ],
       "related": [
         "firbolg"
       ],
       "summary": "Giant descendants driven to surpass the achievements of their forebears.",
       "image": "assets/goliath.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751439-goliath"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751439-goliath",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Goliath%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Natural Athlete",
+        "Stone's Endurance",
+        "Powerful Build",
+        "Mountain Born"
+      ]
     },
     {
       "name": "Grung",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Lizardfolk",
@@ -773,7 +1219,16 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "grung",
-      "keywords": [],
+      "keywords": [
+        "+2 Dexterity",
+        "+1 Constitution",
+        "Arboreal Alertness",
+        "Amphibious",
+        "Poison Immunity",
+        "Poisonous Skin",
+        "Standing Leap",
+        "Water Dependency."
+      ],
       "related": [
         "lizardfolk",
         "locathah"
@@ -781,12 +1236,23 @@ window.GUIDE = {
       "summary": "A people distinguished by their own innate abilities.",
       "image": "assets/grung.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/8476/811/340/340/637153723192850723.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/302384-grung"
+      "sourceUrl": "https://www.dndbeyond.com/species/302384-grung",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Grung%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "+1 Constitution",
+        "Arboreal Alertness",
+        "Amphibious",
+        "Poison Immunity",
+        "Poisonous Skin",
+        "Standing Leap",
+        "Water Dependency."
+      ]
     },
     {
       "name": "Hadozee",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -797,7 +1263,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "hadozee",
-      "keywords": [],
+      "keywords": [
+        "Dexterous Feet",
+        "Glide",
+        "Hadozee Dodge"
+      ],
       "related": [
         "giff",
         "thri-kreen"
@@ -805,7 +1275,13 @@ window.GUIDE = {
       "summary": "World-hopping explorers eager to escape the predators of their native world.",
       "image": "assets/hadozee.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30164/439/340/340/638036921763577674.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121697-hadozee"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121697-hadozee",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hadozee%20Traits",
+      "traits": [
+        "Dexterous Feet",
+        "Glide",
+        "Hadozee Dodge"
+      ]
     },
     {
       "name": "Half-Elf",
@@ -821,7 +1297,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Popular",
       "id": "half-elf",
-      "keywords": [],
+      "keywords": [
+        "+2 Charisma",
+        "+1 to Two Other Ability Scores",
+        "Darkvision",
+        "Fey Ancestry",
+        "Skill Versatility"
+      ],
       "related": [
         "elf",
         "human",
@@ -830,7 +1312,15 @@ window.GUIDE = {
       "summary": "People whose heritage brings together elven and human qualities.",
       "image": "assets/half-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/241/340/340/636771215841402193.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/20-half-elf"
+      "sourceUrl": "https://www.dndbeyond.com/species/20-half-elf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Half-Elf%20Traits",
+      "traits": [
+        "+2 Charisma",
+        "+1 to Two Other Ability Scores",
+        "Darkvision",
+        "Fey Ancestry",
+        "Skill Versatility"
+      ]
     },
     {
       "name": "Half-Orc",
@@ -847,7 +1337,14 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Common",
       "id": "half-orc",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Darkvision",
+        "Menacing",
+        "Relentless Endurance",
+        "Savage Attacks"
+      ],
       "related": [
         "orc",
         "human"
@@ -855,7 +1352,16 @@ window.GUIDE = {
       "summary": "Leaders and adventurers who earn renown through remarkable deeds.",
       "image": "assets/half-orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/245/340/340/636771216332458941.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2-half-orc"
+      "sourceUrl": "https://www.dndbeyond.com/species/2-half-orc",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Half-Orc%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Darkvision",
+        "Menacing",
+        "Relentless Endurance",
+        "Savage Attacks"
+      ]
     },
     {
       "name": "Halfling",
@@ -869,7 +1375,18 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "halfling",
-      "keywords": [],
+      "keywords": [
+        "Brave",
+        "Creature Cover",
+        "Lucky",
+        "Helping Hand",
+        "Pass Through",
+        "Power Nap",
+        "Artisanal Focus (Brewer’s Supplies",
+        "Cook’s Utensils",
+        "or Potter’s Tools)",
+        "Embrace the Past"
+      ],
       "related": [
         "kender",
         "kithkin",
@@ -878,12 +1395,25 @@ window.GUIDE = {
       "summary": "Courageous wanderers drawn toward adventure and discovery.",
       "image": "assets/halfling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/520/340/340/638607450551607741.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751440-halfling"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751440-halfling",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Halfling%20Traits",
+      "traits": [
+        "Brave",
+        "Creature Cover",
+        "Lucky",
+        "Helping Hand",
+        "Pass Through",
+        "Power Nap",
+        "Artisanal Focus (Brewer’s Supplies",
+        "Cook’s Utensils",
+        "or Potter’s Tools)",
+        "Embrace the Past"
+      ]
     },
     {
       "name": "Harengon",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -895,7 +1425,11 @@ window.GUIDE = {
       "id": "harengon",
       "keywords": [
         "rabbit",
-        "hare"
+        "hare",
+        "Hare-Trigger",
+        "Leporine Senses",
+        "Lucky Footwork",
+        "Rabbit Hop"
       ],
       "related": [
         "lizardfolk",
@@ -904,7 +1438,14 @@ window.GUIDE = {
       "summary": "Adventurers whose inherited fey fortune helps them escape trouble.",
       "image": "assets/harengon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20479/333/340/340/637677702147583039.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/814914-harengon"
+      "sourceUrl": "https://www.dndbeyond.com/species/814914-harengon",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Harengon%20Traits",
+      "traits": [
+        "Hare-Trigger",
+        "Leporine Senses",
+        "Lucky Footwork",
+        "Rabbit Hop"
+      ]
     },
     {
       "name": "Hexblood",
@@ -921,7 +1462,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "hexblood",
-      "keywords": [],
+      "keywords": [
+        "Fey",
+        "Ancestral Legacy",
+        "Darkvision",
+        "Eerie Token",
+        "Hex Magic"
+      ],
       "related": [
         "dhampir",
         "reborn"
@@ -929,7 +1476,15 @@ window.GUIDE = {
       "summary": "People transformed by supernatural forces or witchcraft into bearers of fey magic.",
       "image": "assets/hexblood.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/802/340/340/639156777330481834.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2161358-hexblood"
+      "sourceUrl": "https://www.dndbeyond.com/species/2161358-hexblood",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hexblood%20Traits",
+      "traits": [
+        "Fey",
+        "Ancestral Legacy",
+        "Darkvision",
+        "Eerie Token",
+        "Hex Magic"
+      ]
     },
     {
       "name": "Hobgoblin",
@@ -943,7 +1498,13 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "hobgoblin",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "+1 Intelligence",
+        "Darkvision",
+        "Martial Training",
+        "Saving Face"
+      ],
       "related": [
         "goblin",
         "bugbear",
@@ -952,7 +1513,15 @@ window.GUIDE = {
       "summary": "Goblin kin with ancestral ties to the Feywild’s ancient courts.",
       "image": "assets/hobgoblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/854/340/340/637880558317251137.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hobgoblin%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 Intelligence",
+        "Darkvision",
+        "Martial Training",
+        "Saving Face"
+      ]
     },
     {
       "name": "Human",
@@ -967,7 +1536,16 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "human",
-      "keywords": [],
+      "keywords": [
+        "Awesome Critical",
+        "First Strike",
+        "Weapon Aptitude",
+        "Helping Hand",
+        "Intrinsic Orientation",
+        "Artisanal Focus",
+        "Keen Survivor",
+        "Skill Prowess"
+      ],
       "related": [
         "half-elf",
         "half-orc"
@@ -975,7 +1553,18 @@ window.GUIDE = {
       "summary": "A widespread people with countless backgrounds across the multiverse.",
       "image": "assets/human.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/545/340/340/638607451217645102.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751441-human"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751441-human",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Human%20Traits",
+      "traits": [
+        "Awesome Critical",
+        "First Strike",
+        "Weapon Aptitude",
+        "Helping Hand",
+        "Intrinsic Orientation",
+        "Artisanal Focus",
+        "Keen Survivor",
+        "Skill Prowess"
+      ]
     },
     {
       "name": "Kalashtar",
@@ -991,7 +1580,14 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "kalashtar",
-      "keywords": [],
+      "keywords": [
+        "+2 Wisdom",
+        "+1 Charisma",
+        "Dual Mind",
+        "Mental Discipline",
+        "Mind Link",
+        "Severed from Dreams"
+      ],
       "related": [
         "aasimar",
         "githzerai"
@@ -999,7 +1595,16 @@ window.GUIDE = {
       "summary": "Humans joined with rebellious dream spirits known as quori.",
       "image": "assets/kalashtar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/768/340/340/638996059008181029.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2048552-kalashtar"
+      "sourceUrl": "https://www.dndbeyond.com/species/2048552-kalashtar",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kalashtar%20Traits",
+      "traits": [
+        "+2 Wisdom",
+        "+1 Charisma",
+        "Dual Mind",
+        "Mental Discipline",
+        "Mind Link",
+        "Severed from Dreams"
+      ]
     },
     {
       "name": "Kender",
@@ -1014,7 +1619,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "kender",
-      "keywords": [],
+      "keywords": [
+        "Fearless",
+        "Kender Aptitude",
+        "Taunt"
+      ],
       "related": [
         "halfling",
         "kithkin"
@@ -1022,12 +1631,18 @@ window.GUIDE = {
       "summary": "Adventurers propelled by an extraordinary urge to investigate the unknown.",
       "image": "assets/kender.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30414/576/340/340/638046466639880074.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1214237-kender"
+      "sourceUrl": "https://www.dndbeyond.com/species/1214237-kender",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kender%20Traits",
+      "traits": [
+        "Fearless",
+        "Kender Aptitude",
+        "Taunt"
+      ]
     },
     {
       "name": "Kenku",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1037,7 +1652,13 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "kenku",
-      "keywords": [],
+      "keywords": [
+        "+2 Dexterity",
+        "+1 Wisdom",
+        "Expert Forgery",
+        "Kenku Training",
+        "Mimicry"
+      ],
       "related": [
         "tabaxi",
         "aarakocra",
@@ -1046,7 +1667,15 @@ window.GUIDE = {
       "summary": "Raven-colored folk encountered in both the Shadowfell and Material Plane.",
       "image": "assets/kenku.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/857/340/340/637880558322752046.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026394-kenku"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026394-kenku",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kenku%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "+1 Wisdom",
+        "Expert Forgery",
+        "Kenku Training",
+        "Mimicry"
+      ]
     },
     {
       "name": "Khoravar",
@@ -1063,7 +1692,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "khoravar",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Fey Ancestry",
+        "Fey Gift",
+        "Lethargy Resilience",
+        "Skill Versatility"
+      ],
       "related": [
         "half-elf",
         "elf",
@@ -1072,7 +1707,15 @@ window.GUIDE = {
       "summary": "Khorvaire communities with mixed elven and human ancestry and distinct traditions.",
       "image": "assets/khoravar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/772/340/340/638996059011924152.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2048553-khoravar"
+      "sourceUrl": "https://www.dndbeyond.com/species/2048553-khoravar",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Khoravar%20Traits",
+      "traits": [
+        "Darkvision",
+        "Fey Ancestry",
+        "Fey Gift",
+        "Lethargy Resilience",
+        "Skill Versatility"
+      ]
     },
     {
       "name": "Kithkin",
@@ -1087,7 +1730,12 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "kithkin",
-      "keywords": [],
+      "keywords": [
+        "Brave",
+        "Kithkin Nimbleness",
+        "Luck",
+        "Naturally Stealthy"
+      ],
       "related": [
         "halfling",
         "kender"
@@ -1095,12 +1743,19 @@ window.GUIDE = {
       "summary": "Closely bonded communities connected through a shared awareness of emotions.",
       "image": "assets/kithkin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/842/340/340/638989936722559821.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043671-kithkin"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043671-kithkin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kithkin%20Traits",
+      "traits": [
+        "Brave",
+        "Kithkin Nimbleness",
+        "Luck",
+        "Naturally Stealthy"
+      ]
     },
     {
       "name": "Kobold",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1111,7 +1766,14 @@ window.GUIDE = {
       "id": "kobold",
       "keywords": [
         "dragon",
-        "draconic"
+        "draconic",
+        "+2 Dexterity",
+        "Darkvision",
+        "Grovel",
+        "Cower",
+        "and Beg",
+        "Pack Tactics",
+        "Sunlight Sensitivity"
       ],
       "related": [
         "kenku",
@@ -1121,12 +1783,22 @@ window.GUIDE = {
       "summary": "Little dragon kin whose scales and voices reveal their ancestry.",
       "image": "assets/kobold.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/860/340/340/637880558325912164.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026395-kobold"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026395-kobold",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kobold%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "Darkvision",
+        "Grovel",
+        "Cower",
+        "and Beg",
+        "Pack Tactics",
+        "Sunlight Sensitivity"
+      ]
     },
     {
       "name": "Leonin",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -1136,7 +1808,14 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "leonin",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "+1 Strength",
+        "Darkvision",
+        "Claws",
+        "Hunter's Instincts",
+        "Daunting Roar."
+      ],
       "related": [
         "tabaxi",
         "minotaur"
@@ -1144,12 +1823,21 @@ window.GUIDE = {
       "summary": "Lionlike nomads who find much of what they need within their homeland.",
       "image": "assets/leonin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/10836/174/340/340/637266329893978901.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/410992-leonin"
+      "sourceUrl": "https://www.dndbeyond.com/species/410992-leonin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Leonin%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 Strength",
+        "Darkvision",
+        "Claws",
+        "Hunter's Instincts",
+        "Daunting Roar."
+      ]
     },
     {
       "name": "Lizardfolk",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1158,7 +1846,16 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "lizardfolk",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "+1 Wisdom",
+        "Bite",
+        "Cunning Artisan",
+        "Hold Breath",
+        "Hunter's Lore",
+        "Natural Armor",
+        "Hungry Jaws"
+      ],
       "related": [
         "harengon",
         "tortle",
@@ -1167,12 +1864,23 @@ window.GUIDE = {
       "summary": "Resourceful survivors with natural defenses and a supernatural bond with nature.",
       "image": "assets/lizardfolk.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/863/340/340/637880558330492909.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lizardfolk%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 Wisdom",
+        "Bite",
+        "Cunning Artisan",
+        "Hold Breath",
+        "Hunter's Lore",
+        "Natural Armor",
+        "Hungry Jaws"
+      ]
     },
     {
       "name": "Locathah",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Lizardfolk",
@@ -1185,7 +1893,13 @@ window.GUIDE = {
       "keywords": [
         "underwater",
         "aquatic",
-        "fish"
+        "fish",
+        "+2 Strength",
+        "+1 Dexterity",
+        "Natural Armor",
+        "Observant & Athletic",
+        "Leviathan Will",
+        "Limited Amphibiousness"
       ],
       "related": [
         "triton",
@@ -1194,7 +1908,16 @@ window.GUIDE = {
       "summary": "Proud aquatic folk with a history of surviving oppression and conflict.",
       "image": "assets/locathah.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/7245/523/340/340/637049342037310595.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/229754-locathah"
+      "sourceUrl": "https://www.dndbeyond.com/species/229754-locathah",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Locathah%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Dexterity",
+        "Natural Armor",
+        "Observant & Athletic",
+        "Leviathan Will",
+        "Limited Amphibiousness"
+      ]
     },
     {
       "name": "Lorwyn Changeling",
@@ -1211,14 +1934,26 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "lorwyn-changeling",
-      "keywords": [],
+      "keywords": [
+        "Shape Self",
+        "Darkvision",
+        "Delightful Imitator",
+        "Unpredictable Movement"
+      ],
       "related": [
         "changeling"
       ],
       "summary": "Personable shapeshifters who approximate both animal and plant forms.",
       "image": "assets/lorwyn-changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/845/340/340/638989936726771946.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043672-lorwyn-changeling"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043672-lorwyn-changeling",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lorwyn%20Changeling%20Traits",
+      "traits": [
+        "Shape Self",
+        "Darkvision",
+        "Delightful Imitator",
+        "Unpredictable Movement"
+      ]
     },
     {
       "name": "Lorwyn-Shadowmoor Elf",
@@ -1234,7 +1969,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "lorwyn-shadowmoor-elf",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Elven Lineage",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Trance"
+      ],
       "related": [
         "elf",
         "kithkin"
@@ -1242,12 +1983,20 @@ window.GUIDE = {
       "summary": "Elves devoted to safeguarding beauty according to their own exacting ideals.",
       "image": "assets/lorwyn-shadowmoor-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/848/340/340/638989936729893567.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043673-lorwyn-shadowmoor-elf"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043673-lorwyn-shadowmoor-elf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lorwyn-Shadowmoor%20Elf%20Traits",
+      "traits": [
+        "Darkvision",
+        "Elven Lineage",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Trance"
+      ]
     },
     {
       "name": "Loxodon",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -1257,7 +2006,15 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "loxodon",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "+1 Wisdom",
+        "Powerful Build",
+        "Loxodon Serenity",
+        "Natural Armor",
+        "Trunk",
+        "Keen Smell"
+      ],
       "related": [
         "giff",
         "vedalken"
@@ -1265,12 +2022,22 @@ window.GUIDE = {
       "summary": "Elephantlike people known for strength, composure, and good judgment.",
       "image": "assets/loxodon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/668/340/340/636771268917722729.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/67607-loxodon"
+      "sourceUrl": "https://www.dndbeyond.com/species/67607-loxodon",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Loxodon%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 Wisdom",
+        "Powerful Build",
+        "Loxodon Serenity",
+        "Natural Armor",
+        "Trunk",
+        "Keen Smell"
+      ]
     },
     {
       "name": "Lupin",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -1281,7 +2048,12 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "lupin",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Feral Pounce",
+        "Howl",
+        "Werewolf Instincts"
+      ],
       "related": [
         "shifter",
         "tabaxi"
@@ -1289,12 +2061,19 @@ window.GUIDE = {
       "summary": "People changed by werewolf encounters without becoming fully afflicted by lycanthropy.",
       "image": "assets/lupin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/806/340/340/639156777334849929.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2161359-lupin"
+      "sourceUrl": "https://www.dndbeyond.com/species/2161359-lupin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lupin%20Traits",
+      "traits": [
+        "Darkvision",
+        "Feral Pounce",
+        "Howl",
+        "Werewolf Instincts"
+      ]
     },
     {
       "name": "Minotaur",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1303,7 +2082,14 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Uncommon",
       "id": "minotaur",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Horns",
+        "Goring Rush",
+        "Hammering Horns",
+        "Imposing Presence"
+      ],
       "related": [
         "centaur",
         "satyr"
@@ -1311,7 +2097,16 @@ window.GUIDE = {
       "summary": "Bull-headed people with a magical instinct for finding their way.",
       "image": "assets/minotaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/866/340/340/637880558335993110.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026397-minotaur"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026397-minotaur",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Minotaur%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Horns",
+        "Goring Rush",
+        "Hammering Horns",
+        "Imposing Presence"
+      ]
     },
     {
       "name": "Orc",
@@ -1327,7 +2122,14 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "orc",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Darkvision",
+        "Aggressive",
+        "Primal Intuition",
+        "Powerful Build"
+      ],
       "related": [
         "half-orc",
         "hobgoblin"
@@ -1335,12 +2137,21 @@ window.GUIDE = {
       "summary": "Gifted wanderers equipped for journeys across land, underground, and at sea.",
       "image": "assets/orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/567/340/340/638607451596983406.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751442-orc"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751442-orc",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Orc%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Constitution",
+        "Darkvision",
+        "Aggressive",
+        "Primal Intuition",
+        "Powerful Build"
+      ]
     },
     {
       "name": "Owlin",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Kenku",
@@ -1351,7 +2162,15 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "owlin",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Flight",
+        "Silent Feathers",
+        "flying",
+        "flight",
+        "fly",
+        "wings"
+      ],
       "related": [
         "aarakocra",
         "kenku"
@@ -1359,7 +2178,13 @@ window.GUIDE = {
       "summary": "Feathered folk whose quiet movements help them approach unnoticed.",
       "image": "assets/owlin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/22134/796/340/340/637743371993964160.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/883673-owlin"
+      "sourceUrl": "https://www.dndbeyond.com/species/883673-owlin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Owlin%20Traits",
+      "traits": [
+        "Darkvision",
+        "Flight",
+        "Silent Feathers"
+      ]
     },
     {
       "name": "Plasmoid",
@@ -1376,7 +2201,13 @@ window.GUIDE = {
       "id": "plasmoid",
       "keywords": [
         "ooze",
-        "slime"
+        "slime",
+        "Ooze",
+        "Amorphous",
+        "Darkvision",
+        "Hold Breath",
+        "Natural Resilience",
+        "Shape Self"
       ],
       "related": [
         "warforged",
@@ -1385,7 +2216,16 @@ window.GUIDE = {
       "summary": "Shapeless beings who often imitate the outlines of nearby people.",
       "image": "assets/plasmoid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/987/340/340/637961801059732713.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121698-plasmoid"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121698-plasmoid",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Plasmoid%20Traits",
+      "traits": [
+        "Ooze",
+        "Amorphous",
+        "Darkvision",
+        "Hold Breath",
+        "Natural Resilience",
+        "Shape Self"
+      ]
     },
     {
       "name": "Reborn",
@@ -1402,7 +2242,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "reborn",
-      "keywords": [],
+      "keywords": [
+        "Ancestral Legacy",
+        "Deathless Nature",
+        "Knowledge from a Past Life"
+      ],
       "related": [
         "dhampir",
         "hexblood"
@@ -1410,7 +2254,13 @@ window.GUIDE = {
       "summary": "People who remain alive despite having experienced death.",
       "image": "assets/reborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/810/340/340/639156777339378231.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2161360-reborn"
+      "sourceUrl": "https://www.dndbeyond.com/species/2161360-reborn",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Reborn%20Traits",
+      "traits": [
+        "Ancestral Legacy",
+        "Deathless Nature",
+        "Knowledge from a Past Life"
+      ]
     },
     {
       "name": "Rimekin",
@@ -1427,7 +2277,11 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Rare",
       "id": "rimekin",
-      "keywords": [],
+      "keywords": [
+        "Cold Fire Magic",
+        "Cold Resistance",
+        "Darkvision"
+      ],
       "related": [
         "flamekin",
         "genasi",
@@ -1436,12 +2290,18 @@ window.GUIDE = {
       "summary": "Former flamekin who favor detached reasoning over impulsive reactions.",
       "image": "assets/rimekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/851/340/340/638989936733950032.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2043674-rimekin"
+      "sourceUrl": "https://www.dndbeyond.com/species/2043674-rimekin",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Rimekin%20Traits",
+      "traits": [
+        "Cold Fire Magic",
+        "Cold Resistance",
+        "Darkvision"
+      ]
     },
     {
       "name": "Satyr",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1450,7 +2310,15 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Uncommon",
       "id": "satyr",
-      "keywords": [],
+      "keywords": [
+        "+2 Charisma",
+        "+1 Dexterity",
+        "Fey",
+        "Ram",
+        "Magic Resistance",
+        "Mirthful Leaps",
+        "Reveler."
+      ],
       "related": [
         "centaur",
         "minotaur"
@@ -1458,7 +2326,17 @@ window.GUIDE = {
       "summary": "Feywild natives energized by celebration and shared delight.",
       "image": "assets/satyr.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/872/340/340/637880558345964024.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026399-satyr"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026399-satyr",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Satyr%20Traits",
+      "traits": [
+        "+2 Charisma",
+        "+1 Dexterity",
+        "Fey",
+        "Ram",
+        "Magic Resistance",
+        "Mirthful Leaps",
+        "Reveler."
+      ]
     },
     {
       "name": "Sea Elf",
@@ -1477,7 +2355,14 @@ window.GUIDE = {
       "keywords": [
         "underwater",
         "aquatic",
-        "ocean"
+        "ocean",
+        "Elf",
+        "Child of the Sea",
+        "Darkvision",
+        "Fey Ancestry",
+        "Friend of the Sea",
+        "Keen Senses",
+        "Trance"
       ],
       "related": [
         "elf",
@@ -1487,7 +2372,17 @@ window.GUIDE = {
       "summary": "Elves whose longstanding fascination with the sea shaped their lives.",
       "image": "assets/sea-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/875/340/340/637880558350694580.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026400-sea-elf"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026400-sea-elf",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Sea%20Elf%20Traits",
+      "traits": [
+        "Elf",
+        "Child of the Sea",
+        "Darkvision",
+        "Fey Ancestry",
+        "Friend of the Sea",
+        "Keen Senses",
+        "Trance"
+      ]
     },
     {
       "name": "Shadar-kai",
@@ -1503,7 +2398,15 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "shadar-kai",
-      "keywords": [],
+      "keywords": [
+        "Elf",
+        "Blessing of the Raven Queen",
+        "Darkvision",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Necrotic Resistance",
+        "Trance"
+      ],
       "related": [
         "elf",
         "eladrin"
@@ -1511,12 +2414,22 @@ window.GUIDE = {
       "summary": "Elves altered by the Shadowfell into beings suspended between living and dead.",
       "image": "assets/shadar-kai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/878/340/340/637880558355344888.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026401-shadar-kai"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026401-shadar-kai",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Shadar-kai%20Traits",
+      "traits": [
+        "Elf",
+        "Blessing of the Raven Queen",
+        "Darkvision",
+        "Fey Ancestry",
+        "Keen Senses",
+        "Necrotic Resistance",
+        "Trance"
+      ]
     },
     {
       "name": "Shifter",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Tabaxi",
@@ -1527,7 +2440,10 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "shifter",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Shifting"
+      ],
       "related": [
         "lupin",
         "tabaxi"
@@ -1535,12 +2451,17 @@ window.GUIDE = {
       "summary": "Descendants of people affected by varying degrees of lycanthropy.",
       "image": "assets/shifter.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2048554-shifter"
+      "sourceUrl": "https://www.dndbeyond.com/species/2048554-shifter",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Shifter%20Traits",
+      "traits": [
+        "Darkvision",
+        "Shifting"
+      ]
     },
     {
       "name": "Simic Hybrid",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Dragonborn",
@@ -1550,7 +2471,12 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "simic-hybrid",
-      "keywords": [],
+      "keywords": [
+        "+2 Constitution",
+        "+1 One Other Ability Score",
+        "Darkvision",
+        "Animal Enhancement"
+      ],
       "related": [
         "vedalken",
         "loxodon"
@@ -1558,12 +2484,19 @@ window.GUIDE = {
       "summary": "People magically enhanced by the Simic Combine with animal characteristics.",
       "image": "assets/simic-hybrid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/674/340/340/636771269490577244.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/67585-simic-hybrid"
+      "sourceUrl": "https://www.dndbeyond.com/species/67585-simic-hybrid",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Simic%20Hybrid%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 One Other Ability Score",
+        "Darkvision",
+        "Animal Enhancement"
+      ]
     },
     {
       "name": "Tabaxi",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1573,7 +2506,14 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "tabaxi",
-      "keywords": [],
+      "keywords": [
+        "+2 Dexterity",
+        "+1 Charisma",
+        "Darkvision",
+        "Feline Agility",
+        "Cat's Claws",
+        "Cat's Talent"
+      ],
       "related": [
         "kenku",
         "leonin"
@@ -1581,12 +2521,21 @@ window.GUIDE = {
       "summary": "Cat Lord creations who combine feline and humanlike qualities in varied forms.",
       "image": "assets/tabaxi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/884/340/340/637880558365425808.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026403-tabaxi"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026403-tabaxi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tabaxi%20Traits",
+      "traits": [
+        "+2 Dexterity",
+        "+1 Charisma",
+        "Darkvision",
+        "Feline Agility",
+        "Cat's Claws",
+        "Cat's Talent"
+      ]
     },
     {
       "name": "Thri-kreen",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Lizardfolk",
@@ -1597,7 +2546,14 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "thri-kreen",
-      "keywords": [],
+      "keywords": [
+        "Monstrosity",
+        "Chameleon Carapace",
+        "Darkvision",
+        "Secondary Arms",
+        "Sleepless",
+        "Thri-kreen Telepathy"
+      ],
       "related": [
         "hadozee",
         "giff"
@@ -1605,7 +2561,16 @@ window.GUIDE = {
       "summary": "People who communicate thoughts and emotions through mandible and antenna movements.",
       "image": "assets/thri-kreen.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/990/340/340/637961801065660697.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1121699-thri-kreen"
+      "sourceUrl": "https://www.dndbeyond.com/species/1121699-thri-kreen",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Thri-kreen%20Traits",
+      "traits": [
+        "Monstrosity",
+        "Chameleon Carapace",
+        "Darkvision",
+        "Secondary Arms",
+        "Sleepless",
+        "Thri-kreen Telepathy"
+      ]
     },
     {
       "name": "Tiefling",
@@ -1621,7 +2586,13 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Popular",
       "id": "tiefling",
-      "keywords": [],
+      "keywords": [
+        "+2 Charisma",
+        "+1 Intelligence",
+        "Darkvision",
+        "Hellish Resistance",
+        "Infernal Legacy"
+      ],
       "related": [
         "aasimar",
         "changeling"
@@ -1629,12 +2600,20 @@ window.GUIDE = {
       "summary": "People connected to the Lower Planes through birthplace or fiendish ancestry.",
       "image": "assets/tiefling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1751443-tiefling"
+      "sourceUrl": "https://www.dndbeyond.com/species/1751443-tiefling",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tiefling%20Traits",
+      "traits": [
+        "+2 Charisma",
+        "+1 Intelligence",
+        "Darkvision",
+        "Hellish Resistance",
+        "Infernal Legacy"
+      ]
     },
     {
       "name": "Tortle",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "card-sort",
       "size": [
@@ -1644,7 +2623,15 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "tortle",
-      "keywords": [],
+      "keywords": [
+        "+2 Strength",
+        "+1 Wisdom",
+        "Claws",
+        "Hold Breath",
+        "Natural Armor",
+        "Shell Defense",
+        "Survival Instinct"
+      ],
       "related": [
         "harengon",
         "lizardfolk"
@@ -1652,7 +2639,17 @@ window.GUIDE = {
       "summary": "Travelers who carry the reassurance of a home wherever they journey.",
       "image": "assets/tortle.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/887/340/340/637880558371096448.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026404-tortle"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026404-tortle",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tortle%20Traits",
+      "traits": [
+        "+2 Strength",
+        "+1 Wisdom",
+        "Claws",
+        "Hold Breath",
+        "Natural Armor",
+        "Shell Defense",
+        "Survival Instinct"
+      ]
     },
     {
       "name": "Triton",
@@ -1667,7 +2664,15 @@ window.GUIDE = {
       "source": "card-sort",
       "commonality": "Common",
       "id": "triton",
-      "keywords": [],
+      "keywords": [
+        "+1 Strength",
+        "+1 Constitution",
+        "+1 Charisma",
+        "Amphibious",
+        "Control Air and Water",
+        "Emissary of the Sea",
+        "Guardians of the Depths"
+      ],
       "related": [
         "genasi",
         "water-genasi",
@@ -1676,7 +2681,17 @@ window.GUIDE = {
       "summary": "Ocean guardians whose care now reaches from the seabed to the surface.",
       "image": "assets/triton.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/890/340/340/637880558376086808.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026405-triton"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026405-triton",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Triton%20Traits",
+      "traits": [
+        "+1 Strength",
+        "+1 Constitution",
+        "+1 Charisma",
+        "Amphibious",
+        "Control Air and Water",
+        "Emissary of the Sea",
+        "Guardians of the Depths"
+      ]
     },
     {
       "name": "Vedalken",
@@ -1691,7 +2706,13 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "vedalken",
-      "keywords": [],
+      "keywords": [
+        "+2 Intelligence",
+        "+1 Wisdom",
+        "Vedalken Dispassion",
+        "Tireless Precision",
+        "Partially Amphibious"
+      ],
       "related": [
         "human",
         "simic-hybrid"
@@ -1699,7 +2720,15 @@ window.GUIDE = {
       "summary": "Blue-complexioned folk committed to the pursuit of perfecting their work.",
       "image": "assets/vedalken.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/670/340/340/636771269220743250.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/67582-vedalken"
+      "sourceUrl": "https://www.dndbeyond.com/species/67582-vedalken",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Vedalken%20Traits",
+      "traits": [
+        "+2 Intelligence",
+        "+1 Wisdom",
+        "Vedalken Dispassion",
+        "Tireless Precision",
+        "Partially Amphibious"
+      ]
     },
     {
       "name": "Verdan",
@@ -1715,14 +2744,30 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "verdan",
-      "keywords": [],
+      "keywords": [
+        "+1 Constitution",
+        "+2 Charisma",
+        "Black Blood Healing",
+        "Limited Telepathy",
+        "Persuasive",
+        "Telepathic Insight"
+      ],
       "related": [
         "goblin"
       ],
       "summary": "People born of chaos who are learning to navigate an unfamiliar world.",
       "image": "assets/verdan.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/6264/268/340/340/636957620228392831.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/169862-verdan"
+      "sourceUrl": "https://www.dndbeyond.com/species/169862-verdan",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Verdan%20Traits",
+      "traits": [
+        "+1 Constitution",
+        "+2 Charisma",
+        "Black Blood Healing",
+        "Limited Telepathy",
+        "Persuasive",
+        "Telepathic Insight"
+      ]
     },
     {
       "name": "Warforged",
@@ -1740,7 +2785,15 @@ window.GUIDE = {
       "keywords": [
         "robot",
         "construct",
-        "mechanical"
+        "mechanical",
+        "+2 Constitution",
+        "+1 to One Other Ability Score",
+        "Constructed Resilience",
+        "Sentry's Rest",
+        "Integrated Protection",
+        "Specialized Design",
+        "constructs",
+        "constructs"
       ],
       "related": [
         "autognome",
@@ -1749,7 +2802,16 @@ window.GUIDE = {
       "summary": "Artificial people originally created to serve as weapons in war.",
       "image": "assets/warforged.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/778/340/340/638996059022064405.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/2048555-warforged"
+      "sourceUrl": "https://www.dndbeyond.com/species/2048555-warforged",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Warforged%20Traits",
+      "traits": [
+        "+2 Constitution",
+        "+1 to One Other Ability Score",
+        "Constructed Resilience",
+        "Sentry's Rest",
+        "Integrated Protection",
+        "Specialized Design"
+      ]
     },
     {
       "name": "Water Genasi",
@@ -1769,7 +2831,11 @@ window.GUIDE = {
       "keywords": [
         "underwater",
         "aquatic",
-        "water"
+        "water",
+        "Acid Resistance",
+        "Amphibious",
+        "Call to the Wave",
+        "Darkvision"
       ],
       "related": [
         "genasi",
@@ -1779,12 +2845,19 @@ window.GUIDE = {
       "summary": "Elemental descendants naturally adapted to underwater life and the ocean’s power.",
       "image": "assets/water-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/893/340/340/637880558382857579.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026406-water-genasi"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026406-water-genasi",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Water%20Genasi%20Traits",
+      "traits": [
+        "Acid Resistance",
+        "Amphibious",
+        "Call to the Wave",
+        "Darkvision"
+      ]
     },
     {
       "name": "Yuan-ti",
       "types": [
-        "Beasts"
+        "Beasts/Animals"
       ],
       "typeBasis": "inferred",
       "typeAnalog": "Lizardfolk",
@@ -1795,14 +2868,26 @@ window.GUIDE = {
       "source": "prototype-extension",
       "commonality": "Uncommon",
       "id": "yuan-ti",
-      "keywords": [],
+      "keywords": [
+        "Darkvision",
+        "Magic Resistance",
+        "Poison Resilience",
+        "Serpentine Spellcasting"
+      ],
       "related": [
         "lizardfolk"
       ],
       "summary": "Serpent-descended people whose transformative rituals grant magical and poison defenses.",
       "image": "assets/yuan-ti.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/896/340/340/637880558387597883.png",
-      "sourceUrl": "https://www.dndbeyond.com/species/1026407-yuan-ti"
+      "sourceUrl": "https://www.dndbeyond.com/species/1026407-yuan-ti",
+      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Yuan-ti%20Traits",
+      "traits": [
+        "Darkvision",
+        "Magic Resistance",
+        "Poison Resilience",
+        "Serpentine Spellcasting"
+      ]
     }
   ],
   "hierarchy": {
@@ -1849,32 +2934,6 @@ window.GUIDE = {
       "Warforged",
       "Water Genasi"
     ],
-    "Beasts": [
-      "Aarakocra",
-      "Bugbear",
-      "Centaur",
-      "Dragonborn",
-      "Giff",
-      "Grung",
-      "Hadozee",
-      "Harengon",
-      "Kenku",
-      "Kobold",
-      "Leonin",
-      "Lizardfolk",
-      "Locathah",
-      "Loxodon",
-      "Lupin",
-      "Minotaur",
-      "Owlin",
-      "Satyr",
-      "Shifter",
-      "Simic Hybrid",
-      "Tabaxi",
-      "Thri-kreen",
-      "Tortle",
-      "Yuan-ti"
-    ],
     "Magical": [
       "Aasimar",
       "Air Genasi",
@@ -1918,6 +2977,32 @@ window.GUIDE = {
       "Hobgoblin",
       "Orc",
       "Verdan"
+    ],
+    "Beasts/Animals": [
+      "Aarakocra",
+      "Bugbear",
+      "Centaur",
+      "Dragonborn",
+      "Giff",
+      "Grung",
+      "Hadozee",
+      "Harengon",
+      "Kenku",
+      "Kobold",
+      "Leonin",
+      "Lizardfolk",
+      "Locathah",
+      "Loxodon",
+      "Lupin",
+      "Minotaur",
+      "Owlin",
+      "Satyr",
+      "Shifter",
+      "Simic Hybrid",
+      "Tabaxi",
+      "Thri-kreen",
+      "Tortle",
+      "Yuan-ti"
     ]
   },
   "sorts": [

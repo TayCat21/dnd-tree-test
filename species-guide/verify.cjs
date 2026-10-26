@@ -1,7 +1,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');const c={window:{}};for(const file of ['data.js','model.js'])vm.runInNewContext(fs.readFileSync(__dirname+'/'+file,'utf8'),c);const d=c.window.GUIDE,m=c.window.GuideModel;
 // Card-sort tallies: sorts (of the 6 categorical ones; AJ's and Matt's ranked sorts excluded) placing each studied species in each Type. A Type applies at >=2.
 const tally={Aarakocra:{Beasts:5,Magical:1},Aasimar:{Humanoids:4,Magical:4},Bugbear:{Beasts:3,Goblinoids:1},Centaur:{Beasts:5,Magical:1},Changeling:{Humanoids:3,Magical:5},Dragonborn:{Humanoids:1,Beasts:5},Dwarf:{Humanoids:3,Magical:2},Elf:{Humanoids:4,Magical:4},Fairy:{Beasts:1,Magical:3},Firbolg:{Humanoids:2,Beasts:1},Genasi:{Humanoids:3,Magical:4},Gnome:{Humanoids:4,Magical:1},Goblin:{Magical:1,Goblinoids:3},Goliath:{Humanoids:3},Halfling:{Humanoids:4},Harengon:{Beasts:6},Hobgoblin:{Humanoids:1,Magical:1,Goblinoids:3},Human:{Humanoids:6},Kenku:{Beasts:6},Kobold:{Beasts:4,Magical:1},Lizardfolk:{Beasts:6},Minotaur:{Beasts:5},Orc:{Humanoids:2,Magical:2,Goblinoids:2},Plasmoid:{Humanoids:1,Magical:4},Satyr:{Beasts:5,Magical:1},Tabaxi:{Beasts:6},Tiefling:{Humanoids:4,Magical:4},Tortle:{Beasts:6},Triton:{Humanoids:3,Magical:4},Warforged:{Humanoids:2,Magical:1}};
-const types=d.views[0].options,byName=Object.fromEntries(Array.from(d.blocks,b=>[b.name,b])),fromSort=n=>Array.from(types.filter(t=>(tally[n][t]||0)>=2));
+const types=d.views[0].options,byName=Object.fromEntries(Array.from(d.blocks,b=>[b.name,b])),fromSort=n=>Array.from(types.filter(t=>(tally[n][t==='Beasts/Animals'?'Beasts':t]||0)>=2));
 assert.equal(d.blocks.length,73);assert.equal(m.browse(d,'type','').length,73);assert.equal(new Set(d.blocks.map(b=>b.id)).size,73);assert.equal(Object.keys(tally).length,30);
 for(const b of d.blocks){assert(b.types.length>0,b.name+' has no Type');if(b.typeBasis==='card-sort'){assert(tally[b.name],b.name+' is not in the card sort');assert.deepEqual(Array.from(b.types),fromSort(b.name),b.name);}else{assert.equal(b.typeBasis,'inferred',b.name);assert(!tally[b.name],b.name+' is in the card sort');assert(tally[b.typeAnalog],b.name+' analog '+b.typeAnalog);assert.deepEqual(Array.from(b.types),Array.from(byName[b.typeAnalog].types),b.name);}}
 for(const t of types)assert.deepEqual(Array.from(m.browse(d,'type',t),b=>b.name).sort(),Array.from(d.blocks.filter(b=>b.types.includes(t)),b=>b.name).sort());
@@ -14,13 +14,20 @@ assert(names('robot').includes('Warforged'));assert(names('underwater').includes
 console.log('PASS: 73 unique blocks, every block has a Type (30 from card-sort tallies + 43 inferred from a studied relative), complete size coverage, 1-3 valid related species each, local image files, keyword/synonym/multiple-term/typo search, empty and unmatched queries.');
 // Multi-select filters use OR within a category and AND across categories, including search.
 const selections=m.readFilters(d,new URLSearchParams('type=Humanoids,Beasts&type=Humanoids&size=Small,Medium&common=Common,Popular'));
-assert.deepEqual(JSON.parse(JSON.stringify(selections)),{type:['Humanoids','Beasts'],size:['Small','Medium'],common:['Common','Popular']});
-const expected=d.blocks.filter(b=>b.types.some(t=>['Humanoids','Beasts'].includes(t))&&b.size.some(s=>['Small','Medium'].includes(s))&&['Common','Popular'].includes(b.commonality));
+assert.deepEqual(JSON.parse(JSON.stringify(selections)),{type:['Humanoids','Beasts/Animals'],size:['Small','Medium'],common:['Common','Popular']});
+const expected=d.blocks.filter(b=>b.types.some(t=>['Humanoids','Beasts/Animals'].includes(t))&&b.size.some(s=>['Small','Medium'].includes(s))&&['Common','Popular'].includes(b.commonality));
 assert.deepEqual(Array.from(m.filterBlocks(d.blocks,selections),b=>b.id),Array.from(expected,b=>b.id));
 assert(expected.length>0);
 assert.equal(m.filterBlocks(d.blocks,{type:[],size:[],common:[]}).length,73);
-assert.deepEqual(Array.from(m.readFilters(d,new URLSearchParams('view=type&category=Beasts&filter=Small&common=Rare')).type),['Beasts']);
+assert.deepEqual(Array.from(m.readFilters(d,new URLSearchParams('view=type&category=Beasts&filter=Small&common=Rare')).type),['Beasts/Animals']);
 assert.deepEqual(Array.from(m.readFilters(d,new URLSearchParams('view=size&category=Small&filter=Beasts')).size),['Small']);
 assert.equal(m.readFilters(d,new URLSearchParams('type=invalid&size=invalid&common=invalid')).type.length,0);
 assert(m.filterBlocks(m.search(d.blocks,'elf'),{type:['Humanoids','Magical'],size:[],common:[]}).length>0);
 console.log('PASS: multi-select union, combined category intersection, empty selections, legacy links, invalid values, and search filtering.');
+
+for(const name of ['Warforged','Autognome'])assert(names('construct').includes(name));
+for(const name of ['Aarakocra','Fairy','Owlin','Dragonborn'])assert(names('flying').includes(name));
+for(const name of ['Dwarf','Elf','Tiefling','Owlin'])assert(names('darkvision').includes(name));
+for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert.equal(decodeURIComponent(b.infoUrl.split('text=')[1]),b.name+' Traits');}
+assert(d.views[0].options.includes('Beasts/Animals'));
+console.log('PASS: renamed category, construct/flying/darkvision search, official traits and species-specific info targets.');
