@@ -63,7 +63,7 @@ window.GUIDE = {
       "image": "assets/aarakocra.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/805/340/340/637880558238234188.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026377-aarakocra",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Aarakocra%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026377-aarakocra",
       "traits": [
         "+2 Dexterity",
         "+1 Wisdom",
@@ -105,7 +105,7 @@ window.GUIDE = {
       "image": "assets/aasimar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/408/340/340/638607447895916115.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751434-aasimar",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Aasimar%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751434-aasimar",
       "traits": [
         "+2 Charisma",
         "Darkvision",
@@ -144,7 +144,7 @@ window.GUIDE = {
       "image": "assets/air-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/811/340/340/637880558247164967.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026379-air-genasi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Air%20Genasi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026379-air-genasi",
       "traits": [
         "Darkvision",
         "Unending Breath",
@@ -184,7 +184,7 @@ window.GUIDE = {
       "image": "assets/astral-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/974/340/340/637961801034929138.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121694-astral-elf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Astral%20Elf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121694-astral-elf",
       "traits": [
         "Elf",
         "Astral Fire",
@@ -230,7 +230,7 @@ window.GUIDE = {
       "image": "assets/autognome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/977/340/340/637961801041012943.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121695-autognome",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Autognome%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121695-autognome",
       "traits": [
         "Construct",
         "Armored Casing",
@@ -268,7 +268,7 @@ window.GUIDE = {
       "image": "assets/boggart.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/832/340/340/638989936711639715.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043668-boggart",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Boggart%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043668-boggart",
       "traits": [
         "Goblinoid",
         "Darkvision",
@@ -307,7 +307,7 @@ window.GUIDE = {
       "image": "assets/bugbear.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/814/340/340/637880558251875529.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026380-bugbear",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Bugbear%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026380-bugbear",
       "traits": [
         "+2 Strength",
         "+1 Dexterity",
@@ -348,7 +348,7 @@ window.GUIDE = {
       "image": "assets/centaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/817/340/340/637880558257685997.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026381-centaur",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Centaur%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026381-centaur",
       "traits": [
         "+2 Strength",
         "+1 Wisdom",
@@ -391,7 +391,7 @@ window.GUIDE = {
       "image": "assets/changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048551-changeling",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Changeling%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2048551-changeling",
       "traits": [
         "+2 Charisma",
         "+1 to One Other Ability Score",
@@ -427,7 +427,7 @@ window.GUIDE = {
       "image": "assets/deep-gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/823/340/340/637880558268426976.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026383-deep-gnome",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Deep%20Gnome%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026383-deep-gnome",
       "traits": [
         "Gnome",
         "Darkvision",
@@ -466,7 +466,7 @@ window.GUIDE = {
       "image": "assets/dhampir.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56970/975/340/340/639160147726316096.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2038805-dhampir",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dhampir%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2038805-dhampir",
       "traits": [
         "Ancestral Legacy",
         "Darkvision",
@@ -511,7 +511,7 @@ window.GUIDE = {
       "image": "assets/dragonborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/435/340/340/638607448651696917.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751435-dragonborn",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dragonborn%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751435-dragonborn",
       "traits": [
         "Breath Weapon",
         "Damage Resistance (same as Breath Weapon)",
@@ -554,7 +554,7 @@ window.GUIDE = {
       "image": "assets/duergar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/826/340/340/637880558273447145.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026384-duergar",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Duergar%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026384-duergar",
       "traits": [
         "Dwarf",
         "Darkvision",
@@ -590,7 +590,7 @@ window.GUIDE = {
       "image": "assets/duskling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/58709/735/340/340/639240585368232920.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2209617-duskling",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Duskling%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2209617-duskling",
       "traits": [
         "Fey",
         "Darkvision",
@@ -637,7 +637,7 @@ window.GUIDE = {
       "image": "assets/dwarf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/451/340/340/638607448980217343.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751436-dwarf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Dwarf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751436-dwarf",
       "traits": [
         "Constitution +2",
         "Axes of the Dwarves",
@@ -675,7 +675,7 @@ window.GUIDE = {
       "image": "assets/earth-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/829/340/340/637880558277457736.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026385-earth-genasi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Earth%20Genasi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026385-earth-genasi",
       "traits": [
         "Darkvision",
         "Earth Walk",
@@ -712,7 +712,7 @@ window.GUIDE = {
       "image": "assets/eladrin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/833/340/340/637880558284138326.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026386-eladrin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Eladrin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026386-eladrin",
       "traits": [
         "Elf",
         "Darkvision",
@@ -757,7 +757,7 @@ window.GUIDE = {
       "image": "assets/elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/469/340/340/638607449397487719.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751437-elf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Elf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751437-elf",
       "traits": [
         "+2 Wisdom",
         "Elvish Dreams",
@@ -795,7 +795,7 @@ window.GUIDE = {
       "image": "assets/faerie.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/836/340/340/638989936715071699.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043669-faerie",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Faerie%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043669-faerie",
       "traits": [
         "Fey",
         "Faerie Magic",
@@ -834,7 +834,7 @@ window.GUIDE = {
       "image": "assets/fairy.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20472/300/340/340/637677434210847572.png",
       "sourceUrl": "https://www.dndbeyond.com/species/814913-fairy",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Fairy%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/814913-fairy",
       "traits": [
         "Fey",
         "Fairy Magic",
@@ -868,7 +868,7 @@ window.GUIDE = {
       "image": "assets/firbolg.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/836/340/340/637880558289018892.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026387-firbolg",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Firbolg%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026387-firbolg",
       "traits": [
         "+2 Wisdom",
         "+1 Strength",
@@ -907,7 +907,7 @@ window.GUIDE = {
       "image": "assets/fire-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/839/340/340/637880558293339379.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026388-fire-genasi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Fire%20Genasi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026388-fire-genasi",
       "traits": [
         "Darkvision",
         "Fire Resistance",
@@ -943,7 +943,7 @@ window.GUIDE = {
       "image": "assets/flamekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/839/340/340/638989936718818681.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043670-flamekin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Flamekin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043670-flamekin",
       "traits": [
         "Darkvision",
         "Fire Resistance",
@@ -979,7 +979,7 @@ window.GUIDE = {
       "image": "assets/genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/258/340/340/636771217169966981.png",
       "sourceUrl": "https://www.dndbeyond.com/species/23-genasi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Genasi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/23-genasi",
       "traits": [
         "+2 Constitution",
         "Air",
@@ -1014,7 +1014,7 @@ window.GUIDE = {
       "image": "assets/giff.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/980/340/340/637961801046316799.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121696-giff",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Giff%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121696-giff",
       "traits": [
         "Astral Spark",
         "Firearms Mastery",
@@ -1048,7 +1048,7 @@ window.GUIDE = {
       "image": "assets/githyanki.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/842/340/340/637880558298319720.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026389-githyanki",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Githyanki%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026389-githyanki",
       "traits": [
         "Astral Knowledge",
         "Githyanki Psionics",
@@ -1081,7 +1081,7 @@ window.GUIDE = {
       "image": "assets/githzerai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/845/340/340/637880558303930097.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026390-githzerai",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Githzerai%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026390-githzerai",
       "traits": [
         "Githzerai Psionics",
         "Mental Discipline",
@@ -1119,7 +1119,7 @@ window.GUIDE = {
       "image": "assets/gnome.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/482/340/340/638607449736508079.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751438-gnome",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Gnome%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751438-gnome",
       "traits": [
         "Magical Fortification",
         "Quick Slip",
@@ -1159,7 +1159,7 @@ window.GUIDE = {
       "image": "assets/goblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/848/340/340/637880558308320616.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026391-goblin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Goblin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026391-goblin",
       "traits": [
         "+2 Dexterity",
         "+1 Constitution",
@@ -1196,7 +1196,7 @@ window.GUIDE = {
       "image": "assets/goliath.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751439-goliath",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Goliath%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751439-goliath",
       "traits": [
         "+2 Strength",
         "+1 Constitution",
@@ -1237,7 +1237,7 @@ window.GUIDE = {
       "image": "assets/grung.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/8476/811/340/340/637153723192850723.png",
       "sourceUrl": "https://www.dndbeyond.com/species/302384-grung",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Grung%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/302384-grung",
       "traits": [
         "+2 Dexterity",
         "+1 Constitution",
@@ -1276,7 +1276,7 @@ window.GUIDE = {
       "image": "assets/hadozee.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30164/439/340/340/638036921763577674.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121697-hadozee",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hadozee%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121697-hadozee",
       "traits": [
         "Dexterous Feet",
         "Glide",
@@ -1313,7 +1313,7 @@ window.GUIDE = {
       "image": "assets/half-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/241/340/340/636771215841402193.png",
       "sourceUrl": "https://www.dndbeyond.com/species/20-half-elf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Half-Elf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/20-half-elf",
       "traits": [
         "+2 Charisma",
         "+1 to Two Other Ability Scores",
@@ -1353,7 +1353,7 @@ window.GUIDE = {
       "image": "assets/half-orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/245/340/340/636771216332458941.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2-half-orc",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Half-Orc%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2-half-orc",
       "traits": [
         "+2 Strength",
         "+1 Constitution",
@@ -1396,7 +1396,7 @@ window.GUIDE = {
       "image": "assets/halfling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/520/340/340/638607450551607741.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751440-halfling",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Halfling%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751440-halfling",
       "traits": [
         "Brave",
         "Creature Cover",
@@ -1439,7 +1439,7 @@ window.GUIDE = {
       "image": "assets/harengon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/20479/333/340/340/637677702147583039.png",
       "sourceUrl": "https://www.dndbeyond.com/species/814914-harengon",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Harengon%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/814914-harengon",
       "traits": [
         "Hare-Trigger",
         "Leporine Senses",
@@ -1477,7 +1477,7 @@ window.GUIDE = {
       "image": "assets/hexblood.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/802/340/340/639156777330481834.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161358-hexblood",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hexblood%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2161358-hexblood",
       "traits": [
         "Fey",
         "Ancestral Legacy",
@@ -1514,7 +1514,7 @@ window.GUIDE = {
       "image": "assets/hobgoblin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/854/340/340/637880558317251137.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Hobgoblin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026393-hobgoblin",
       "traits": [
         "+2 Constitution",
         "+1 Intelligence",
@@ -1554,7 +1554,7 @@ window.GUIDE = {
       "image": "assets/human.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/545/340/340/638607451217645102.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751441-human",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Human%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751441-human",
       "traits": [
         "Awesome Critical",
         "First Strike",
@@ -1596,7 +1596,7 @@ window.GUIDE = {
       "image": "assets/kalashtar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/768/340/340/638996059008181029.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048552-kalashtar",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kalashtar%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2048552-kalashtar",
       "traits": [
         "+2 Wisdom",
         "+1 Charisma",
@@ -1632,7 +1632,7 @@ window.GUIDE = {
       "image": "assets/kender.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/30414/576/340/340/638046466639880074.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1214237-kender",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kender%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1214237-kender",
       "traits": [
         "Fearless",
         "Kender Aptitude",
@@ -1668,7 +1668,7 @@ window.GUIDE = {
       "image": "assets/kenku.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/857/340/340/637880558322752046.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026394-kenku",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kenku%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026394-kenku",
       "traits": [
         "+2 Dexterity",
         "+1 Wisdom",
@@ -1708,7 +1708,7 @@ window.GUIDE = {
       "image": "assets/khoravar.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/772/340/340/638996059011924152.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048553-khoravar",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Khoravar%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2048553-khoravar",
       "traits": [
         "Darkvision",
         "Fey Ancestry",
@@ -1744,7 +1744,7 @@ window.GUIDE = {
       "image": "assets/kithkin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/842/340/340/638989936722559821.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043671-kithkin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kithkin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043671-kithkin",
       "traits": [
         "Brave",
         "Kithkin Nimbleness",
@@ -1784,7 +1784,7 @@ window.GUIDE = {
       "image": "assets/kobold.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/860/340/340/637880558325912164.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026395-kobold",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Kobold%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026395-kobold",
       "traits": [
         "+2 Dexterity",
         "Darkvision",
@@ -1824,7 +1824,7 @@ window.GUIDE = {
       "image": "assets/leonin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/10836/174/340/340/637266329893978901.png",
       "sourceUrl": "https://www.dndbeyond.com/species/410992-leonin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Leonin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/410992-leonin",
       "traits": [
         "+2 Constitution",
         "+1 Strength",
@@ -1865,7 +1865,7 @@ window.GUIDE = {
       "image": "assets/lizardfolk.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/863/340/340/637880558330492909.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lizardfolk%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026396-lizardfolk",
       "traits": [
         "+2 Constitution",
         "+1 Wisdom",
@@ -1909,7 +1909,7 @@ window.GUIDE = {
       "image": "assets/locathah.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/7245/523/340/340/637049342037310595.png",
       "sourceUrl": "https://www.dndbeyond.com/species/229754-locathah",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Locathah%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/229754-locathah",
       "traits": [
         "+2 Strength",
         "+1 Dexterity",
@@ -1947,7 +1947,7 @@ window.GUIDE = {
       "image": "assets/lorwyn-changeling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/845/340/340/638989936726771946.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043672-lorwyn-changeling",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lorwyn%20Changeling%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043672-lorwyn-changeling",
       "traits": [
         "Shape Self",
         "Darkvision",
@@ -1984,7 +1984,7 @@ window.GUIDE = {
       "image": "assets/lorwyn-shadowmoor-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/848/340/340/638989936729893567.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043673-lorwyn-shadowmoor-elf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lorwyn-Shadowmoor%20Elf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043673-lorwyn-shadowmoor-elf",
       "traits": [
         "Darkvision",
         "Elven Lineage",
@@ -2023,7 +2023,7 @@ window.GUIDE = {
       "image": "assets/loxodon.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/668/340/340/636771268917722729.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67607-loxodon",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Loxodon%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/67607-loxodon",
       "traits": [
         "+2 Constitution",
         "+1 Wisdom",
@@ -2062,7 +2062,7 @@ window.GUIDE = {
       "image": "assets/lupin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/806/340/340/639156777334849929.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161359-lupin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Lupin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2161359-lupin",
       "traits": [
         "Darkvision",
         "Feral Pounce",
@@ -2098,7 +2098,7 @@ window.GUIDE = {
       "image": "assets/minotaur.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/866/340/340/637880558335993110.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026397-minotaur",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Minotaur%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026397-minotaur",
       "traits": [
         "+2 Strength",
         "+1 Constitution",
@@ -2138,7 +2138,7 @@ window.GUIDE = {
       "image": "assets/orc.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/567/340/340/638607451596983406.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751442-orc",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Orc%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751442-orc",
       "traits": [
         "+2 Strength",
         "+1 Constitution",
@@ -2179,7 +2179,7 @@ window.GUIDE = {
       "image": "assets/owlin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/22134/796/340/340/637743371993964160.png",
       "sourceUrl": "https://www.dndbeyond.com/species/883673-owlin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Owlin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/883673-owlin",
       "traits": [
         "Darkvision",
         "Flight",
@@ -2217,7 +2217,7 @@ window.GUIDE = {
       "image": "assets/plasmoid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/987/340/340/637961801059732713.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121698-plasmoid",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Plasmoid%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121698-plasmoid",
       "traits": [
         "Ooze",
         "Amorphous",
@@ -2255,7 +2255,7 @@ window.GUIDE = {
       "image": "assets/reborn.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/56892/810/340/340/639156777339378231.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2161360-reborn",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Reborn%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2161360-reborn",
       "traits": [
         "Ancestral Legacy",
         "Deathless Nature",
@@ -2291,7 +2291,7 @@ window.GUIDE = {
       "image": "assets/rimekin.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52848/851/340/340/638989936733950032.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2043674-rimekin",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Rimekin%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2043674-rimekin",
       "traits": [
         "Cold Fire Magic",
         "Cold Resistance",
@@ -2327,7 +2327,7 @@ window.GUIDE = {
       "image": "assets/satyr.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/872/340/340/637880558345964024.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026399-satyr",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Satyr%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026399-satyr",
       "traits": [
         "+2 Charisma",
         "+1 Dexterity",
@@ -2373,7 +2373,7 @@ window.GUIDE = {
       "image": "assets/sea-elf.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/875/340/340/637880558350694580.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026400-sea-elf",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Sea%20Elf%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026400-sea-elf",
       "traits": [
         "Elf",
         "Child of the Sea",
@@ -2415,7 +2415,7 @@ window.GUIDE = {
       "image": "assets/shadar-kai.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/878/340/340/637880558355344888.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026401-shadar-kai",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Shadar-kai%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026401-shadar-kai",
       "traits": [
         "Elf",
         "Blessing of the Raven Queen",
@@ -2452,7 +2452,7 @@ window.GUIDE = {
       "image": "assets/shifter.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/775/340/340/638996059017540274.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048554-shifter",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Shifter%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2048554-shifter",
       "traits": [
         "Darkvision",
         "Shifting"
@@ -2485,7 +2485,7 @@ window.GUIDE = {
       "image": "assets/simic-hybrid.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/674/340/340/636771269490577244.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67585-simic-hybrid",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Simic%20Hybrid%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/67585-simic-hybrid",
       "traits": [
         "+2 Constitution",
         "+1 One Other Ability Score",
@@ -2522,7 +2522,7 @@ window.GUIDE = {
       "image": "assets/tabaxi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/884/340/340/637880558365425808.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026403-tabaxi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tabaxi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026403-tabaxi",
       "traits": [
         "+2 Dexterity",
         "+1 Charisma",
@@ -2562,7 +2562,7 @@ window.GUIDE = {
       "image": "assets/thri-kreen.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/28079/990/340/340/637961801065660697.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1121699-thri-kreen",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Thri-kreen%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1121699-thri-kreen",
       "traits": [
         "Monstrosity",
         "Chameleon Carapace",
@@ -2601,7 +2601,7 @@ window.GUIDE = {
       "image": "assets/tiefling.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/43940/586/340/340/638607451956352471.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1751443-tiefling",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tiefling%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1751443-tiefling",
       "traits": [
         "+2 Charisma",
         "+1 Intelligence",
@@ -2640,7 +2640,7 @@ window.GUIDE = {
       "image": "assets/tortle.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/887/340/340/637880558371096448.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026404-tortle",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Tortle%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026404-tortle",
       "traits": [
         "+2 Strength",
         "+1 Wisdom",
@@ -2682,7 +2682,7 @@ window.GUIDE = {
       "image": "assets/triton.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/890/340/340/637880558376086808.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026405-triton",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Triton%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026405-triton",
       "traits": [
         "+1 Strength",
         "+1 Constitution",
@@ -2721,7 +2721,7 @@ window.GUIDE = {
       "image": "assets/vedalken.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/4808/670/340/340/636771269220743250.png",
       "sourceUrl": "https://www.dndbeyond.com/species/67582-vedalken",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Vedalken%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/67582-vedalken",
       "traits": [
         "+2 Intelligence",
         "+1 Wisdom",
@@ -2759,7 +2759,7 @@ window.GUIDE = {
       "image": "assets/verdan.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/6264/268/340/340/636957620228392831.png",
       "sourceUrl": "https://www.dndbeyond.com/species/169862-verdan",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Verdan%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/169862-verdan",
       "traits": [
         "+1 Constitution",
         "+2 Charisma",
@@ -2803,7 +2803,7 @@ window.GUIDE = {
       "image": "assets/warforged.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/52994/778/340/340/638996059022064405.png",
       "sourceUrl": "https://www.dndbeyond.com/species/2048555-warforged",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Warforged%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/2048555-warforged",
       "traits": [
         "+2 Constitution",
         "+1 to One Other Ability Score",
@@ -2846,7 +2846,7 @@ window.GUIDE = {
       "image": "assets/water-genasi.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/893/340/340/637880558382857579.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026406-water-genasi",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Water%20Genasi%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026406-water-genasi",
       "traits": [
         "Acid Resistance",
         "Amphibious",
@@ -2881,7 +2881,7 @@ window.GUIDE = {
       "image": "assets/yuan-ti.png",
       "imageSource": "https://www.dndbeyond.com/avatars/thumbnails/25746/896/340/340/637880558387597883.png",
       "sourceUrl": "https://www.dndbeyond.com/species/1026407-yuan-ti",
-      "infoUrl": "https://www.dndbeyond.com/species#:~:text=Yuan-ti%20Traits",
+      "infoUrl": "https://www.dndbeyond.com/species/1026407-yuan-ti",
       "traits": [
         "Darkvision",
         "Magic Resistance",

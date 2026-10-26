@@ -28,6 +28,6 @@ console.log('PASS: multi-select union, combined category intersection, empty sel
 for(const name of ['Warforged','Autognome'])assert(names('construct').includes(name));
 for(const name of ['Aarakocra','Fairy','Owlin','Dragonborn'])assert(names('flying').includes(name));
 for(const name of ['Dwarf','Elf','Tiefling','Owlin'])assert(names('darkvision').includes(name));
-for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert.equal(decodeURIComponent(b.infoUrl.split('text=')[1]),b.name+' Traits');}
+for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert(/^https:\/\/www\.dndbeyond\.com\/species\/\d+-[a-z0-9-]+$/.test(b.infoUrl),b.name+' direct species link');}
 assert(d.views[0].options.includes('Beasts/Animals'));
-console.log('PASS: renamed category, construct/flying/darkvision search, official traits and species-specific info targets.');
+console.log('PASS: renamed category, construct/flying/darkvision search, official traits and direct species detail links.');
