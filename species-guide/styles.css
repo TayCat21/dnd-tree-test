@@ -112,8 +112,9 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .related-meta{margin-top:3px}
 @media(max-width:450px){.detail-toolbar{gap:12px}.detail-toolbar #search{width:60%}.detail-toolbar #search input{padding:10px 7px}.detail-toolbar #search button{padding:10px 8px}.related-card{width:100px}.related-card img{width:72px;height:72px}}
 
-/* Species traits stay above the divider separating the navigation tags. */
+/* Species traits read as a compact horizontal bullet list. */
 .species-traits{margin:20px 0 4px}
 .species-traits h2{font-size:17px;margin:0 0 10px}
-.species-traits ul{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0;font-size:12px;line-height:normal}
-.species-traits li{padding:8px 13px;border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--base)}
+.species-traits ul{display:flex;flex-wrap:wrap;gap:0 18px;list-style:none;margin:0;padding:0;font-size:12px;line-height:1.6;color:#000}
+.species-traits li{padding:0;border:0;border-radius:0;background:transparent;color:#000}
+.species-traits li::before{content:"•";margin-right:6px}
