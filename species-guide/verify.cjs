@@ -43,3 +43,8 @@ assert(animalNames('bug').includes('Bugbear'));assert.deepEqual(animalNames('sma
 console.log('PASS: animal searches (bird, cat, reptile and their plurals and other words) return exactly the matching species.');
 for(const q of ['aquatic','underwater'])assert.deepEqual(Array.from(m.search(d.blocks,q),b=>b.name).sort(),['Locathah','Sea Elf','Triton','Water Genasi'],q);
 console.log('PASS: aquatic and underwater searches find Locathah, Sea Elf, Triton, and Water Genasi.');
+
+// Release files: the page must load release copies identical to the current sources (run skills/deploy-species-guide/scripts/release.py prepare after editing them).
+const page=fs.readFileSync(__dirname+'/index.html','utf8');
+for(const source of ['styles.css','data.js','model.js','app.js']){const [stem,ext]=source.split('.');const ref=page.match(new RegExp(`releases/${stem}\\.[a-f0-9]+\\.${ext}`));assert(ref,'index.html loads no release of '+source);assert(fs.readFileSync(__dirname+'/'+ref[0]).equals(fs.readFileSync(__dirname+'/'+source)),`index.html loads ${ref[0]}, which does not match ${source}; run release.py prepare`);}
+console.log('PASS: index.html loads release files identical to styles.css, data.js, model.js, and app.js.');
