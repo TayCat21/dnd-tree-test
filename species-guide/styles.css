@@ -117,3 +117,6 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .species-traits h2{font-size:17px;margin:0 0 10px}
 .species-traits ul{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0;font-size:12px;line-height:normal}
 .species-traits li{padding:8px 13px;border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--base)}
+.tags-section{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px}
+.tags-section h2{flex:none;font-size:12px;margin:0}
+.tags-section .tag-list{flex:1 1 auto;min-width:0}
