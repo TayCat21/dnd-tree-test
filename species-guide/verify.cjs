@@ -28,9 +28,9 @@ console.log('PASS: multi-select union, combined category intersection, empty sel
 for(const name of ['Warforged','Autognome'])assert(names('construct').includes(name));
 for(const name of ['Aarakocra','Fairy','Owlin','Dragonborn'])assert(names('flying').includes(name));
 for(const name of ['Dwarf','Elf','Tiefling','Owlin'])assert(names('darkvision').includes(name));
-for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert(/^https:\/\/www\.dndbeyond\.com\/species\/\d+-[a-z0-9-]+$/.test(b.infoUrl),b.name+' direct species link');}
+for(const b of d.blocks){assert(b.traits.length,b.name+' missing official traits');assert(/^https:\/\/dnd5e\.wikidot\.com\/(?:lineage(?::[a-z0-9-]+)?|genasi)$/.test(b.infoUrl),b.name+' D&D 5e species link');}
 assert(d.views[0].options.includes('Beasts/Animals'));
-console.log('PASS: renamed category, construct/flying/darkvision search, official traits and direct species detail links.');
+console.log('PASS: renamed category, construct/flying/darkvision search, official traits and D&D 5e species detail links.');
 
 for(const b of d.blocks){assert(b.capabilities&&b.capabilities.split(' ').length>=20,b.name+' capabilities');if(b.traits.includes('Darkvision'))assert(/darkvision/i.test(b.capabilities),b.name+' darkvision');if(b.traits.includes('Flight')||b.traits.includes('Draconic Flight'))assert(/fly|flight/i.test(b.capabilities),b.name+' flight');}
 console.log('PASS: all 73 species have capability summaries, including their darkvision and flight traits.');
