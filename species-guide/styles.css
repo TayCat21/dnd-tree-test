@@ -37,7 +37,7 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .related-card img{width:36px;height:36px;object-fit:contain;background:var(--white);border-radius:3px;display:block;flex:none}
 .related-name{font-weight:700;font-size:12px;line-height:1.2}
 .related-meta{display:block;font-size:9px;font-weight:400;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-.block-detail .detail-link{margin:14px 0 0;font-size:14px}
+.block-detail .detail-link{margin:14px 0 0;font-size:14px;text-align:right}
 .detail-link a{color:var(--base)}
 .related-section{padding-bottom:0}
 
@@ -117,6 +117,3 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 .species-traits h2{font-size:17px;margin:0 0 10px}
 .species-traits ul{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0;font-size:12px;line-height:normal}
 .species-traits li{padding:8px 13px;border:1px solid var(--line);border-radius:20px;background:var(--white);color:var(--base)}
-.tags-section{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px}
-.tags-section h2{flex:none;font-size:12px;margin:0}
-.tags-section .tag-list{flex:1 1 auto;min-width:0}
