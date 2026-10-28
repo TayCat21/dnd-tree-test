@@ -2865,6 +2865,9 @@ window.GUIDE = {
       "commonality": "Common",
       "id": "triton",
       "keywords": [
+        "underwater",
+        "aquatic",
+        "ocean",
         "+1 Strength",
         "+1 Constitution",
         "+1 Charisma",

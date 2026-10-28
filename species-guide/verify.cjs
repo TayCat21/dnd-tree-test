@@ -41,3 +41,5 @@ for(const b of d.blocks)assert(Array.isArray(b.animals),b.name+' animals');
 for(const [q,expected] of [['bird',['Aarakocra','Kenku','Owlin']],['birds',['Aarakocra','Kenku','Owlin']],['cat',['Leonin','Tabaxi']],['feline',['Leonin','Tabaxi']],['reptile',['Dragonborn','Kobold','Lizardfolk','Tortle','Yuan-ti']],['reptiles',['Dragonborn','Kobold','Lizardfolk','Tortle','Yuan-ti']],['snake',['Yuan-ti']],['horse',['Centaur']]])assert.deepEqual(animalNames(q),expected,q);
 assert(animalNames('bug').includes('Bugbear'));assert.deepEqual(animalNames('small bird'),['Kenku','Owlin']);
 console.log('PASS: animal searches (bird, cat, reptile and their plurals and other words) return exactly the matching species.');
+for(const q of ['aquatic','underwater'])assert.deepEqual(Array.from(m.search(d.blocks,q),b=>b.name).sort(),['Locathah','Sea Elf','Triton','Water Genasi'],q);
+console.log('PASS: aquatic and underwater searches find Locathah, Sea Elf, Triton, and Water Genasi.');
