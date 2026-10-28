@@ -55,6 +55,10 @@ window.GUIDE = {
         "wings",
         "Wind Caller"
       ],
+      "animals": [
+        "bird",
+        "eagle"
+      ],
       "related": [
         "kenku",
         "tabaxi",
@@ -98,6 +102,7 @@ window.GUIDE = {
         "wings",
         "Celestial Revelation"
       ],
+      "animals": [],
       "related": [
         "tiefling",
         "changeling",
@@ -138,6 +143,7 @@ window.GUIDE = {
         "Lightning Resistance",
         "Mingle with the Wind"
       ],
+      "animals": [],
       "related": [
         "genasi",
         "earth-genasi",
@@ -179,6 +185,7 @@ window.GUIDE = {
         "Starlight Step",
         "Astral Trance"
       ],
+      "animals": [],
       "related": [
         "elf",
         "eladrin",
@@ -226,6 +233,7 @@ window.GUIDE = {
         "Sentry’s Rest",
         "Specialized Design"
       ],
+      "animals": [],
       "related": [
         "warforged",
         "gnome"
@@ -266,6 +274,7 @@ window.GUIDE = {
         "Fury of the Small",
         "Nimble Escape"
       ],
+      "animals": [],
       "related": [
         "goblin"
       ],
@@ -305,6 +314,7 @@ window.GUIDE = {
         "Surprise Attack",
         "Fey Ancestry"
       ],
+      "animals": [],
       "related": [
         "goblin",
         "hobgoblin",
@@ -347,6 +357,10 @@ window.GUIDE = {
         "Equine Build",
         "Survivor",
         "Natural Affinity"
+      ],
+      "animals": [
+        "mammal",
+        "horse"
       ],
       "related": [
         "satyr",
@@ -391,6 +405,7 @@ window.GUIDE = {
         "Fey",
         "Shape-Shifter"
       ],
+      "animals": [],
       "related": [
         "lorwyn-changeling",
         "aasimar",
@@ -428,6 +443,7 @@ window.GUIDE = {
         "Gnomish Magic Resistance",
         "Svirfneblin Camouflage"
       ],
+      "animals": [],
       "related": [
         "gnome",
         "duergar"
@@ -469,6 +485,7 @@ window.GUIDE = {
         "Vampiric Bite",
         "Trace of Undeath"
       ],
+      "animals": [],
       "related": [
         "hexblood",
         "reborn"
@@ -517,6 +534,10 @@ window.GUIDE = {
         "Damage Resistance",
         "Draconic Flight"
       ],
+      "animals": [
+        "reptile",
+        "dragon"
+      ],
       "related": [
         "lizardfolk",
         "kobold"
@@ -558,6 +579,7 @@ window.GUIDE = {
         "Dwarven Resilience",
         "Psionic Fortitude"
       ],
+      "animals": [],
       "related": [
         "dwarf",
         "deep-gnome"
@@ -595,6 +617,7 @@ window.GUIDE = {
         "Enhanced Jump",
         "Inner Magic"
       ],
+      "animals": [],
       "related": [
         "fairy",
         "faerie"
@@ -645,6 +668,7 @@ window.GUIDE = {
         "Dwarven Toughness",
         "Stonecunning"
       ],
+      "animals": [],
       "related": [
         "duergar",
         "gnome",
@@ -683,6 +707,7 @@ window.GUIDE = {
         "Earth Walk",
         "Merge with Stone"
       ],
+      "animals": [],
       "related": [
         "genasi",
         "water-genasi",
@@ -722,6 +747,7 @@ window.GUIDE = {
         "Keen Senses",
         "Trance"
       ],
+      "animals": [],
       "related": [
         "elf",
         "shadar-kai"
@@ -771,6 +797,7 @@ window.GUIDE = {
         "Keen Senses",
         "Trance"
       ],
+      "animals": [],
       "related": [
         "half-elf",
         "eladrin",
@@ -812,6 +839,7 @@ window.GUIDE = {
         "fly",
         "wings"
       ],
+      "animals": [],
       "related": [
         "fairy"
       ],
@@ -851,6 +879,7 @@ window.GUIDE = {
         "flight",
         "fly"
       ],
+      "animals": [],
       "related": [
         "faerie",
         "satyr"
@@ -887,6 +916,7 @@ window.GUIDE = {
         "Powerful Build",
         "Speech of Beast and Leaf"
       ],
+      "animals": [],
       "related": [
         "goliath"
       ],
@@ -923,6 +953,7 @@ window.GUIDE = {
         "Fire Resistance",
         "Reach to the Blaze"
       ],
+      "animals": [],
       "related": [
         "genasi",
         "flamekin",
@@ -960,6 +991,7 @@ window.GUIDE = {
         "Fire Resistance",
         "Reach to the Blaze"
       ],
+      "animals": [],
       "related": [
         "fire-genasi",
         "genasi",
@@ -997,6 +1029,7 @@ window.GUIDE = {
         "Fire",
         "Water Subraces"
       ],
+      "animals": [],
       "related": [
         "triton",
         "fire-genasi",
@@ -1034,6 +1067,10 @@ window.GUIDE = {
         "Firearms Mastery",
         "Hippo Build"
       ],
+      "animals": [
+        "mammal",
+        "hippo"
+      ],
       "related": [
         "hadozee",
         "loxodon"
@@ -1069,6 +1106,7 @@ window.GUIDE = {
         "Githyanki Psionics",
         "Psychic Resilience"
       ],
+      "animals": [],
       "related": [
         "githzerai",
         "astral-elf"
@@ -1104,6 +1142,7 @@ window.GUIDE = {
         "Mental Discipline",
         "Psychic Resilience"
       ],
+      "animals": [],
       "related": [
         "githyanki"
       ],
@@ -1143,6 +1182,7 @@ window.GUIDE = {
         "Gnomish Cunning",
         "Gnomish Lineage"
       ],
+      "animals": [],
       "related": [
         "deep-gnome",
         "autognome",
@@ -1181,6 +1221,7 @@ window.GUIDE = {
         "Goblinoid",
         "Fey Ancestry"
       ],
+      "animals": [],
       "related": [
         "hobgoblin",
         "bugbear",
@@ -1223,6 +1264,7 @@ window.GUIDE = {
         "Giant Ancestry",
         "Large Form"
       ],
+      "animals": [],
       "related": [
         "firbolg"
       ],
@@ -1260,6 +1302,10 @@ window.GUIDE = {
         "Poisonous Skin",
         "Standing Leap",
         "Water Dependency."
+      ],
+      "animals": [
+        "amphibian",
+        "frog"
       ],
       "related": [
         "lizardfolk",
@@ -1301,6 +1347,11 @@ window.GUIDE = {
         "Glide",
         "Hadozee Dodge"
       ],
+      "animals": [
+        "mammal",
+        "primate",
+        "monkey"
+      ],
       "related": [
         "giff",
         "thri-kreen"
@@ -1338,6 +1389,7 @@ window.GUIDE = {
         "Fey Ancestry",
         "Skill Versatility"
       ],
+      "animals": [],
       "related": [
         "elf",
         "human",
@@ -1380,6 +1432,7 @@ window.GUIDE = {
         "Relentless Endurance",
         "Savage Attacks"
       ],
+      "animals": [],
       "related": [
         "orc",
         "human"
@@ -1426,6 +1479,7 @@ window.GUIDE = {
         "Luck",
         "Naturally Stealthy"
       ],
+      "animals": [],
       "related": [
         "kender",
         "kithkin",
@@ -1464,6 +1518,10 @@ window.GUIDE = {
         "Leporine Senses",
         "Lucky Footwork",
         "Rabbit Hop"
+      ],
+      "animals": [
+        "mammal",
+        "rabbit"
       ],
       "related": [
         "lizardfolk",
@@ -1506,6 +1564,7 @@ window.GUIDE = {
         "Distant Message",
         "Remote Viewing"
       ],
+      "animals": [],
       "related": [
         "dhampir",
         "reborn"
@@ -1547,6 +1606,7 @@ window.GUIDE = {
         "Fey Gift",
         "Fortune from the Many"
       ],
+      "animals": [],
       "related": [
         "goblin",
         "bugbear",
@@ -1592,6 +1652,7 @@ window.GUIDE = {
         "Skillful",
         "Versatile"
       ],
+      "animals": [],
       "related": [
         "half-elf",
         "half-orc"
@@ -1632,6 +1693,7 @@ window.GUIDE = {
         "Aberration",
         "Mindlink"
       ],
+      "animals": [],
       "related": [
         "aasimar",
         "githzerai"
@@ -1668,6 +1730,7 @@ window.GUIDE = {
         "Kender Aptitude",
         "Taunt"
       ],
+      "animals": [],
       "related": [
         "halfling",
         "kithkin"
@@ -1705,6 +1768,10 @@ window.GUIDE = {
         "Mimicry",
         "Expert Duplication",
         "Kenku Recall"
+      ],
+      "animals": [
+        "bird",
+        "raven"
       ],
       "related": [
         "tabaxi",
@@ -1745,6 +1812,7 @@ window.GUIDE = {
         "Lethargy Resilience",
         "Skill Versatility"
       ],
+      "animals": [],
       "related": [
         "half-elf",
         "elf",
@@ -1783,6 +1851,7 @@ window.GUIDE = {
         "Luck",
         "Naturally Stealthy"
       ],
+      "animals": [],
       "related": [
         "halfling",
         "kender"
@@ -1825,6 +1894,10 @@ window.GUIDE = {
         "Draconic Cry",
         "Kobold Legacy"
       ],
+      "animals": [
+        "reptile",
+        "dragon"
+      ],
       "related": [
         "kenku",
         "tabaxi",
@@ -1862,6 +1935,11 @@ window.GUIDE = {
         "Claws",
         "Hunter's Instincts",
         "Daunting Roar."
+      ],
+      "animals": [
+        "mammal",
+        "cat",
+        "lion"
       ],
       "related": [
         "tabaxi",
@@ -1904,6 +1982,10 @@ window.GUIDE = {
         "Natural Armor",
         "Hungry Jaws",
         "Nature’s Intuition"
+      ],
+      "animals": [
+        "reptile",
+        "lizard"
       ],
       "related": [
         "harengon",
@@ -1948,6 +2030,9 @@ window.GUIDE = {
         "Leviathan Will",
         "Limited Amphibiousness"
       ],
+      "animals": [
+        "fish"
+      ],
       "related": [
         "triton",
         "sea-elf"
@@ -1988,6 +2073,7 @@ window.GUIDE = {
         "Delightful Imitator",
         "Unpredictable Movement"
       ],
+      "animals": [],
       "related": [
         "changeling"
       ],
@@ -2025,6 +2111,7 @@ window.GUIDE = {
         "Keen Senses",
         "Trance"
       ],
+      "animals": [],
       "related": [
         "elf",
         "kithkin"
@@ -2064,6 +2151,10 @@ window.GUIDE = {
         "Natural Armor",
         "Trunk",
         "Keen Smell"
+      ],
+      "animals": [
+        "mammal",
+        "elephant"
       ],
       "related": [
         "giff",
@@ -2105,6 +2196,11 @@ window.GUIDE = {
         "Howl",
         "Werewolf Instincts"
       ],
+      "animals": [
+        "mammal",
+        "dog",
+        "wolf"
+      ],
       "related": [
         "shifter",
         "tabaxi"
@@ -2142,6 +2238,10 @@ window.GUIDE = {
         "Hammering Horns",
         "Imposing Presence",
         "Labyrinthine Recall"
+      ],
+      "animals": [
+        "mammal",
+        "bull"
       ],
       "related": [
         "centaur",
@@ -2184,6 +2284,7 @@ window.GUIDE = {
         "Adrenaline Rush",
         "Relentless Endurance"
       ],
+      "animals": [],
       "related": [
         "half-orc",
         "hobgoblin"
@@ -2222,6 +2323,10 @@ window.GUIDE = {
         "flight",
         "fly",
         "wings"
+      ],
+      "animals": [
+        "bird",
+        "owl"
       ],
       "related": [
         "aarakocra",
@@ -2262,6 +2367,7 @@ window.GUIDE = {
         "Natural Resilience",
         "Shape Self"
       ],
+      "animals": [],
       "related": [
         "warforged",
         "changeling"
@@ -2304,6 +2410,7 @@ window.GUIDE = {
         "Everlasting",
         "Strange Endurance"
       ],
+      "animals": [],
       "related": [
         "dhampir",
         "hexblood"
@@ -2341,6 +2448,7 @@ window.GUIDE = {
         "Cold Resistance",
         "Darkvision"
       ],
+      "animals": [],
       "related": [
         "flamekin",
         "genasi",
@@ -2379,6 +2487,10 @@ window.GUIDE = {
         "Mirthful Leaps",
         "Reveler.",
         "Reveler"
+      ],
+      "animals": [
+        "mammal",
+        "goat"
       ],
       "related": [
         "centaur",
@@ -2424,6 +2536,7 @@ window.GUIDE = {
         "Keen Senses",
         "Trance"
       ],
+      "animals": [],
       "related": [
         "elf",
         "triton",
@@ -2468,6 +2581,7 @@ window.GUIDE = {
         "Necrotic Resistance",
         "Trance"
       ],
+      "animals": [],
       "related": [
         "elf",
         "eladrin"
@@ -2507,6 +2621,9 @@ window.GUIDE = {
         "Shifting",
         "Bestial Instincts"
       ],
+      "animals": [
+        "mammal"
+      ],
       "related": [
         "lupin",
         "tabaxi"
@@ -2542,6 +2659,7 @@ window.GUIDE = {
         "Darkvision",
         "Animal Enhancement"
       ],
+      "animals": [],
       "related": [
         "vedalken",
         "loxodon"
@@ -2582,6 +2700,10 @@ window.GUIDE = {
         "Cat’s Claws",
         "Cat’s Talents"
       ],
+      "animals": [
+        "mammal",
+        "cat"
+      ],
       "related": [
         "kenku",
         "leonin"
@@ -2620,6 +2742,10 @@ window.GUIDE = {
         "Secondary Arms",
         "Sleepless",
         "Thri-kreen Telepathy"
+      ],
+      "animals": [
+        "insect",
+        "mantis"
       ],
       "related": [
         "hadozee",
@@ -2663,6 +2789,7 @@ window.GUIDE = {
         "Fiendish Legacy",
         "Otherworldly Presence"
       ],
+      "animals": [],
       "related": [
         "aasimar",
         "changeling"
@@ -2701,6 +2828,10 @@ window.GUIDE = {
         "Shell Defense",
         "Survival Instinct",
         "Nature’s Intuition"
+      ],
+      "animals": [
+        "reptile",
+        "turtle"
       ],
       "related": [
         "harengon",
@@ -2744,6 +2875,7 @@ window.GUIDE = {
         "Darkvision",
         "Guardian of the Depths"
       ],
+      "animals": [],
       "related": [
         "genasi",
         "water-genasi",
@@ -2783,6 +2915,7 @@ window.GUIDE = {
         "Tireless Precision",
         "Partially Amphibious"
       ],
+      "animals": [],
       "related": [
         "human",
         "simic-hybrid"
@@ -2823,6 +2956,7 @@ window.GUIDE = {
         "Persuasive",
         "Telepathic Insight"
       ],
+      "animals": [],
       "related": [
         "goblin"
       ],
@@ -2869,6 +3003,7 @@ window.GUIDE = {
         "Construct Resilience",
         "Tireless"
       ],
+      "animals": [],
       "related": [
         "autognome",
         "plasmoid"
@@ -2912,6 +3047,7 @@ window.GUIDE = {
         "Call to the Wave",
         "Darkvision"
       ],
+      "animals": [],
       "related": [
         "genasi",
         "triton",
@@ -2949,6 +3085,10 @@ window.GUIDE = {
         "Magic Resistance",
         "Poison Resilience",
         "Serpentine Spellcasting"
+      ],
+      "animals": [
+        "reptile",
+        "snake"
       ],
       "related": [
         "lizardfolk"
