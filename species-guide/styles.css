@@ -22,7 +22,7 @@ main > #search{max-width:360px;margin:24px 0 0 auto}
 
 /* Species detail page */
 .block-detail h1{margin:20px 0 10px}
-.block-detail .detail-summary{color:var(--muted);line-height:1.55;margin:0 0 6px}
+.block-detail .detail-summary{color:var(--muted);line-height:1.55;margin:0 0 12px}
 .detail-section{border-top:1px solid var(--line);padding:20px 0 18px;margin-top:16px}
 .detail-section h2{font-size:17px;margin:0 0 12px}
 .tag-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
